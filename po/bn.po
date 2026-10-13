@@ -590,19 +590,19 @@ msgid ""
 "</p><p>For all the saving, converting, transcoding, encoding, muxing and "
 "streaming tasks, you should find useful information in the <a href=\"http://"
 "wiki.videolan.org/Documentation:Streaming_HowTo\">Streaming Documentation</"
-"a>.</p><p>If you are unsure about terminology, please consult the <a href="
-"\"http://wiki.videolan.org/Knowledge_Base\">knowledge base</a>.</p><p>To "
-"understand the main keyboard shortcuts, read the <a href=\"http://wiki."
-"videolan.org/Hotkeys\">shortcuts</a> page.</p><h3>Help</h3><p>Before asking "
-"any question, please refer yourself to the <a href=\"http://www.videolan.org/"
-"support/faq.html\">FAQ</a>.</p><p>You might then get (and give) help on the "
-"<a href=\"http://forum.videolan.org\">Forums</a>, the <a href=\"http://www."
-"videolan.org/vlc/lists.html\">mailing-lists</a> or our IRC channel "
-"(<em>#videolan</em> on irc.freenode.net).</p><h3>Contribute to the project</"
-"h3><p>You can help the VideoLAN project giving some of your time to help the "
-"community, to design skins, to translate the documentation, to test and to "
-"code. You can also give funds and material to help us. And of course, you "
-"can <b>promote</b> VLC media player.</p></body></html>"
+"a>.</p><p>If you are unsure about terminology, please consult the <a "
+"href=\"http://wiki.videolan.org/Knowledge_Base\">knowledge base</a>.</"
+"p><p>To understand the main keyboard shortcuts, read the <a href=\"http://"
+"wiki.videolan.org/Hotkeys\">shortcuts</a> page.</p><h3>Help</h3><p>Before "
+"asking any question, please refer yourself to the <a href=\"http://www."
+"videolan.org/support/faq.html\">FAQ</a>.</p><p>You might then get (and give) "
+"help on the <a href=\"http://forum.videolan.org\">Forums</a>, the <a "
+"href=\"http://www.videolan.org/vlc/lists.html\">mailing-lists</a> or our IRC "
+"channel (<em>#videolan</em> on irc.freenode.net).</p><h3>Contribute to the "
+"project</h3><p>You can help the VideoLAN project giving some of your time to "
+"help the community, to design skins, to translate the documentation, to test "
+"and to code. You can also give funds and material to help us. And of course, "
+"you can <b>promote</b> VLC media player.</p></body></html>"
 msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
 "charset=utf-8\" /></head><body><h2>VLC মিডিয়া প্লেয়ার সহায়তা </"
@@ -610,24 +610,24 @@ msgstr ""
 "videolan.org\">উইকি</a> ওয়েবসাইটে VLC নথিপত্র পেতে পারেন।</p><p>আপনি যদি VLC "
 "এর নতুন ব্যবহারকারী হন, তাহলে অনুগ্রহ করে <br><a href=\"http://wiki.videolan.org/"
 "Documentation:VLC_for_dummies\"><em>VLC মিডিয়া প্লেয়ারে সূচনা</em></a> পড়ুন।</"
-"p><p> কিভাবে প্লেয়ারটি ব্যবহার করতে হবে তা সম্পর্কে আপনি জানতে পারেন এখানে <br>"
-"\"<a href=\"http://wiki.videolan.org/Documentation:Play_HowTo\"><em>VLC "
+"p><p> কিভাবে প্লেয়ারটি ব্যবহার করতে হবে তা সম্পর্কে আপনি জানতে পারেন এখানে "
+"<br>\"<a href=\"http://wiki.videolan.org/Documentation:Play_HowTo\"><em>VLC "
 "মিডিয়া প্লেয়ারে কি</em></a>\" নথিতে।</p><p>সংরক্ষণ, রুপান্তরকরন, ট্রান্সকোডিং, "
-"এনকোডিং, মাক্সিং এবং স্ট্রীমিং কাজের জন্য আপনি সহায়ক তথ্য পাবেন এখানে <a href="
-"\"http://wiki.videolan.org/Documentation:Streaming_HowTo\">স্ট্রীমিং "
+"এনকোডিং, মাক্সিং এবং স্ট্রীমিং কাজের জন্য আপনি সহায়ক তথ্য পাবেন এখানে <a "
+"href=\"http://wiki.videolan.org/Documentation:Streaming_HowTo\">স্ট্রীমিং "
 "ডকুমেন্টেশন</a>।</p><p>যদি আপনি পরিভাষার ব্যপারে নিশ্চিত না হোন, তাহলে অনুগ্রহ "
 "করে<a href=\"http://wiki.videolan.org/Knowledge_Base\">জ্ঞান ভান্ডারে</a> "
 "যোগাযোগ করুন।</p><p>প্রধান কীবোর্ড শর্টকাটগুলো জানতে <a href=\"http://wiki."
 "videolan.org/Hotkeys\">শর্টকাট</a> পৃষ্ঠা পড়ুন।</p><h3>সহায়তা</h3><p>কোনো প্রশ্ন "
-"করার পূর্বে অনুগ্রহ করে <a href=\"http://www.videolan.org/support/faq.html"
-"\">FAQ</a> পড়ুন।</p><p>আপনি তখন সহায়তা পেতে (এবং করতে) পারেন <a href=\"http://"
-"forum.videolan.org\">ফোরামে</a>, <a href=\"http://www.videolan.org/vlc/lists."
-"html\">মেইলিং-লিস্টে</a> বা আমাদের IRC চ্যানেলে ( irc.freenode.net এ <a href="
-"\"http://www.videolan.org/webirc/\"><em>#videolan</em></a> )।</p><h3>প্রকল্পে "
-"অংশগ্রহন করুন</h3><p>আপনি কিছু সময় দিয়ে ভিডিওল্যান প্রকল্পে সহায়তা করতে পারেন, "
-"স্কিন ডিজাইন করতে, নথিপত্র অনুবাদ করতে, পরীক্ষা এবং কোড করতে। আপনি অর্থ এবং "
-"অন্যান্য কিছুর মাধ্যমে আমাদের সাহায্য করতে পারেন। এবং অবশ্যই, আপনি VLC মিডিয়া "
-"প্লেয়ার <b>উন্নত</b> করতে পারেন।</p></body></html>"
+"করার পূর্বে অনুগ্রহ করে <a href=\"http://www.videolan.org/support/faq."
+"html\">FAQ</a> পড়ুন।</p><p>আপনি তখন সহায়তা পেতে (এবং করতে) পারেন <a "
+"href=\"http://forum.videolan.org\">ফোরামে</a>, <a href=\"http://www.videolan."
+"org/vlc/lists.html\">মেইলিং-লিস্টে</a> বা আমাদের IRC চ্যানেলে ( irc.freenode."
+"net এ <a href=\"http://www.videolan.org/webirc/\"><em>#videolan</em></a> )।</"
+"p><h3>প্রকল্পে অংশগ্রহন করুন</h3><p>আপনি কিছু সময় দিয়ে ভিডিওল্যান প্রকল্পে সহায়তা "
+"করতে পারেন, স্কিন ডিজাইন করতে, নথিপত্র অনুবাদ করতে, পরীক্ষা এবং কোড করতে। আপনি "
+"অর্থ এবং অন্যান্য কিছুর মাধ্যমে আমাদের সাহায্য করতে পারেন। এবং অবশ্যই, আপনি VLC "
+"মিডিয়া প্লেয়ার <b>উন্নত</b> করতে পারেন।</p></body></html>"
 
 #: src/audio_output/filters.c:267
 msgid "Audio filtering failed"
@@ -1528,13 +1528,13 @@ msgstr "অতিরিক্ত ইন্টারফেস মডিউল"
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
-"list of interface modules. (common values are \"rc\" (remote control), \"http"
-"\", \"gestures\" ...)"
+"list of interface modules. (common values are \"rc\" (remote control), "
+"\"http\", \"gestures\" ...)"
 msgstr ""
 "আপনি VLC এর জন্য \"অতিরিক্ত ইন্টারফেস\" নির্বাচন করতে পারেন। সেগুলো পূর্বনির্ধারিত "
 "ইন্টারফেসের সাথে পটভূমিতে খুলবে। কোলন দ্বারা পৃথককৃত ইন্টারফেস মডিউলের তালিকা "
-"ব্যবহার করুন। (সাধারণ মানগুলো হল \"rc\" (রিমোট কন্ট্রোল), \"http\", \"gestures"
-"\" ...)"
+"ব্যবহার করুন। (সাধারণ মানগুলো হল \"rc\" (রিমোট কন্ট্রোল), \"http\", "
+"\"gestures\" ...)"
 
 #: src/libvlc-module.c:83
 msgid "You can select control interfaces for VLC."
@@ -1605,8 +1605,8 @@ msgid ""
 msgstr ""
 "এই অপশনগুলো আপনাকে অডিও সাবসিস্টেমের আচরন পরিবর্তন করার, এবং অডিও পরিশোধক যোগ "
 "করার অনুমোদন দেয় যা পোস্ট প্রসেসিং বা ভিজ্যুয়াল এফেক্টের (বর্ণালী অ্যানালাইজার, "
-"ইত্যাদি) জন্য ব্যবহার করা যায়। এই পরিশোধকগুলো এখানে সক্রিয় করুন, এবং \"অডিও পরিশোধক"
-"\" মডিউল অংশে কনফিগার করুন।"
+"ইত্যাদি) জন্য ব্যবহার করা যায়। এই পরিশোধকগুলো এখানে সক্রিয় করুন, এবং \"অডিও "
+"পরিশোধক\" মডিউল অংশে কনফিগার করুন।"
 
 #: src/libvlc-module.c:123
 msgid "Audio output module"
@@ -2859,10 +2859,10 @@ msgstr ""
 
 #: src/libvlc-module.c:694
 msgid ""
-"This option allows you to set the title according to what's being played<br>"
-"$a: Artist<br>$b: Album<br>$c: Copyright<br>$t: Title<br>$g: Genre<br>$n: "
-"Track num<br>$p: Now playing<br>$A: Date<br>$D: Duration<br>$Z: \"Now playing"
-"\" (Fall back on Title - Artist)"
+"This option allows you to set the title according to what's being "
+"played<br>$a: Artist<br>$b: Album<br>$c: Copyright<br>$t: Title<br>$g: "
+"Genre<br>$n: Track num<br>$p: Now playing<br>$A: Date<br>$D: Duration<br>$Z: "
+"\"Now playing\" (Fall back on Title - Artist)"
 msgstr ""
 
 #: src/libvlc-module.c:699
@@ -9220,9 +9220,9 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:98
 msgid ""
-"File is read when segment starts and is assumed to be in format: key-uri"
-"\\nkey-file. File is read on the segment opening and values are used on that "
-"segment."
+"File is read when segment starts and is assumed to be in format: key-"
+"uri\\nkey-file. File is read on the segment opening and values are used on "
+"that segment."
 msgstr ""
 
 #: modules/access_output/livehttp.c:102
@@ -10694,7 +10694,6 @@ msgstr "ডিকোড করা হচ্ছে"
 
 #: modules/codec/avcodec/avcodec.c:147 modules/codec/jpeg.c:119
 #: modules/codec/omxil/omxil.c:171 modules/codec/png.c:99
-#: modules/codec/schroedinger.c:370
 msgid "Encoding"
 msgstr "এনকোড করা হচ্ছে"
 
@@ -11215,11 +11214,11 @@ msgstr "Theora ভিডিও প্যাকেটাইজার"
 msgid "Daala video encoder"
 msgstr "CDG ভিডিও ডিকোডার"
 
-#: modules/codec/daala.c:143 modules/codec/schroedinger.c:54
+#: modules/codec/daala.c:143
 msgid "Chroma format"
 msgstr "ক্রোমা ফরম্যাট"
 
-#: modules/codec/daala.c:144 modules/codec/schroedinger.c:55
+#: modules/codec/daala.c:144
 msgid ""
 "Picking chroma format will force a conversion of the video into that format"
 msgstr "ক্রোমা ফরম্যাট নির্বাচন করলে ভিডিওটিকে ঐ ফরম্যাটে রুপান্তর করা হবে"
@@ -12045,381 +12044,6 @@ msgstr "Pseudo অশোধিত ভিডিও প্যাকেটাইজ
 #, fuzzy
 msgid "Raw video encoder for RTP"
 msgstr "Theora ভিডিও এনকোডার"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:2:0"
-msgstr "৪:২:০"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:2:2"
-msgstr "৪:২:২"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:4:4"
-msgstr "৪:৪:৪"
-
-#: modules/codec/schroedinger.c:63
-msgid "Rate control method"
-msgstr ""
-
-#: modules/codec/schroedinger.c:64
-msgid "Method used to encode the video sequence"
-msgstr ""
-
-#: modules/codec/schroedinger.c:77
-msgid "Constant noise threshold mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:78
-msgid "Constant bitrate mode (CBR)"
-msgstr ""
-
-#: modules/codec/schroedinger.c:79
-msgid "Low Delay mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:80
-msgid "Lossless mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:81
-msgid "Constant lambda mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:82
-msgid "Constant error mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:83
-msgid "Constant quality mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:87
-msgid "GOP structure"
-msgstr ""
-
-#: modules/codec/schroedinger.c:88
-msgid "GOP structure used to encode the video sequence"
-msgstr ""
-
-#: modules/codec/schroedinger.c:100
-msgid ""
-"No fixed gop structure. A picture can be intra or inter and refer to "
-"previous or future pictures."
-msgstr ""
-
-#: modules/codec/schroedinger.c:101
-msgid "I-frame only sequence"
-msgstr ""
-
-#: modules/codec/schroedinger.c:102 modules/codec/schroedinger.c:103
-msgid "Inter pictures refere to previous pictures only"
-msgstr ""
-
-#: modules/codec/schroedinger.c:104 modules/codec/schroedinger.c:105
-msgid "Inter pictures can refer to previous or future pictures"
-msgstr ""
-
-#: modules/codec/schroedinger.c:109
-msgid "Constant quality factor"
-msgstr "ধ্রুব গুনমান ফ্যাক্টর"
-
-#: modules/codec/schroedinger.c:110
-msgid "Quality factor to use in constant quality mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:113
-msgid "Noise Threshold"
-msgstr ""
-
-#: modules/codec/schroedinger.c:114
-msgid "Noise threshold to use in constant noise threshold mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:117
-msgid "CBR bitrate (kbps)"
-msgstr "CBR বিটরেট (কিলোবিট/সেকেন্ড)"
-
-#: modules/codec/schroedinger.c:118
-msgid "Target bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:121
-msgid "Maximum bitrate (kbps)"
-msgstr ""
-
-#: modules/codec/schroedinger.c:122
-msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:125
-msgid "Minimum bitrate (kbps)"
-msgstr ""
-
-#: modules/codec/schroedinger.c:126
-msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:129
-msgid "GOP length"
-msgstr "GOP দৈর্ঘ্য"
-
-#: modules/codec/schroedinger.c:130
-msgid ""
-"Number of pictures between successive sequence headers i.e. length of the "
-"group of pictures"
-msgstr ""
-
-#: modules/codec/schroedinger.c:134
-msgid "Prefilter"
-msgstr "পূর্বপরিশোধক"
-
-#: modules/codec/schroedinger.c:135
-msgid "Enable adaptive prefiltering"
-msgstr "অ্যাডাপ্টিভ পূর্বপরিশোধন সক্রিয় করুন"
-
-#: modules/codec/schroedinger.c:147
-msgid "No pre-filtering"
-msgstr ""
-
-#: modules/codec/schroedinger.c:148
-msgid "Centre Weighted Median"
-msgstr "সেন্টার ওয়েইটেড মিডিয়ান"
-
-#: modules/codec/schroedinger.c:149
-msgid "Gaussian Low Pass Filter"
-msgstr ""
-
-#: modules/codec/schroedinger.c:150
-msgid "Add Noise"
-msgstr ""
-
-#: modules/codec/schroedinger.c:151
-msgid "Gaussian Adaptive Low Pass Filter"
-msgstr ""
-
-#: modules/codec/schroedinger.c:152
-msgid "Low Pass Filter"
-msgstr ""
-
-#: modules/codec/schroedinger.c:156
-msgid "Amount of prefiltering"
-msgstr "পূর্বপরিশোধনের পরিমান"
-
-#: modules/codec/schroedinger.c:157
-msgid "Higher value implies more prefiltering"
-msgstr "মান যত বেশী হবে পূর্বপরিশোধনও তত বেশী হবে"
-
-#: modules/codec/schroedinger.c:160
-msgid "Picture coding mode"
-msgstr "ছবি কোডিং মোড"
-
-#: modules/codec/schroedinger.c:161
-msgid ""
-"Field coding is where interlaced fields are coded separately as opposed to a "
-"pseudo-progressive frame"
-msgstr ""
-"ফিল্ড কোডিং-এ ইন্টারলেসড ফিল্ডগুলো পৃথকভাবে কোড করা থাকে, যা কিনা সিউডো-প্রগ্রেসিভ "
-"ফ্রেমের প্রক্রিয়া থেকে ভিন্ন"
-
-#: modules/codec/schroedinger.c:166
-msgid "auto - let encoder decide based upon input (Best)"
-msgstr ""
-"স্বয়ংক্রিয় - এনকোডারকে ইনপুটের উপর ভিত্তি করে সিদ্ধান্ত নিতে দিন (সর্বাপেক্ষা শ্রেয়)"
-
-#: modules/codec/schroedinger.c:167
-msgid "force coding frame as single picture"
-msgstr "একক ছবি হিসেবে কোডিং ফ্রেম কার্যকর করা হবে"
-
-#: modules/codec/schroedinger.c:168
-msgid "force coding frame as separate interlaced fields"
-msgstr "পৃথককৃত ইন্টারলেসড ফিল্ড হিসেবে কোডিং ফ্রেম কার্যকর করা হবে"
-
-#: modules/codec/schroedinger.c:173
-msgid "Size of motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:182 modules/codec/schroedinger.c:199
-#: modules/codec/schroedinger.c:297 modules/codec/schroedinger.c:338
-msgid "automatic - let encoder decide based upon input (Best)"
-msgstr ""
-
-#: modules/codec/schroedinger.c:183
-msgid "small - use small motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:184
-msgid "medium - use medium motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:185
-msgid "large - use large motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:190
-msgid "Overlap of motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:200
-msgid "none - Motion compensation blocks do not overlap"
-msgstr ""
-
-#: modules/codec/schroedinger.c:201
-msgid "partial - Motion compensation blocks only partially overlap"
-msgstr ""
-
-#: modules/codec/schroedinger.c:202
-msgid "full - Motion compensation blocks fully overlap"
-msgstr ""
-
-#: modules/codec/schroedinger.c:207
-msgid "Motion Vector precision"
-msgstr ""
-
-#: modules/codec/schroedinger.c:208
-msgid "Motion Vector precision in pels"
-msgstr ""
-
-#: modules/codec/schroedinger.c:214
-msgid "Three component motion estimation"
-msgstr "তিন কম্পোনেন্ট গতি মূল্যায়ন"
-
-#: modules/codec/schroedinger.c:215
-msgid "Use chroma as part of the motion estimation process"
-msgstr "গতি এমূল্যায়ন প্রসেসের অংশ হিসেবে ক্রোমা ব্যবহার করা হবে"
-
-#: modules/codec/schroedinger.c:218
-msgid "Intra picture DWT filter"
-msgstr "ইন্ট্রা পিকচার DWT পরিশোধক"
-
-#: modules/codec/schroedinger.c:221
-msgid "Inter picture DWT filter"
-msgstr "ইন্টার পিকচার DWT পরিশোধক"
-
-#: modules/codec/schroedinger.c:244
-msgid "Number of DWT iterations"
-msgstr "DWT পুনরাবৃত্তির সংখ্যা"
-
-#: modules/codec/schroedinger.c:245
-msgid "Also known as DWT levels"
-msgstr "DWT স্তর হিসেবেও পরিচিত"
-
-#: modules/codec/schroedinger.c:250
-msgid "Enable multiple quantizers"
-msgstr "একাধিক কোয়ান্টাইজার সক্রিয় করুন"
-
-#: modules/codec/schroedinger.c:251
-msgid "Enable multiple quantizers per subband (one per codeblock)"
-msgstr "প্রতি উপব্যান্ডে একাধিক কোয়ান্টাইজার সক্রিয় করা হবে (প্রতি কোডব্লকে একটি করে)"
-
-#: modules/codec/schroedinger.c:255
-msgid "Disable arithmetic coding"
-msgstr "পাটিগনিতীয় কোডিং নিষ্ক্রিয় করুন"
-
-#: modules/codec/schroedinger.c:256
-msgid "Use variable length codes instead, useful for very high bitrates"
-msgstr ""
-"পরিবর্তনযোগ্য দৈর্ঘ্যের কোড ব্যবহার করা হবে, অত্যন্ত উচ্চ বিটরেটের জন্য সুবিধাজনক"
-
-#: modules/codec/schroedinger.c:261
-msgid "perceptual weighting method"
-msgstr ""
-
-#: modules/codec/schroedinger.c:272
-msgid "perceptual distance"
-msgstr ""
-
-#: modules/codec/schroedinger.c:273
-msgid "perceptual distance to calculate perceptual weight"
-msgstr ""
-
-#: modules/codec/schroedinger.c:277
-msgid "Horizontal slices per frame"
-msgstr ""
-
-#: modules/codec/schroedinger.c:278
-msgid "Number of horizontal slices per frame in low delay mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:282
-msgid "Vertical slices per frame"
-msgstr ""
-
-#: modules/codec/schroedinger.c:283
-msgid "Number of vertical slices per frame in low delay mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:287
-msgid "Size of code blocks in each subband"
-msgstr ""
-
-#: modules/codec/schroedinger.c:298
-msgid "small - use small code blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:299
-msgid "medium - use medium sized code blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:300
-msgid "large - use large code blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:301
-msgid "full - One code block per subband"
-msgstr ""
-
-#: modules/codec/schroedinger.c:306
-msgid "Enable hierarchical Motion Estimation"
-msgstr ""
-
-#: modules/codec/schroedinger.c:310
-msgid "Number of levels of downsampling"
-msgstr ""
-
-#: modules/codec/schroedinger.c:311
-msgid "Number of levels of downsampling in hierarchical motion estimation mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:315
-msgid "Enable Global Motion Estimation"
-msgstr ""
-
-#: modules/codec/schroedinger.c:319
-msgid "Enable Phase Correlation Estimation"
-msgstr ""
-
-#: modules/codec/schroedinger.c:323
-msgid "Enable Scene Change Detection"
-msgstr ""
-
-#: modules/codec/schroedinger.c:327
-msgid "Force Profile"
-msgstr ""
-
-#: modules/codec/schroedinger.c:339
-msgid "VC2 Low Delay Profile"
-msgstr ""
-
-#: modules/codec/schroedinger.c:340
-msgid "VC2 Simple Profile"
-msgstr ""
-
-#: modules/codec/schroedinger.c:341
-msgid "VC2 Main Profile"
-msgstr ""
-
-#: modules/codec/schroedinger.c:342
-msgid "Main Profile"
-msgstr "মূল প্রোফাইল"
-
-#: modules/codec/schroedinger.c:363
-msgid "Dirac video decoder using libschroedinger"
-msgstr ""
-
-#: modules/codec/schroedinger.c:371
-msgid "Dirac video encoder using libschroedinger"
-msgstr "libschroedinger ব্যবহার করে Dirac ভিডিও এনকোডার"
 
 #: modules/codec/scte18.c:41
 #, fuzzy
@@ -15068,14 +14692,6 @@ msgstr "যদি ফাইলটি বর্তমানে উপস্থি
 msgid "File dumper"
 msgstr "ফাইল ডাম্প"
 
-#: modules/demux/dirac.c:41
-msgid "Value to adjust dts by"
-msgstr "dts-কে যে মানের সাথে মানানসই করা হবে"
-
-#: modules/demux/dirac.c:54
-msgid "Dirac video demuxer"
-msgstr "Dirac ভিডিও ডিমাক্সার"
-
 #: modules/demux/directory.c:94
 #, fuzzy
 msgid "Directory import"
@@ -16142,8 +15758,8 @@ msgid ""
 "\"><span style=\" text-decoration: underline; color:#0057ae;\">VideoLAN</"
 "span></a> community.</p><p>VLC uses its internal codecs, works on "
 "essentially every popular platform, and can read almost all files, CDs, "
-"DVDs, network streams, capture cards and other media formats!</p><p><a href="
-"\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
+"DVDs, network streams, capture cards and other media formats!</p><p><a "
+"href=\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
 "underline; color:#0057ae;\">Help and join us!</span></a>"
 msgstr ""
 
@@ -16438,8 +16054,8 @@ msgstr "ইনপুট পরিবর্তিত হয়েছে"
 
 #: modules/gui/macosx/VLCBookmarksWindowController.m:215
 msgid ""
-"Input has changed, unable to save bookmark. Suspending playback with \"Pause"
-"\" while editing bookmarks to ensure to keep the same input."
+"Input has changed, unable to save bookmark. Suspending playback with "
+"\"Pause\" while editing bookmarks to ensure to keep the same input."
 msgstr ""
 "ইনপুট পরিবর্তিত হয়েছে, বুকমার্ক সংরক্ষণ করতে ব্যর্থ। একই ইনপুট রাখা নিশ্চিত করার জন্য "
 "বুকমার্ক সম্পাদনা করার সময় প্লেব্যাক \"বিরতি\" এর মাধ্যমে থামানো হচ্ছে।"
@@ -22062,8 +21678,8 @@ msgstr "Lua ইন্টারফেস কনফিগারেশন"
 
 #: modules/lua/vlc.c:53
 msgid ""
-"Lua interface configuration string. Format is: '[\"<interface module name>"
-"\"] = { <option> = <value>, ...}, ...'."
+"Lua interface configuration string. Format is: '[\"<interface module "
+"name>\"] = { <option> = <value>, ...}, ...'."
 msgstr ""
 "Lua ইন্টারফেস কনফিগারেশন স্ট্রিং। ফরম্যাট হলো: '[\"<ইন্টারফেস মডিউলের নাম>\"] = "
 "{ <option> = <value>, ...}, ...'."
@@ -23105,8 +22721,8 @@ msgid ""
 "in bytes"
 msgstr ""
 "ASF বিটের হার অনুমান করার চেষ্টা করা হবে না। এটি নির্ধারণ করা হলে আপনি উইন্ডোজ "
-"মিডিয়া প্লেয়ার কিভাবে স্ট্রীম করা বিষয়বস্তু ক্যাশ করবে তা নিয়ন্ত্রণ করতে পারবেন। অডিও"
-"+ভিডিও বিটের হার বাইটে সেট করা হবে"
+"মিডিয়া প্লেয়ার কিভাবে স্ট্রীম করা বিষয়বস্তু ক্যাশ করবে তা নিয়ন্ত্রণ করতে পারবেন। "
+"অডিও+ভিডিও বিটের হার বাইটে সেট করা হবে"
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
@@ -23474,10 +23090,6 @@ msgstr ""
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
 msgstr "প্যাকেটাইজার অনুলিপি করা হবে"
-
-#: modules/packetizer/dirac.c:87
-msgid "Dirac packetizer"
-msgstr "Dirac প্যাকেটাইজার"
 
 #: modules/packetizer/dts.c:47
 msgid "DTS audio packetizer"
@@ -29342,6 +28954,107 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "মিডিয়া ব্যবস্থাপকের তালিকা"
 
+#~ msgid "4:2:0"
+#~ msgstr "৪:২:০"
+
+#~ msgid "4:2:2"
+#~ msgstr "৪:২:২"
+
+#~ msgid "4:4:4"
+#~ msgstr "৪:৪:৪"
+
+#~ msgid "Constant quality factor"
+#~ msgstr "ধ্রুব গুনমান ফ্যাক্টর"
+
+#~ msgid "CBR bitrate (kbps)"
+#~ msgstr "CBR বিটরেট (কিলোবিট/সেকেন্ড)"
+
+#~ msgid "GOP length"
+#~ msgstr "GOP দৈর্ঘ্য"
+
+#~ msgid "Prefilter"
+#~ msgstr "পূর্বপরিশোধক"
+
+#~ msgid "Enable adaptive prefiltering"
+#~ msgstr "অ্যাডাপ্টিভ পূর্বপরিশোধন সক্রিয় করুন"
+
+#~ msgid "Centre Weighted Median"
+#~ msgstr "সেন্টার ওয়েইটেড মিডিয়ান"
+
+#~ msgid "Amount of prefiltering"
+#~ msgstr "পূর্বপরিশোধনের পরিমান"
+
+#~ msgid "Higher value implies more prefiltering"
+#~ msgstr "মান যত বেশী হবে পূর্বপরিশোধনও তত বেশী হবে"
+
+#~ msgid "Picture coding mode"
+#~ msgstr "ছবি কোডিং মোড"
+
+#~ msgid ""
+#~ "Field coding is where interlaced fields are coded separately as opposed "
+#~ "to a pseudo-progressive frame"
+#~ msgstr ""
+#~ "ফিল্ড কোডিং-এ ইন্টারলেসড ফিল্ডগুলো পৃথকভাবে কোড করা থাকে, যা কিনা সিউডো-"
+#~ "প্রগ্রেসিভ ফ্রেমের প্রক্রিয়া থেকে ভিন্ন"
+
+#~ msgid "auto - let encoder decide based upon input (Best)"
+#~ msgstr ""
+#~ "স্বয়ংক্রিয় - এনকোডারকে ইনপুটের উপর ভিত্তি করে সিদ্ধান্ত নিতে দিন (সর্বাপেক্ষা "
+#~ "শ্রেয়)"
+
+#~ msgid "force coding frame as single picture"
+#~ msgstr "একক ছবি হিসেবে কোডিং ফ্রেম কার্যকর করা হবে"
+
+#~ msgid "force coding frame as separate interlaced fields"
+#~ msgstr "পৃথককৃত ইন্টারলেসড ফিল্ড হিসেবে কোডিং ফ্রেম কার্যকর করা হবে"
+
+#~ msgid "Three component motion estimation"
+#~ msgstr "তিন কম্পোনেন্ট গতি মূল্যায়ন"
+
+#~ msgid "Use chroma as part of the motion estimation process"
+#~ msgstr "গতি এমূল্যায়ন প্রসেসের অংশ হিসেবে ক্রোমা ব্যবহার করা হবে"
+
+#~ msgid "Intra picture DWT filter"
+#~ msgstr "ইন্ট্রা পিকচার DWT পরিশোধক"
+
+#~ msgid "Inter picture DWT filter"
+#~ msgstr "ইন্টার পিকচার DWT পরিশোধক"
+
+#~ msgid "Number of DWT iterations"
+#~ msgstr "DWT পুনরাবৃত্তির সংখ্যা"
+
+#~ msgid "Also known as DWT levels"
+#~ msgstr "DWT স্তর হিসেবেও পরিচিত"
+
+#~ msgid "Enable multiple quantizers"
+#~ msgstr "একাধিক কোয়ান্টাইজার সক্রিয় করুন"
+
+#~ msgid "Enable multiple quantizers per subband (one per codeblock)"
+#~ msgstr ""
+#~ "প্রতি উপব্যান্ডে একাধিক কোয়ান্টাইজার সক্রিয় করা হবে (প্রতি কোডব্লকে একটি করে)"
+
+#~ msgid "Disable arithmetic coding"
+#~ msgstr "পাটিগনিতীয় কোডিং নিষ্ক্রিয় করুন"
+
+#~ msgid "Use variable length codes instead, useful for very high bitrates"
+#~ msgstr ""
+#~ "পরিবর্তনযোগ্য দৈর্ঘ্যের কোড ব্যবহার করা হবে, অত্যন্ত উচ্চ বিটরেটের জন্য সুবিধাজনক"
+
+#~ msgid "Main Profile"
+#~ msgstr "মূল প্রোফাইল"
+
+#~ msgid "Dirac video encoder using libschroedinger"
+#~ msgstr "libschroedinger ব্যবহার করে Dirac ভিডিও এনকোডার"
+
+#~ msgid "Value to adjust dts by"
+#~ msgstr "dts-কে যে মানের সাথে মানানসই করা হবে"
+
+#~ msgid "Dirac video demuxer"
+#~ msgstr "Dirac ভিডিও ডিমাক্সার"
+
+#~ msgid "Dirac packetizer"
+#~ msgstr "Dirac প্যাকেটাইজার"
+
 #, fuzzy
 #~ msgid "The Sound Font file (SF2/DLS) to use for synthesis."
 #~ msgstr "সফটওয়্যার সিনথেসিসের জন্য একটি শব্দ ফন্ট প্রয়োজন।"
@@ -31141,15 +30854,15 @@ msgstr "মিডিয়া ব্যবস্থাপকের তালিক�
 #~ msgid ""
 #~ "Force the subtiles format. Valid values are : \"microdvd\", \"subrip\", "
 #~ "\"subviewer\", \"ssa1\", \"ssa2-4\", \"ass\", \"vplayer\", \"sami\", "
-#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", \"psb"
-#~ "\", \"realtext\", \"dks\", \"subviewer1\",  and \"auto\" (meaning "
+#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", "
+#~ "\"psb\", \"realtext\", \"dks\", \"subviewer1\",  and \"auto\" (meaning "
 #~ "autodetection, this should always work)."
 #~ msgstr ""
 #~ "সাবটাইটেল বিন্যাস কার্যকর করা হবে। বৈধ মানগুলো হল: \"microdvd\", \"subrip\", "
 #~ "\"subviewer\", \"ssa1\", \"ssa2-4\", \"ass\", \"vplayer\", \"sami\", "
-#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", \"psb"
-#~ "\", \"realtext\", \"dks\", \"subviewer1\",  এবং \"auto\" (মানে স্বয়ংক্রিয় "
-#~ "শনাক্তকরন, এটি অবশ্যই কাজ করবে)।"
+#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", "
+#~ "\"psb\", \"realtext\", \"dks\", \"subviewer1\",  এবং \"auto\" (মানে "
+#~ "স্বয়ংক্রিয় শনাক্তকরন, এটি অবশ্যই কাজ করবে)।"
 
 #~ msgid "Do not complain on encrypted PES."
 #~ msgstr "এনক্রিপ্ট করা PES এ নালিশ করা হবে না।"
@@ -31299,12 +31012,12 @@ msgstr "মিডিয়া ব্যবস্থাপকের তালিক�
 
 #, fuzzy
 #~ msgid ""
-#~ "Specify the log format. Available choices are \"text\" (default), \"html"
-#~ "\", \"syslog\" (special mode to send to syslog instead of file), and "
-#~ "\"android\" (special mode to send to android logging facility)."
+#~ "Specify the log format. Available choices are \"text\" (default), "
+#~ "\"html\", \"syslog\" (special mode to send to syslog instead of file), "
+#~ "and \"android\" (special mode to send to android logging facility)."
 #~ msgstr ""
-#~ "লগ ফরম্যাট উল্লেখ করা হবে। বিদ্যমান পছন্দগুলো হলো \"লেখ\" (পূর্বনির্ধারিত), \"html"
-#~ "\", এবং \"syslog\" (ফাইলের পরিবর্তে syslog পাঠানোর জন্য বিশেষ মোড)।"
+#~ "লগ ফরম্যাট উল্লেখ করা হবে। বিদ্যমান পছন্দগুলো হলো \"লেখ\" (পূর্বনির্ধারিত), "
+#~ "\"html\", এবং \"syslog\" (ফাইলের পরিবর্তে syslog পাঠানোর জন্য বিশেষ মোড)।"
 
 #~ msgid ""
 #~ "Select the syslog facility where logs will be forwarded. Available "
@@ -31555,11 +31268,11 @@ msgstr "মিডিয়া ব্যবস্থাপকের তালিক�
 #~ msgstr "নেটওয়ার্ক সিনক্রোনাইজেশনের জন্য ব্যবহৃত মাস্টার ক্লকের IP ঠিকানা।"
 
 #~ msgid ""
-#~ "Specify the log format. Available choices are \"text\" (default), \"html"
-#~ "\", and \"syslog\" (special mode to send to syslog instead of file."
+#~ "Specify the log format. Available choices are \"text\" (default), "
+#~ "\"html\", and \"syslog\" (special mode to send to syslog instead of file."
 #~ msgstr ""
-#~ "লগ ফরম্যাট উল্লেখ করা হবে। বিদ্যমান পছন্দগুলো হলো \"লেখ\" (পূর্বনির্ধারিত), \"html"
-#~ "\", এবং \"syslog\" (ফাইলের পরিবর্তে syslog পাঠানোর জন্য বিশেষ মোড)।"
+#~ "লগ ফরম্যাট উল্লেখ করা হবে। বিদ্যমান পছন্দগুলো হলো \"লেখ\" (পূর্বনির্ধারিত), "
+#~ "\"html\", এবং \"syslog\" (ফাইলের পরিবর্তে syslog পাঠানোর জন্য বিশেষ মোড)।"
 
 #~ msgid ""
 #~ "RTP packets will be integrity-protected and ciphered with this Secure RTP "
@@ -31589,8 +31302,8 @@ msgstr "মিডিয়া ব্যবস্থাপকের তালিক�
 #~ msgstr "বলের রং, \"লাল\", \"নীল\" এবং \"সবুজ\" যেকোন একটি।"
 
 #~ msgid ""
-#~ "One of \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be"
-#~ "\", \"s16_be\", \"fixed32\", \"float32\" or \"spdif\""
+#~ "One of \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", "
+#~ "\"u16_be\", \"s16_be\", \"fixed32\", \"float32\" or \"spdif\""
 #~ msgstr ""
 #~ "\"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be\", "
 #~ "\"s16_be\", \"fixed32\", \"float32\" বা \"spdif\" এর একটি"
@@ -32792,10 +32505,10 @@ msgstr "মিডিয়া ব্যবস্থাপকের তালিক�
 
 #, fuzzy
 #~ msgid ""
-#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title"
-#~ "\" ($a - $t). You can use the following substitutions: $a Artist, $b "
-#~ "Album, $c Copyright, $d Description, $e Encoder, $g Genre, $l Language, "
-#~ "$n number, $p Now Playing, $r Rating, $s Subtitles language, $t Title, $u "
+#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title\" "
+#~ "($a - $t). You can use the following substitutions: $a Artist, $b Album, "
+#~ "$c Copyright, $d Description, $e Encoder, $g Genre, $l Language, $n "
+#~ "number, $p Now Playing, $r Rating, $s Subtitles language, $t Title, $u "
 #~ "URL, $A Date, $B Bitrate, $C Chapter, $D Duration, $F URI, $I Video "
 #~ "Title, $L Time Remaining, $N Name, $O Audio language, $P Position, $R "
 #~ "Rate, $S Sample rate, $T Time elapsed, $U Publisher, $V Volume"

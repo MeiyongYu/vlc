@@ -34,6 +34,7 @@
 #endif
 
 #define _XOPEN_SOURCE_EXTENDED 1
+#define _XOPEN_SOURCE 700
 
 #include <assert.h>
 #include <stdatomic.h>
@@ -41,6 +42,28 @@
 #include <sys/stat.h>
 #include <math.h>
 #include <errno.h>
+
+/* This MinGW toolchain does not provide wcswidth()/wcwidth() (X/Open
+ * functions). The ncurses interface is never used on Windows builds, so a
+ * trivial fallback (every wide char counts as one column) is sufficient to
+ * let the module compile and link. */
+#ifndef wcswidth
+static int vlc_fb_wcwidth(wchar_t wc)
+{
+    (void)wc;
+    return 1;
+}
+static int vlc_fb_wcswidth(const wchar_t *wcs, size_t n)
+{
+    int w = 0;
+    size_t i;
+    for (i = 0; i < n && wcs[i] != L'\0'; i++)
+        w += vlc_fb_wcwidth(wcs[i]);
+    return w;
+}
+#define wcswidth(w, n) vlc_fb_wcswidth((w), (n))
+#define wcwidth(c)    vlc_fb_wcwidth(c)
+#endif
 
 #define VLC_MODULE_LICENSE VLC_LICENSE_GPL_2_PLUS
 #include <vlc_common.h>

@@ -533,7 +533,7 @@ MAKECONFIGURE = $(MAKECONFDIR)/configure $(HOSTCONF)
 # When using a single command, make might take a shortcut and fork/exec
 # itself instead of relying on a shell, but a bug in gnulib ends up
 # trying to execute a cmake folder when one is found in the PATH
-CMAKEBUILD = env cmake --build $(BUILD_DIR)
+CMAKEBUILD = env cmake --build $(BUILD_DIR) --parallel 8
 CMAKEINSTALL = env cmake --install $(BUILD_DIR)
 CMAKECLEAN = rm -f $(BUILD_DIR)/CMakeCache.txt
 CMAKECONFIG = cmake -S $< -B $(BUILD_DIR) \
@@ -550,7 +550,9 @@ ifdef HAVE_EMSCRIPTEN
 CMAKECONFIG += -DEMSCRIPTEN_SYSTEM_PROCESSOR=$(ARCH)
 endif
 
-CMAKE = $(CMAKECONFIG) \
+CMAKE_ENV =
+
+CMAKE = $(CMAKE_ENV) $(CMAKECONFIG) \
 		-DCMAKE_TOOLCHAIN_FILE=$(abspath toolchain.cmake) \
 		-DCMAKE_INSTALL_PREFIX:STRING=$(PREFIX)
 CMAKE_NATIVE = $(CMAKECONFIG) \
@@ -570,9 +572,12 @@ ifdef HAVE_DARWIN_OS
 CMAKE += -DCMAKE_REQUIRED_FLAGS="-Werror=partial-availability"
 endif
 ifdef MSYS_BUILD
-CMAKE = PKG_CONFIG_LIBDIR="$(PKG_CONFIG_PATH)" $(CMAKE)
+CMAKE_ENV = PKG_CONFIG_LIBDIR="$(PKG_CONFIG_PATH)"
 CMAKE += -DCMAKE_LINK_LIBRARY_SUFFIX:STRING=.a
 endif
+# Newer CMake rejects CMakeLists with cmake_minimum_required(VERSION < 3.5).
+# Relax it so legacy contrib CMakeLists still configure.
+CMAKE += -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 ifdef HAVE_DARWIN_OS
 # Ignore 3rd party packager paths in CMakes find_*
 # functions, to avoid finding non-system deps
@@ -622,12 +627,12 @@ ifdef HAVE_CROSS_COMPILE
 # generated crossfile, so everything should work as
 # expected.
 MESONFLAGS += --cross-file $(abspath crossfile.meson)
-MESON = env -i PATH="$(PATH)" \
+MESON = env -i PATH="$(PATH)" HOME="/c/Users/SDT52174" USERPROFILE="$(USERPROFILE)" \
 	meson setup -Dpkg_config_path="$(PKG_CONFIG_PATH)" \
 	$(MESONFLAGS)
 
 else
-MESON = $(HOSTTOOLS) meson setup $(MESONFLAGS)
+MESON = $(HOSTTOOLS) env HOME="C:/Users/SDT52174" USERPROFILE="C:/Users/SDT52174" meson setup $(MESONFLAGS)
 endif
 MESON_NATIVE = $(BUILDTOOLS) meson setup $(BUILD_DIR) $< --prefix "$(BUILDPREFIX)" \
 	--backend ninja -Dlibdir=lib -Dcmake_prefix_path="$(BUILDPREFIX)" \
@@ -667,6 +672,13 @@ else
  QT_HOST_LIBS := $(QT_HOST_PREFIX)/lib
 endif
 QT_HOST_PATH := -DQT_HOST_PATH=$(QT_HOST_PREFIX) -DQT_HOST_PATH_CMAKE_DIR=$(QT_HOST_LIBS)/cmake
+else
+# No cross-compile (build == host, e.g. native MinGW build): the locally
+# compiled native Qt tools still act as the "host" for the target Qt build.
+# In this case the native tools are installed into BUILDPREFIX, so QT_HOST_LIBS
+# must point there (it is only defined inside the cross-compile branch above).
+QT_HOST_LIBS := $(BUILDPREFIX)/lib
+QT_HOST_PATH := -DQT_HOST_PATH=$(BUILDPREFIX) -DQT_HOST_PATH_CMAKE_DIR=$(QT_HOST_LIBS)/cmake
 endif
 QT_CMAKE_CONFIG := -DCMAKE_TOOLCHAIN_FILE=$(PREFIX)/lib/cmake/Qt6/qt.toolchain.cmake $(QT_HOST_PATH) --log-level=STATUS
 ifdef QT_USES_SYSTEM_TOOLS

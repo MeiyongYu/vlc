@@ -128,13 +128,13 @@ endif
 .qt-tools: qt
 	$(CMAKECLEAN)
 	$(BUILDVARS) $(CMAKE_NATIVE) $(QTBASE_NATIVE_CONFIG)
-	+$(CMAKEBUILD)
+	$(CMAKEBUILD)
 	$(CMAKEINSTALL)
 	touch $@
 
 .qt: qt toolchain.cmake
 	$(CMAKECLEAN)
 	$(HOSTVARS_CMAKE) $(CMAKE) $(QTBASE_CONFIG)
-	+PATH="$(PATH):$(PREFIX)/bin" $(CMAKEBUILD)
+	PATH="$(PATH):$(PREFIX)/bin" $(CMAKEBUILD)
 	$(CMAKEINSTALL)
 	touch $@

@@ -186,8 +186,8 @@ msgstr "Phụ đề / Hiển thị màn hình"
 msgid ""
 "Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
 msgstr ""
-"Thiết lập cho phần Hiển Thị Trên Màn Hình, phụ đề và \"độ trễ phụ đề hình ảnh"
-"\""
+"Thiết lập cho phần Hiển Thị Trên Màn Hình, phụ đề và \"độ trễ phụ đề hình "
+"ảnh\""
 
 #: include/vlc_config_cat.h:88
 #, fuzzy
@@ -595,19 +595,19 @@ msgid ""
 "</p><p>For all the saving, converting, transcoding, encoding, muxing and "
 "streaming tasks, you should find useful information in the <a href=\"http://"
 "wiki.videolan.org/Documentation:Streaming_HowTo\">Streaming Documentation</"
-"a>.</p><p>If you are unsure about terminology, please consult the <a href="
-"\"http://wiki.videolan.org/Knowledge_Base\">knowledge base</a>.</p><p>To "
-"understand the main keyboard shortcuts, read the <a href=\"http://wiki."
-"videolan.org/Hotkeys\">shortcuts</a> page.</p><h3>Help</h3><p>Before asking "
-"any question, please refer yourself to the <a href=\"http://www.videolan.org/"
-"support/faq.html\">FAQ</a>.</p><p>You might then get (and give) help on the "
-"<a href=\"http://forum.videolan.org\">Forums</a>, the <a href=\"http://www."
-"videolan.org/vlc/lists.html\">mailing-lists</a> or our IRC channel "
-"(<em>#videolan</em> on irc.freenode.net).</p><h3>Contribute to the project</"
-"h3><p>You can help the VideoLAN project giving some of your time to help the "
-"community, to design skins, to translate the documentation, to test and to "
-"code. You can also give funds and material to help us. And of course, you "
-"can <b>promote</b> VLC media player.</p></body></html>"
+"a>.</p><p>If you are unsure about terminology, please consult the <a "
+"href=\"http://wiki.videolan.org/Knowledge_Base\">knowledge base</a>.</"
+"p><p>To understand the main keyboard shortcuts, read the <a href=\"http://"
+"wiki.videolan.org/Hotkeys\">shortcuts</a> page.</p><h3>Help</h3><p>Before "
+"asking any question, please refer yourself to the <a href=\"http://www."
+"videolan.org/support/faq.html\">FAQ</a>.</p><p>You might then get (and give) "
+"help on the <a href=\"http://forum.videolan.org\">Forums</a>, the <a "
+"href=\"http://www.videolan.org/vlc/lists.html\">mailing-lists</a> or our IRC "
+"channel (<em>#videolan</em> on irc.freenode.net).</p><h3>Contribute to the "
+"project</h3><p>You can help the VideoLAN project giving some of your time to "
+"help the community, to design skins, to translate the documentation, to test "
+"and to code. You can also give funds and material to help us. And of course, "
+"you can <b>promote</b> VLC media player.</p></body></html>"
 msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
 "charset=utf-8\" /></head><body><h2>Chào mừng bạn đến phần trợ giúp của VLC</"
@@ -668,31 +668,31 @@ msgstr ""
 "thống.</p><h3>Hướng dẫn người dùng</h3><p>Giao diện chính của VLC hiện đã "
 "được chuyển ngữ, tuy nhiên, đa số các trang về Documentation vẫn hiện còn bỏ "
 "ngỏ. Nếu bạn có hứng thú, hãy thử tìm đọc và góp phần Việt Hóa nếu bạn thích."
-"</p><p>Bạn có thể tìm thấy các phần mà bạn thắc mắc tại trang web <a href="
-"\"http://wiki.videolan.org\">wiki</a>.</p><p>Nếu bạn lần đầu tiên sử dụng "
-"VLC, hãy đọc phần<br><a href=\"http://wiki.videolan.org/Documentation:"
+"</p><p>Bạn có thể tìm thấy các phần mà bạn thắc mắc tại trang web <a "
+"href=\"http://wiki.videolan.org\">wiki</a>.</p><p>Nếu bạn lần đầu tiên sử "
+"dụng VLC, hãy đọc phần<br><a href=\"http://wiki.videolan.org/Documentation:"
 "VLC_for_dummies\"><em>Giới thiệu chương trình VLC</em></a>.</p><p>Bạn sẽ "
 "được hướng dẫn về việc sử dụng chương trình tại<br>\"<a href=\"http://wiki."
 "videolan.org/Documentation:Play_HowTo\"><em>tài liệu cách mở một file với "
 "VLC </em></a>\" .</p><p>Về phần lưu trữ,chuyển đổi định dạng file, chuyển "
 "mã, mã hóa, dồn kênh và phân luồng âm thanh, bạn sẽ tìm thấy các thông tin "
-"hữu ích tại <a href=\"http://wiki.videolan.org/Documentation:Streaming_HowTo"
-"\">Tài liệu phân luồng</a>.</p><p>Nếu bạn thấy bổi rối với các thuật ngữ "
-"trong chương trình, hãy truy cập vào trang <a href=\"http://wiki.videolan."
-"org/Knowledge_Base\">Kiến Thức Cơ Bản</a>.</p><p>Để có thể thao tác với các "
-"phím tắt, bạn hãy đọc phần <a href=\"http://wiki.videolan.org/Hotkeys\">Phím "
-"Tắt</a> .</p><h3>Trợ giúp trực tuyến</h3><p>Trước khi có câu hỏi nào, bạn "
-"hãy dành chút thời gian xem qua <a href=\"http://www.videolan.org/support/"
-"faq.html\">Các Câu Hỏi Thường Gặp</a>.</p><p>Sau đó bạn có thể đăng thắc mắc "
-"(trợ giúp) của mình lên phần <a href=\"http://forum.videolan.org\">Diễn đan "
-"VLC</a>, hay <a href=\"http://www.videolan.org/vlc/lists.html\">email cho "
-"chúng tôi</a> hoặc chat trực tiếp với chúng tôi bằng IRCl (<em>#videolan</"
-"em> trên irc.freenode.net).</p><h3>Đóng góp cho VLC</h3><p>Bạn có thể trợ "
-"giúp chúng tôi bằng cách dành thời gian của bạn cho cộng đồng VLC trên mạng "
-"internet, thiết kế giao diện, phiên dịch các tài liệu hướng dẫn, thử nghiệm "
-"và viết mã. Bạn cũng có thể đóng góp cho chúng tôi về vật chất thông qua quỹ "
-"của VLC. Và dĩ nhiên bạn có thể phát triển <b>tự mình phát triển</b> VLC.</"
-"p></body></html>"
+"hữu ích tại <a href=\"http://wiki.videolan.org/Documentation:"
+"Streaming_HowTo\">Tài liệu phân luồng</a>.</p><p>Nếu bạn thấy bổi rối với "
+"các thuật ngữ trong chương trình, hãy truy cập vào trang <a href=\"http://"
+"wiki.videolan.org/Knowledge_Base\">Kiến Thức Cơ Bản</a>.</p><p>Để có thể "
+"thao tác với các phím tắt, bạn hãy đọc phần <a href=\"http://wiki.videolan."
+"org/Hotkeys\">Phím Tắt</a> .</p><h3>Trợ giúp trực tuyến</h3><p>Trước khi có "
+"câu hỏi nào, bạn hãy dành chút thời gian xem qua <a href=\"http://www."
+"videolan.org/support/faq.html\">Các Câu Hỏi Thường Gặp</a>.</p><p>Sau đó bạn "
+"có thể đăng thắc mắc (trợ giúp) của mình lên phần <a href=\"http://forum."
+"videolan.org\">Diễn đan VLC</a>, hay <a href=\"http://www.videolan.org/vlc/"
+"lists.html\">email cho chúng tôi</a> hoặc chat trực tiếp với chúng tôi bằng "
+"IRCl (<em>#videolan</em> trên irc.freenode.net).</p><h3>Đóng góp cho VLC</"
+"h3><p>Bạn có thể trợ giúp chúng tôi bằng cách dành thời gian của bạn cho "
+"cộng đồng VLC trên mạng internet, thiết kế giao diện, phiên dịch các tài "
+"liệu hướng dẫn, thử nghiệm và viết mã. Bạn cũng có thể đóng góp cho chúng "
+"tôi về vật chất thông qua quỹ của VLC. Và dĩ nhiên bạn có thể phát triển "
+"<b>tự mình phát triển</b> VLC.</p></body></html>"
 
 #: src/audio_output/filters.c:267
 msgid "Audio filtering failed"
@@ -1635,14 +1635,14 @@ msgstr "Module Giao Diện bổ sung"
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
-"list of interface modules. (common values are \"rc\" (remote control), \"http"
-"\", \"gestures\" ...)"
+"list of interface modules. (common values are \"rc\" (remote control), "
+"\"http\", \"gestures\" ...)"
 msgstr ""
 "Bạn có thể chọn \"giao diện bổ sung\" cho VLC. Những giao diện này sẽ được "
 "thực thi ở khung màn hình chính cũng như sử dụng làm giao diện mặc định. Sử "
 "dụng dấu phẩy để tách biệt các danh sách module của giao diện. (thông thường "
-"giá trị được thiết lập là \"rc\" (điều khiển từ xa), \"http\", \"gesture"
-"\"...)"
+"giá trị được thiết lập là \"rc\" (điều khiển từ xa), \"http\", "
+"\"gesture\"...)"
 
 #: src/libvlc-module.c:83
 msgid "You can select control interfaces for VLC."
@@ -3046,15 +3046,15 @@ msgstr "Thay đổi tiêu đề dựa theo tập tin hiện tại"
 
 #: src/libvlc-module.c:694
 msgid ""
-"This option allows you to set the title according to what's being played<br>"
-"$a: Artist<br>$b: Album<br>$c: Copyright<br>$t: Title<br>$g: Genre<br>$n: "
-"Track num<br>$p: Now playing<br>$A: Date<br>$D: Duration<br>$Z: \"Now playing"
-"\" (Fall back on Title - Artist)"
+"This option allows you to set the title according to what's being "
+"played<br>$a: Artist<br>$b: Album<br>$c: Copyright<br>$t: Title<br>$g: "
+"Genre<br>$n: Track num<br>$p: Now playing<br>$A: Date<br>$D: Duration<br>$Z: "
+"\"Now playing\" (Fall back on Title - Artist)"
 msgstr ""
-"Tùy chọn này cho phép đặt tên cho tiêu đề của phần ghi âm đang được phát<br>"
-"$a: Nghệ sĩ<br>$b: Album<br>$c: Bản quyền<br>$t: Tiêu đề<br>$g: Thể loại<br>"
-"$n: Số thứ tự track<br>$p: Đang phát<br>$A: Ngày tháng<br>$D: Độ dài<br>$Z: "
-"\"Đang phát\" (Fall back on Title - Artist)"
+"Tùy chọn này cho phép đặt tên cho tiêu đề của phần ghi âm đang được "
+"phát<br>$a: Nghệ sĩ<br>$b: Album<br>$c: Bản quyền<br>$t: Tiêu đề<br>$g: Thể "
+"loại<br>$n: Số thứ tự track<br>$p: Đang phát<br>$A: Ngày tháng<br>$D: Độ "
+"dài<br>$Z: \"Đang phát\" (Fall back on Title - Artist)"
 
 #: src/libvlc-module.c:699
 msgid "Disable all lua plugins"
@@ -9684,9 +9684,9 @@ msgstr "Tập tin được vlc đọc khóa ure và địa điểm khóa tập t
 #: modules/access_output/livehttp.c:98
 #, fuzzy
 msgid ""
-"File is read when segment starts and is assumed to be in format: key-uri"
-"\\nkey-file. File is read on the segment opening and values are used on that "
-"segment."
+"File is read when segment starts and is assumed to be in format: key-"
+"uri\\nkey-file. File is read on the segment opening and values are used on "
+"that segment."
 msgstr ""
 "Tập tin được ghi lại khi các mảnh dữ liệu được bắt đầu phát và được quy định "
 "trong định dạng: khóa-uri\\nkhóa-tập tin. Tập tin chỉ được đọc trên các mảnh "
@@ -11217,7 +11217,6 @@ msgstr "Giải mã"
 
 #: modules/codec/avcodec/avcodec.c:147 modules/codec/jpeg.c:119
 #: modules/codec/omxil/omxil.c:171 modules/codec/png.c:99
-#: modules/codec/schroedinger.c:370
 msgid "Encoding"
 msgstr "Mã hóa"
 
@@ -11775,11 +11774,11 @@ msgstr "Trình đóng gói video dạng Theora"
 msgid "Daala video encoder"
 msgstr "Giải mã video CDG"
 
-#: modules/codec/daala.c:143 modules/codec/schroedinger.c:54
+#: modules/codec/daala.c:143
 msgid "Chroma format"
 msgstr "Định dạng màu sắc"
 
-#: modules/codec/daala.c:144 modules/codec/schroedinger.c:55
+#: modules/codec/daala.c:144
 msgid ""
 "Picking chroma format will force a conversion of the video into that format"
 msgstr "Chọn lựa định dạng màu sắc sẽ buộc chuyển đổi video sang dạng đó"
@@ -12638,395 +12637,6 @@ msgstr "Đóng gói video Pseudo raw"
 #, fuzzy
 msgid "Raw video encoder for RTP"
 msgstr "Trình mã hóa video dạng Theora"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:2:0"
-msgstr "4:2:0"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:2:2"
-msgstr "4:2:2"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:4:4"
-msgstr "4:4:4"
-
-#: modules/codec/schroedinger.c:63
-msgid "Rate control method"
-msgstr "Phương pháp điều khiển tốc độ"
-
-#: modules/codec/schroedinger.c:64
-msgid "Method used to encode the video sequence"
-msgstr "Phương pháp được sử dụng để mã hóa các chuỗi video liên tiếp"
-
-#: modules/codec/schroedinger.c:77
-msgid "Constant noise threshold mode"
-msgstr "Chế độ hằng số ngưỡng ồn"
-
-#: modules/codec/schroedinger.c:78
-msgid "Constant bitrate mode (CBR)"
-msgstr "Chế độ hằng số bitrate (CBR)"
-
-#: modules/codec/schroedinger.c:79
-msgid "Low Delay mode"
-msgstr "Chế độ độ trễ thấp"
-
-#: modules/codec/schroedinger.c:80
-msgid "Lossless mode"
-msgstr "Chế độ nguyên bản"
-
-#: modules/codec/schroedinger.c:81
-msgid "Constant lambda mode"
-msgstr "Chế độ hằng số lambda"
-
-#: modules/codec/schroedinger.c:82
-msgid "Constant error mode"
-msgstr "Chế độ lỗi liên tục"
-
-#: modules/codec/schroedinger.c:83
-msgid "Constant quality mode"
-msgstr "Chế độ hằng số chất lượng"
-
-#: modules/codec/schroedinger.c:87
-msgid "GOP structure"
-msgstr "Cấu trúc GOP"
-
-#: modules/codec/schroedinger.c:88
-msgid "GOP structure used to encode the video sequence"
-msgstr "Cấu trúc GOP được sử dụng để mã hóa chuỗi các video liên tiếp"
-
-#: modules/codec/schroedinger.c:100
-msgid ""
-"No fixed gop structure. A picture can be intra or inter and refer to "
-"previous or future pictures."
-msgstr ""
-"Không chỉnh sửa cấu trúc gop. Một bức hình có thể được hiện hoặc ẩn và tham "
-"chiếu tới các bức hình trước đó."
-
-#: modules/codec/schroedinger.c:101
-msgid "I-frame only sequence"
-msgstr "Chỉ dành cho chuỗi liên tiếp dạng I-frame"
-
-#: modules/codec/schroedinger.c:102 modules/codec/schroedinger.c:103
-msgid "Inter pictures refere to previous pictures only"
-msgstr "Ẩn hình ảnh chỉ tham chiếu đến hình ảnh trước đó"
-
-#: modules/codec/schroedinger.c:104 modules/codec/schroedinger.c:105
-msgid "Inter pictures can refer to previous or future pictures"
-msgstr "Hiện hình ảnh chỉ tham chiếu đến hình ảnh trước đó hoặc sau đó"
-
-#: modules/codec/schroedinger.c:109
-msgid "Constant quality factor"
-msgstr "Hệ số chất lượng không đổi"
-
-#: modules/codec/schroedinger.c:110
-msgid "Quality factor to use in constant quality mode"
-msgstr "Hệ số chất lượng được sử dụng trong chế độ hằng số chất lượng"
-
-#: modules/codec/schroedinger.c:113
-msgid "Noise Threshold"
-msgstr "Ngưỡng ồn"
-
-#: modules/codec/schroedinger.c:114
-msgid "Noise threshold to use in constant noise threshold mode"
-msgstr "Ngưỡng ồn được sử dụng trong chế độ ngưỡng hằng số ồn"
-
-#: modules/codec/schroedinger.c:117
-msgid "CBR bitrate (kbps)"
-msgstr "bitrate CBR (kbps)"
-
-#: modules/codec/schroedinger.c:118
-msgid "Target bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
-"Bitrate mong muốn tínhb ằng kbps khi đang mã hóa ở chế độ hằng số bitrate"
-
-#: modules/codec/schroedinger.c:121
-msgid "Maximum bitrate (kbps)"
-msgstr "Bitrate tối đa (kbps)"
-
-#: modules/codec/schroedinger.c:122
-msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
-"Số bitrate tối đa tính bằng kbps khi đang mã hóa trong chế độ hằng số bitrate"
-
-#: modules/codec/schroedinger.c:125
-msgid "Minimum bitrate (kbps)"
-msgstr "Bitrate tối thiểu (kbps)"
-
-#: modules/codec/schroedinger.c:126
-msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
-"Số bitrate tối thiểu tính bằng kbps khi đang mã hóa trong chế độ hằng số "
-"bitrate"
-
-#: modules/codec/schroedinger.c:129
-msgid "GOP length"
-msgstr "Độ dài GOP"
-
-#: modules/codec/schroedinger.c:130
-msgid ""
-"Number of pictures between successive sequence headers i.e. length of the "
-"group of pictures"
-msgstr ""
-"Số lượng hình ảnh của các chuỗi header liên tiếp ví dụ như chiều dài của "
-"nhóm các hình ảnh"
-
-#: modules/codec/schroedinger.c:134
-msgid "Prefilter"
-msgstr "Lọc lại"
-
-#: modules/codec/schroedinger.c:135
-msgid "Enable adaptive prefiltering"
-msgstr "Bật tính năng lọic trước khi gắn kết"
-
-#: modules/codec/schroedinger.c:147
-msgid "No pre-filtering"
-msgstr "Không xử lý trước bằng bộ lọc"
-
-#: modules/codec/schroedinger.c:148
-msgid "Centre Weighted Median"
-msgstr "Trọng lượng trung bình ở giữa"
-
-#: modules/codec/schroedinger.c:149
-msgid "Gaussian Low Pass Filter"
-msgstr "Bộ lộc dạng "
-
-#: modules/codec/schroedinger.c:150
-msgid "Add Noise"
-msgstr "Thêm độ ồn"
-
-#: modules/codec/schroedinger.c:151
-msgid "Gaussian Adaptive Low Pass Filter"
-msgstr "Bộ lọc dạng Gaussian Adaptive Low Pas"
-
-#: modules/codec/schroedinger.c:152
-msgid "Low Pass Filter"
-msgstr "Bộ lọc dạng Low Pass"
-
-#: modules/codec/schroedinger.c:156
-msgid "Amount of prefiltering"
-msgstr "Số lượng các bộ lọc tiền xử lý"
-
-#: modules/codec/schroedinger.c:157
-msgid "Higher value implies more prefiltering"
-msgstr "Giá trị càng cao chỉ rõ mức độ nhiều bộ lọc tiền xử lý"
-
-#: modules/codec/schroedinger.c:160
-msgid "Picture coding mode"
-msgstr "Chế độ mã hóa hình ảnh"
-
-#: modules/codec/schroedinger.c:161
-msgid ""
-"Field coding is where interlaced fields are coded separately as opposed to a "
-"pseudo-progressive frame"
-msgstr ""
-"Khung thông tin mã hóa là nơi các khung thông thin quét mành được viết mã "
-"độc lập để làm đối trọng trong khung hình liên tục dạng mã pseudo"
-
-#: modules/codec/schroedinger.c:166
-msgid "auto - let encoder decide based upon input (Best)"
-msgstr ""
-"auto - cho phep trinh ma hoa quyet dinh dua vao du lieu dau vao (Tot nhat)"
-
-#: modules/codec/schroedinger.c:167
-msgid "force coding frame as single picture"
-msgstr "buoc khung hinh duoc viet ma hien thi dang don hinh anh"
-
-#: modules/codec/schroedinger.c:168
-msgid "force coding frame as separate interlaced fields"
-msgstr "buoc khung hinh duoc viet ma tac biet khoi vung du lieu quet manh"
-
-#: modules/codec/schroedinger.c:173
-msgid "Size of motion compensation blocks"
-msgstr "Kích thước của các khối bù trừ chuyển động"
-
-#: modules/codec/schroedinger.c:182 modules/codec/schroedinger.c:199
-#: modules/codec/schroedinger.c:297 modules/codec/schroedinger.c:338
-msgid "automatic - let encoder decide based upon input (Best)"
-msgstr ""
-"tự động - cho phép trình mã hóa quyết định dựa trên dữ liệu đầu vào (Tốt "
-"nhất)"
-
-#: modules/codec/schroedinger.c:183
-msgid "small - use small motion compensation blocks"
-msgstr "nhỏ - sử dụng cho các khối bù trừ chuyển động dạng nhỏ"
-
-#: modules/codec/schroedinger.c:184
-msgid "medium - use medium motion compensation blocks"
-msgstr "trung bình - sử dụng cho các khối bù trừ chuyển động dạng trung bình"
-
-#: modules/codec/schroedinger.c:185
-msgid "large - use large motion compensation blocks"
-msgstr ""
-"lớn - sử dụng các việc bù trừ cho các khối có chuyển động khối dạng lớn"
-
-#: modules/codec/schroedinger.c:190
-msgid "Overlap of motion compensation blocks"
-msgstr "Độ che phủ của các khối bù trừ chuyển động"
-
-#: modules/codec/schroedinger.c:200
-msgid "none - Motion compensation blocks do not overlap"
-msgstr "không - Các khối bù trừ chuyển động không thực hiện chức năng che phủ"
-
-#: modules/codec/schroedinger.c:201
-msgid "partial - Motion compensation blocks only partially overlap"
-msgstr ""
-"từng phần - Chỉ dựa vào độ che phủ từng phần đối với các khối bù trừ chuyển "
-"động"
-
-#: modules/codec/schroedinger.c:202
-msgid "full - Motion compensation blocks fully overlap"
-msgstr "đầy đủ - Hoàn toàn che phủ dựa vào các khối bù trừ chuyển động"
-
-#: modules/codec/schroedinger.c:207
-msgid "Motion Vector precision"
-msgstr "Dự đoán véttơ chuyển động"
-
-#: modules/codec/schroedinger.c:208
-msgid "Motion Vector precision in pels"
-msgstr "Độ chính xác vétơ chuyển động tính bằng pels."
-
-#: modules/codec/schroedinger.c:214
-msgid "Three component motion estimation"
-msgstr "Ba yếu tố trong việc dự đoán chuyển động"
-
-#: modules/codec/schroedinger.c:215
-msgid "Use chroma as part of the motion estimation process"
-msgstr "Sử dụng màu sắc dưới dạng tiến trình dự đoán chuyển động"
-
-#: modules/codec/schroedinger.c:218
-msgid "Intra picture DWT filter"
-msgstr "Bộ lọc DWT dành cho hình ảnh Intra"
-
-#: modules/codec/schroedinger.c:221
-msgid "Inter picture DWT filter"
-msgstr "Bộ lọc DWT dành cho hình ảnh Inter"
-
-#: modules/codec/schroedinger.c:244
-msgid "Number of DWT iterations"
-msgstr "Số lần lặp lại DWT"
-
-#: modules/codec/schroedinger.c:245
-msgid "Also known as DWT levels"
-msgstr "Hay mức độ DWT"
-
-#: modules/codec/schroedinger.c:250
-msgid "Enable multiple quantizers"
-msgstr "Kích hoạt nhiều bộ lượng tử hóa"
-
-#: modules/codec/schroedinger.c:251
-msgid "Enable multiple quantizers per subband (one per codeblock)"
-msgstr "Bật nhiều phần lượng tử cho mỗi băng con (mỗi khối lệnh)"
-
-#: modules/codec/schroedinger.c:255
-msgid "Disable arithmetic coding"
-msgstr "Tắt phần mã số học"
-
-#: modules/codec/schroedinger.c:256
-msgid "Use variable length codes instead, useful for very high bitrates"
-msgstr "Sử dụng biến số của độ dài codec, hữu dụng cho các bitrate cao"
-
-#: modules/codec/schroedinger.c:261
-msgid "perceptual weighting method"
-msgstr "phương pháp phụ trợ giác quan"
-
-#: modules/codec/schroedinger.c:272
-msgid "perceptual distance"
-msgstr "khoảng cách giác quan"
-
-#: modules/codec/schroedinger.c:273
-msgid "perceptual distance to calculate perceptual weight"
-msgstr "khoảng cách giác quan để tính toán giác quan phụ trợ"
-
-#: modules/codec/schroedinger.c:277
-msgid "Horizontal slices per frame"
-msgstr "Lát ngang trên một khung"
-
-#: modules/codec/schroedinger.c:278
-msgid "Number of horizontal slices per frame in low delay mode"
-msgstr "Số lượng các lát ngang mỗi khung trong chế độ trở ngại thấp"
-
-#: modules/codec/schroedinger.c:282
-msgid "Vertical slices per frame"
-msgstr "Lát cắt dọc trên một khung"
-
-#: modules/codec/schroedinger.c:283
-msgid "Number of vertical slices per frame in low delay mode"
-msgstr "Số lát dọc trên một khung trong chế độ trở ngại thấp"
-
-#: modules/codec/schroedinger.c:287
-msgid "Size of code blocks in each subband"
-msgstr "Kích thước khối mã lệnh cho mỗi băng con"
-
-#: modules/codec/schroedinger.c:298
-msgid "small - use small code blocks"
-msgstr "nhỏ - sử dụng các khối mã nhỏ"
-
-#: modules/codec/schroedinger.c:299
-msgid "medium - use medium sized code blocks"
-msgstr "trung bình - sử dụng các khối mã có kích thước trung bình"
-
-#: modules/codec/schroedinger.c:300
-msgid "large - use large code blocks"
-msgstr "lớn - sử dụng các khối mã lớn"
-
-#: modules/codec/schroedinger.c:301
-msgid "full - One code block per subband"
-msgstr "đầy đủ - Một khối mã lệnh cho mỗi băng con"
-
-#: modules/codec/schroedinger.c:306
-msgid "Enable hierarchical Motion Estimation"
-msgstr "Bật ước lượng chuyển động phân nhánh"
-
-#: modules/codec/schroedinger.c:310
-msgid "Number of levels of downsampling"
-msgstr "Số lượng các cấp độ của "
-
-#: modules/codec/schroedinger.c:311
-msgid "Number of levels of downsampling in hierarchical motion estimation mode"
-msgstr ""
-"Số lượng cấp độ các phần downsampling trong chế độ dự đoán chuyển động phân "
-"nhánh"
-
-#: modules/codec/schroedinger.c:315
-msgid "Enable Global Motion Estimation"
-msgstr "Kích hoạt \"khảo sát chuyển động toàn cục\""
-
-#: modules/codec/schroedinger.c:319
-msgid "Enable Phase Correlation Estimation"
-msgstr "Bật Dự Đoán Chu Kỳ Liên Quan"
-
-#: modules/codec/schroedinger.c:323
-msgid "Enable Scene Change Detection"
-msgstr "Bật Phát Hiện Thay Đổi Cảnh Quan"
-
-#: modules/codec/schroedinger.c:327
-msgid "Force Profile"
-msgstr "Bắt buộc dùng hồ sơ"
-
-#: modules/codec/schroedinger.c:339
-msgid "VC2 Low Delay Profile"
-msgstr "Hồ sơ độ trễ VC2 Low"
-
-#: modules/codec/schroedinger.c:340
-msgid "VC2 Simple Profile"
-msgstr "Hồ sơ VC2 dạng đơn giản"
-
-#: modules/codec/schroedinger.c:341
-msgid "VC2 Main Profile"
-msgstr "Hồ sơ chính VC2"
-
-#: modules/codec/schroedinger.c:342
-msgid "Main Profile"
-msgstr "Hồ sơ chính"
-
-#: modules/codec/schroedinger.c:363
-msgid "Dirac video decoder using libschroedinger"
-msgstr "Trình giải mã video dạng Dirac sử dụng libschroedinger"
-
-#: modules/codec/schroedinger.c:371
-msgid "Dirac video encoder using libschroedinger"
-msgstr "Trình giải mã video dạng Dirac sử dụng libschroedinger"
 
 #: modules/codec/scte18.c:41
 #, fuzzy
@@ -15771,14 +15381,6 @@ msgstr ""
 msgid "File dumper"
 msgstr ""
 
-#: modules/demux/dirac.c:41
-msgid "Value to adjust dts by"
-msgstr ""
-
-#: modules/demux/dirac.c:54
-msgid "Dirac video demuxer"
-msgstr ""
-
 #: modules/demux/directory.c:94
 #, fuzzy
 msgid "Directory import"
@@ -16832,8 +16434,8 @@ msgid ""
 "\"><span style=\" text-decoration: underline; color:#0057ae;\">VideoLAN</"
 "span></a> community.</p><p>VLC uses its internal codecs, works on "
 "essentially every popular platform, and can read almost all files, CDs, "
-"DVDs, network streams, capture cards and other media formats!</p><p><a href="
-"\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
+"DVDs, network streams, capture cards and other media formats!</p><p><a "
+"href=\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
 "underline; color:#0057ae;\">Help and join us!</span></a>"
 msgstr ""
 "<p>Chương trình VLC hoàn toàn miễn phí và là chương trình thuộc dạng mã "
@@ -17143,8 +16745,8 @@ msgstr "Nhập dữ liệu đã thay đổi"
 
 #: modules/gui/macosx/VLCBookmarksWindowController.m:215
 msgid ""
-"Input has changed, unable to save bookmark. Suspending playback with \"Pause"
-"\" while editing bookmarks to ensure to keep the same input."
+"Input has changed, unable to save bookmark. Suspending playback with "
+"\"Pause\" while editing bookmarks to ensure to keep the same input."
 msgstr ""
 "Nhập dữ liệu đã thay đổi, không thể lưu phần đánh dấu. Ngừng việc phát lại "
 "với\"Tạm Dừng\" trong khi đang chỉnh sửa phần đánh dấu để chắc rằng dữ liệu "
@@ -22891,8 +22493,8 @@ msgstr "Chỉnh sửa giao diện Lua"
 
 #: modules/lua/vlc.c:53
 msgid ""
-"Lua interface configuration string. Format is: '[\"<interface module name>"
-"\"] = { <option> = <value>, ...}, ...'."
+"Lua interface configuration string. Format is: '[\"<interface module "
+"name>\"] = { <option> = <value>, ...}, ...'."
 msgstr ""
 "Chỉnh sửa các chuỗi ký tự trong giao diện Lua. Định dạng là '[\"<tên module "
 "giao diện>\"] = { <tùy chọn> = <giá trị>, ...}, ...'."
@@ -24302,10 +23904,6 @@ msgstr "đóng gói"
 msgid "Copy packetizer"
 msgstr ""
 
-#: modules/packetizer/dirac.c:87
-msgid "Dirac packetizer"
-msgstr ""
-
 #: modules/packetizer/dts.c:47
 msgid "DTS audio packetizer"
 msgstr "Đóng gói audio DTS"
@@ -24452,8 +24050,8 @@ msgstr "Danh sách đường dẫn Podcast dạng URL"
 #: modules/services_discovery/podcast.c:57
 msgid "Enter the list of podcasts to retrieve, separated by '|' (pipe)."
 msgstr ""
-"Điền vào danh sách các podcast để nhận dữ liệu, cách biệt bởi dấu ' | "
-"' (ống)."
+"Điền vào danh sách các podcast để nhận dữ liệu, cách biệt bởi dấu ' | ' "
+"(ống)."
 
 #: modules/services_discovery/pulse.c:39 modules/services_discovery/pulse.c:42
 #: modules/services_discovery/pulse.c:82 modules/services_discovery/udev.c:65
@@ -30119,6 +29717,307 @@ msgstr "AAAA; "
 #: modules/gui/qt/ui/vlm.h:302
 msgid "Media Manager List"
 msgstr "Danh sách quản lý tập tin"
+
+#~ msgid "4:2:0"
+#~ msgstr "4:2:0"
+
+#~ msgid "4:2:2"
+#~ msgstr "4:2:2"
+
+#~ msgid "4:4:4"
+#~ msgstr "4:4:4"
+
+#~ msgid "Rate control method"
+#~ msgstr "Phương pháp điều khiển tốc độ"
+
+#~ msgid "Method used to encode the video sequence"
+#~ msgstr "Phương pháp được sử dụng để mã hóa các chuỗi video liên tiếp"
+
+#~ msgid "Constant noise threshold mode"
+#~ msgstr "Chế độ hằng số ngưỡng ồn"
+
+#~ msgid "Constant bitrate mode (CBR)"
+#~ msgstr "Chế độ hằng số bitrate (CBR)"
+
+#~ msgid "Low Delay mode"
+#~ msgstr "Chế độ độ trễ thấp"
+
+#~ msgid "Lossless mode"
+#~ msgstr "Chế độ nguyên bản"
+
+#~ msgid "Constant lambda mode"
+#~ msgstr "Chế độ hằng số lambda"
+
+#~ msgid "Constant error mode"
+#~ msgstr "Chế độ lỗi liên tục"
+
+#~ msgid "Constant quality mode"
+#~ msgstr "Chế độ hằng số chất lượng"
+
+#~ msgid "GOP structure"
+#~ msgstr "Cấu trúc GOP"
+
+#~ msgid "GOP structure used to encode the video sequence"
+#~ msgstr "Cấu trúc GOP được sử dụng để mã hóa chuỗi các video liên tiếp"
+
+#~ msgid ""
+#~ "No fixed gop structure. A picture can be intra or inter and refer to "
+#~ "previous or future pictures."
+#~ msgstr ""
+#~ "Không chỉnh sửa cấu trúc gop. Một bức hình có thể được hiện hoặc ẩn và "
+#~ "tham chiếu tới các bức hình trước đó."
+
+#~ msgid "I-frame only sequence"
+#~ msgstr "Chỉ dành cho chuỗi liên tiếp dạng I-frame"
+
+#~ msgid "Inter pictures refere to previous pictures only"
+#~ msgstr "Ẩn hình ảnh chỉ tham chiếu đến hình ảnh trước đó"
+
+#~ msgid "Inter pictures can refer to previous or future pictures"
+#~ msgstr "Hiện hình ảnh chỉ tham chiếu đến hình ảnh trước đó hoặc sau đó"
+
+#~ msgid "Constant quality factor"
+#~ msgstr "Hệ số chất lượng không đổi"
+
+#~ msgid "Quality factor to use in constant quality mode"
+#~ msgstr "Hệ số chất lượng được sử dụng trong chế độ hằng số chất lượng"
+
+#~ msgid "Noise Threshold"
+#~ msgstr "Ngưỡng ồn"
+
+#~ msgid "Noise threshold to use in constant noise threshold mode"
+#~ msgstr "Ngưỡng ồn được sử dụng trong chế độ ngưỡng hằng số ồn"
+
+#~ msgid "CBR bitrate (kbps)"
+#~ msgstr "bitrate CBR (kbps)"
+
+#~ msgid "Target bitrate in kbps when encoding in constant bitrate mode"
+#~ msgstr ""
+#~ "Bitrate mong muốn tínhb ằng kbps khi đang mã hóa ở chế độ hằng số bitrate"
+
+#~ msgid "Maximum bitrate (kbps)"
+#~ msgstr "Bitrate tối đa (kbps)"
+
+#~ msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
+#~ msgstr ""
+#~ "Số bitrate tối đa tính bằng kbps khi đang mã hóa trong chế độ hằng số "
+#~ "bitrate"
+
+#~ msgid "Minimum bitrate (kbps)"
+#~ msgstr "Bitrate tối thiểu (kbps)"
+
+#~ msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
+#~ msgstr ""
+#~ "Số bitrate tối thiểu tính bằng kbps khi đang mã hóa trong chế độ hằng số "
+#~ "bitrate"
+
+#~ msgid "GOP length"
+#~ msgstr "Độ dài GOP"
+
+#~ msgid ""
+#~ "Number of pictures between successive sequence headers i.e. length of the "
+#~ "group of pictures"
+#~ msgstr ""
+#~ "Số lượng hình ảnh của các chuỗi header liên tiếp ví dụ như chiều dài của "
+#~ "nhóm các hình ảnh"
+
+#~ msgid "Prefilter"
+#~ msgstr "Lọc lại"
+
+#~ msgid "Enable adaptive prefiltering"
+#~ msgstr "Bật tính năng lọic trước khi gắn kết"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Không xử lý trước bằng bộ lọc"
+
+#~ msgid "Centre Weighted Median"
+#~ msgstr "Trọng lượng trung bình ở giữa"
+
+#~ msgid "Gaussian Low Pass Filter"
+#~ msgstr "Bộ lộc dạng "
+
+#~ msgid "Add Noise"
+#~ msgstr "Thêm độ ồn"
+
+#~ msgid "Gaussian Adaptive Low Pass Filter"
+#~ msgstr "Bộ lọc dạng Gaussian Adaptive Low Pas"
+
+#~ msgid "Low Pass Filter"
+#~ msgstr "Bộ lọc dạng Low Pass"
+
+#~ msgid "Amount of prefiltering"
+#~ msgstr "Số lượng các bộ lọc tiền xử lý"
+
+#~ msgid "Higher value implies more prefiltering"
+#~ msgstr "Giá trị càng cao chỉ rõ mức độ nhiều bộ lọc tiền xử lý"
+
+#~ msgid "Picture coding mode"
+#~ msgstr "Chế độ mã hóa hình ảnh"
+
+#~ msgid ""
+#~ "Field coding is where interlaced fields are coded separately as opposed "
+#~ "to a pseudo-progressive frame"
+#~ msgstr ""
+#~ "Khung thông tin mã hóa là nơi các khung thông thin quét mành được viết mã "
+#~ "độc lập để làm đối trọng trong khung hình liên tục dạng mã pseudo"
+
+#~ msgid "auto - let encoder decide based upon input (Best)"
+#~ msgstr ""
+#~ "auto - cho phep trinh ma hoa quyet dinh dua vao du lieu dau vao (Tot nhat)"
+
+#~ msgid "force coding frame as single picture"
+#~ msgstr "buoc khung hinh duoc viet ma hien thi dang don hinh anh"
+
+#~ msgid "force coding frame as separate interlaced fields"
+#~ msgstr "buoc khung hinh duoc viet ma tac biet khoi vung du lieu quet manh"
+
+#~ msgid "Size of motion compensation blocks"
+#~ msgstr "Kích thước của các khối bù trừ chuyển động"
+
+#~ msgid "automatic - let encoder decide based upon input (Best)"
+#~ msgstr ""
+#~ "tự động - cho phép trình mã hóa quyết định dựa trên dữ liệu đầu vào (Tốt "
+#~ "nhất)"
+
+#~ msgid "small - use small motion compensation blocks"
+#~ msgstr "nhỏ - sử dụng cho các khối bù trừ chuyển động dạng nhỏ"
+
+#~ msgid "medium - use medium motion compensation blocks"
+#~ msgstr ""
+#~ "trung bình - sử dụng cho các khối bù trừ chuyển động dạng trung bình"
+
+#~ msgid "large - use large motion compensation blocks"
+#~ msgstr ""
+#~ "lớn - sử dụng các việc bù trừ cho các khối có chuyển động khối dạng lớn"
+
+#~ msgid "Overlap of motion compensation blocks"
+#~ msgstr "Độ che phủ của các khối bù trừ chuyển động"
+
+#~ msgid "none - Motion compensation blocks do not overlap"
+#~ msgstr ""
+#~ "không - Các khối bù trừ chuyển động không thực hiện chức năng che phủ"
+
+#~ msgid "partial - Motion compensation blocks only partially overlap"
+#~ msgstr ""
+#~ "từng phần - Chỉ dựa vào độ che phủ từng phần đối với các khối bù trừ "
+#~ "chuyển động"
+
+#~ msgid "full - Motion compensation blocks fully overlap"
+#~ msgstr "đầy đủ - Hoàn toàn che phủ dựa vào các khối bù trừ chuyển động"
+
+#~ msgid "Motion Vector precision"
+#~ msgstr "Dự đoán véttơ chuyển động"
+
+#~ msgid "Motion Vector precision in pels"
+#~ msgstr "Độ chính xác vétơ chuyển động tính bằng pels."
+
+#~ msgid "Three component motion estimation"
+#~ msgstr "Ba yếu tố trong việc dự đoán chuyển động"
+
+#~ msgid "Use chroma as part of the motion estimation process"
+#~ msgstr "Sử dụng màu sắc dưới dạng tiến trình dự đoán chuyển động"
+
+#~ msgid "Intra picture DWT filter"
+#~ msgstr "Bộ lọc DWT dành cho hình ảnh Intra"
+
+#~ msgid "Inter picture DWT filter"
+#~ msgstr "Bộ lọc DWT dành cho hình ảnh Inter"
+
+#~ msgid "Number of DWT iterations"
+#~ msgstr "Số lần lặp lại DWT"
+
+#~ msgid "Also known as DWT levels"
+#~ msgstr "Hay mức độ DWT"
+
+#~ msgid "Enable multiple quantizers"
+#~ msgstr "Kích hoạt nhiều bộ lượng tử hóa"
+
+#~ msgid "Enable multiple quantizers per subband (one per codeblock)"
+#~ msgstr "Bật nhiều phần lượng tử cho mỗi băng con (mỗi khối lệnh)"
+
+#~ msgid "Disable arithmetic coding"
+#~ msgstr "Tắt phần mã số học"
+
+#~ msgid "Use variable length codes instead, useful for very high bitrates"
+#~ msgstr "Sử dụng biến số của độ dài codec, hữu dụng cho các bitrate cao"
+
+#~ msgid "perceptual weighting method"
+#~ msgstr "phương pháp phụ trợ giác quan"
+
+#~ msgid "perceptual distance"
+#~ msgstr "khoảng cách giác quan"
+
+#~ msgid "perceptual distance to calculate perceptual weight"
+#~ msgstr "khoảng cách giác quan để tính toán giác quan phụ trợ"
+
+#~ msgid "Horizontal slices per frame"
+#~ msgstr "Lát ngang trên một khung"
+
+#~ msgid "Number of horizontal slices per frame in low delay mode"
+#~ msgstr "Số lượng các lát ngang mỗi khung trong chế độ trở ngại thấp"
+
+#~ msgid "Vertical slices per frame"
+#~ msgstr "Lát cắt dọc trên một khung"
+
+#~ msgid "Number of vertical slices per frame in low delay mode"
+#~ msgstr "Số lát dọc trên một khung trong chế độ trở ngại thấp"
+
+#~ msgid "Size of code blocks in each subband"
+#~ msgstr "Kích thước khối mã lệnh cho mỗi băng con"
+
+#~ msgid "small - use small code blocks"
+#~ msgstr "nhỏ - sử dụng các khối mã nhỏ"
+
+#~ msgid "medium - use medium sized code blocks"
+#~ msgstr "trung bình - sử dụng các khối mã có kích thước trung bình"
+
+#~ msgid "large - use large code blocks"
+#~ msgstr "lớn - sử dụng các khối mã lớn"
+
+#~ msgid "full - One code block per subband"
+#~ msgstr "đầy đủ - Một khối mã lệnh cho mỗi băng con"
+
+#~ msgid "Enable hierarchical Motion Estimation"
+#~ msgstr "Bật ước lượng chuyển động phân nhánh"
+
+#~ msgid "Number of levels of downsampling"
+#~ msgstr "Số lượng các cấp độ của "
+
+#~ msgid ""
+#~ "Number of levels of downsampling in hierarchical motion estimation mode"
+#~ msgstr ""
+#~ "Số lượng cấp độ các phần downsampling trong chế độ dự đoán chuyển động "
+#~ "phân nhánh"
+
+#~ msgid "Enable Global Motion Estimation"
+#~ msgstr "Kích hoạt \"khảo sát chuyển động toàn cục\""
+
+#~ msgid "Enable Phase Correlation Estimation"
+#~ msgstr "Bật Dự Đoán Chu Kỳ Liên Quan"
+
+#~ msgid "Enable Scene Change Detection"
+#~ msgstr "Bật Phát Hiện Thay Đổi Cảnh Quan"
+
+#~ msgid "Force Profile"
+#~ msgstr "Bắt buộc dùng hồ sơ"
+
+#~ msgid "VC2 Low Delay Profile"
+#~ msgstr "Hồ sơ độ trễ VC2 Low"
+
+#~ msgid "VC2 Simple Profile"
+#~ msgstr "Hồ sơ VC2 dạng đơn giản"
+
+#~ msgid "VC2 Main Profile"
+#~ msgstr "Hồ sơ chính VC2"
+
+#~ msgid "Main Profile"
+#~ msgstr "Hồ sơ chính"
+
+#~ msgid "Dirac video decoder using libschroedinger"
+#~ msgstr "Trình giải mã video dạng Dirac sử dụng libschroedinger"
+
+#~ msgid "Dirac video encoder using libschroedinger"
+#~ msgstr "Trình giải mã video dạng Dirac sử dụng libschroedinger"
 
 #, fuzzy
 #~ msgid "The Sound Font file (SF2/DLS) to use for synthesis."

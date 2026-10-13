@@ -25,7 +25,12 @@ def findProgram(path, progName):
 
     progPath = os.path.join(path, progName)
     if not os.path.isfile(progPath):
-        return None
+        # On Windows the host tools (built by the contrib static cross build)
+        # carry a .exe suffix; os.path.isfile does not resolve PATHEXT.
+        progPathExe = progPath + ".exe"
+        if not os.path.isfile(progPathExe):
+            return None
+        return progPathExe
 
     return progPath
 
@@ -97,7 +102,7 @@ class QmlModuleChecker:
         libexec_install = None
         qtmajor = ""
         for l in ret.stdout.splitlines():
-            l.strip()
+            l = l.strip()
             if l.startswith("QT_HOST_BINS:"):
                 binpath_host = l.split(":", 1)[1]
             elif l.startswith("QT_HOST_LIBEXECS:"):
@@ -170,16 +175,24 @@ def main():
     if not moduleChecker.getInstallInfo(args.qmake, args.qtconf):
         exit(-1)
 
-    with NamedTemporaryFile(mode="w+", suffix=".qml") as f:
-        moduleChecker.genQmlFile(f, args.modules)
+    # The generated .qml file must be closed before qmlimportscanner reads it.
+    # On Windows a file kept open in w+ mode is not reliably readable by the
+    # spawned qmlimportscanner process (it parses the file as empty/garbage and
+    # reports "Expected token numeric literal"), so no modules are detected.
+    tmpf = NamedTemporaryFile(mode="w+", suffix=".qml", delete=False)
+    try:
+        moduleChecker.genQmlFile(tmpf, args.modules)
+    finally:
+        tmpf.close()
 
-        scanlist = moduleChecker.scanImports(f, args.modules)
-        if scanlist is None:
-            exit(-1)
+    scanlist = moduleChecker.scanImports(tmpf, args.modules)
+    if scanlist is None:
+        exit(-1)
 
-        if not moduleChecker.checkImports(scanlist, args.modules):
-            exit(-1)
+    if not moduleChecker.checkImports(scanlist, args.modules):
+        exit(-1)
 
+    os.unlink(tmpf.name)
     exit(0)
 
 if __name__ == "__main__":

@@ -163,6 +163,13 @@ char *vlc_uri_encode (const char *str)
     return ret;
 }
 
+#if defined (_WIN32) || defined (__OS2__)
+/* On Windows, both '/' and '\' are accepted as directory separators. */
+# define URI_PATH_SEPS "\\/"
+#else
+# define URI_PATH_SEPS DIR_SEP
+#endif
+
 char *vlc_path2uri (const char *path, const char *scheme)
 {
     if (path == NULL)
@@ -195,7 +202,7 @@ char *vlc_path2uri (const char *path, const char *scheme)
                       path[0]) == -1)
             buf = NULL;
         path += 2;
-        if (path[0] != DIR_SEP_CHAR)
+        if (path[0] != DIR_SEP_CHAR && path[0] != '/')
         {
             // Warning: Drive letter-relative path not implemented!
             errno = ENOTSUP;
@@ -206,7 +213,7 @@ char *vlc_path2uri (const char *path, const char *scheme)
     if (!strncmp (path, "\\\\", 2))
     {   /* Windows UNC paths */
         /* \\host\share\path -> file://host/share/path */
-        int hostlen = strcspn (path + 2, DIR_SEP);
+        int hostlen = strcspn (path + 2, URI_PATH_SEPS);
 
         if (asprintf (&buf, "file://%.*s", hostlen, path + 2) == -1)
             buf = NULL;
@@ -217,7 +224,7 @@ char *vlc_path2uri (const char *path, const char *scheme)
     }
     else
 #endif
-    if (path[0] != DIR_SEP_CHAR)
+    if (path[0] != DIR_SEP_CHAR && path[0] != '/')
     {   /* Relative path: prepend the current working directory */
         char *cwd, *ret;
 
@@ -240,10 +247,10 @@ char *vlc_path2uri (const char *path, const char *scheme)
         return NULL;
 
     /* Absolute file path */
-    assert (path[0] == DIR_SEP_CHAR);
+    assert (path[0] == DIR_SEP_CHAR || path[0] == '/');
     do
     {
-        size_t len = strcspn (++path, DIR_SEP);
+        size_t len = strcspn (++path, URI_PATH_SEPS);
         path += len;
 
         char *component = encode_URI_bytes (path - len, &len);

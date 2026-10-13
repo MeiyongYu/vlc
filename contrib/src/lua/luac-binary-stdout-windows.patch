@@ -1,0 +1,30 @@
+--- a/src/luac.c
++++ b/src/luac.c
+@@ -15,6 +15,15 @@
+ #include <stdlib.h>
+ #include <string.h>
+ 
++#if defined(_WIN32)
++/* On Windows the C runtime opens the standard streams in text mode, which
++ * expands every 0x0A byte to 0x0D 0x0A.  luac emits a binary bytecode
++ * stream, so that translation corrupts the output (e.g. when piped to a
++ * checker that inspects the dump header).  Force binary mode on stdout. */
++#include <fcntl.h>
++#include <io.h>
++#endif
++
+ #include "lua.h"
+ #include "lauxlib.h"
+ 
+@@ -197,6 +206,11 @@
+ 
+ int main(int argc, char* argv[])
+ {
++#if defined(_WIN32)
++ /* Emit the binary bytecode stream without CRLF translation (see note on
++  * the _WIN32 include above).  Must happen before any output is written. */
++ _setmode(_fileno(stdout), _O_BINARY);
++#endif
+  lua_State* L;
+  int i=doargs(argc,argv);
+  argc-=i; argv+=i;

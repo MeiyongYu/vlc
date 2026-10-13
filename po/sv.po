@@ -615,47 +615,48 @@ msgid ""
 "</p><p>For all the saving, converting, transcoding, encoding, muxing and "
 "streaming tasks, you should find useful information in the <a href=\"http://"
 "wiki.videolan.org/Documentation:Streaming_HowTo\">Streaming Documentation</"
-"a>.</p><p>If you are unsure about terminology, please consult the <a href="
-"\"http://wiki.videolan.org/Knowledge_Base\">knowledge base</a>.</p><p>To "
-"understand the main keyboard shortcuts, read the <a href=\"http://wiki."
-"videolan.org/Hotkeys\">shortcuts</a> page.</p><h3>Help</h3><p>Before asking "
-"any question, please refer yourself to the <a href=\"http://www.videolan.org/"
-"support/faq.html\">FAQ</a>.</p><p>You might then get (and give) help on the "
-"<a href=\"http://forum.videolan.org\">Forums</a>, the <a href=\"http://www."
-"videolan.org/vlc/lists.html\">mailing-lists</a> or our IRC channel "
-"(<em>#videolan</em> on irc.freenode.net).</p><h3>Contribute to the project</"
-"h3><p>You can help the VideoLAN project giving some of your time to help the "
-"community, to design skins, to translate the documentation, to test and to "
-"code. You can also give funds and material to help us. And of course, you "
-"can <b>promote</b> VLC media player.</p></body></html>"
+"a>.</p><p>If you are unsure about terminology, please consult the <a "
+"href=\"http://wiki.videolan.org/Knowledge_Base\">knowledge base</a>.</"
+"p><p>To understand the main keyboard shortcuts, read the <a href=\"http://"
+"wiki.videolan.org/Hotkeys\">shortcuts</a> page.</p><h3>Help</h3><p>Before "
+"asking any question, please refer yourself to the <a href=\"http://www."
+"videolan.org/support/faq.html\">FAQ</a>.</p><p>You might then get (and give) "
+"help on the <a href=\"http://forum.videolan.org\">Forums</a>, the <a "
+"href=\"http://www.videolan.org/vlc/lists.html\">mailing-lists</a> or our IRC "
+"channel (<em>#videolan</em> on irc.freenode.net).</p><h3>Contribute to the "
+"project</h3><p>You can help the VideoLAN project giving some of your time to "
+"help the community, to design skins, to translate the documentation, to test "
+"and to code. You can also give funds and material to help us. And of course, "
+"you can <b>promote</b> VLC media player.</p></body></html>"
 msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
 "charset=utf-8\" /></head><body><h2>Välkommen till hjälp för VLC media "
 "player</h2><h3>Dokumentation</h3><p>Du kan hitta dokumentation för VLC på "
 "VideoLAN:s <a href=\"http://wiki.videolan.org\">wikisidor</a>.</p><p>Om du "
-"är nybörjare och vill veta mer om VLC media player så kan du läsa<br><a href="
-"\"http://wiki.videolan.org/Documentation:VLC_for_dummies\"><em>Introduktion "
-"till VLC media player</em></a> (engelska).</p><p>Du kan hitta information om "
-"hur man använder spelaren i dokumentet <br>\"<a href=\"http://wiki.videolan."
-"org/Documentation:Play_HowTo\"><em>Hur man spelar upp filer med VLC media "
-"player</em></a>\" (engelska).</p><p>För information om hur man sparar, "
-"konverterar, kodar om, kodar, muxar och strömmar, kan du ha användning av "
-"informationen i dokumentet <a href=\"http://wiki.videolan.org/Documentation:"
+"är nybörjare och vill veta mer om VLC media player så kan du läsa<br><a "
+"href=\"http://wiki.videolan.org/Documentation:"
+"VLC_for_dummies\"><em>Introduktion till VLC media player</em></a> (engelska)."
+"</p><p>Du kan hitta information om hur man använder spelaren i dokumentet "
+"<br>\"<a href=\"http://wiki.videolan.org/Documentation:Play_HowTo\"><em>Hur "
+"man spelar upp filer med VLC media player</em></a>\" (engelska).</p><p>För "
+"information om hur man sparar, konverterar, kodar om, kodar, muxar och "
+"strömmar, kan du ha användning av informationen i dokumentet <a "
+"href=\"http://wiki.videolan.org/Documentation:"
 "Streaming_HowTo\">Dokumentation om strömning</a> (engelska).</p><p>Om du är "
 "osäker på terminologin kan du ta en titt i <a href=\"http://wiki.videolan."
 "org/Knowledge_Base\">kunskapsbasen</a> (engelska).</p><p>För att förstår de "
-"grundläggande tangentbordsgenvägarna kan du läsa på sidan om <a href="
-"\"http://wiki.videolan.org/Hotkeys\">genvägar</a> (engelska).</p><h3>Hjälp</"
-"h3><p>Innan du ställer några frågor kan du se vår sida för <a href=\"http://"
-"wiki.videolan.org/Frequently_Asked_Questions\">Frågor och svar</a>.</p><p>Du "
-"kanske då kan få (och ge) hjälp på vårt <a href=\"http://forum.videolan.org"
-"\">forum</a>, våra <a href=\"http://www.videolan.org/vlc/lists.html"
-"\">sändlistor</a> eller på vår irc-kanal (<em>#videolan</em> på irc.freenode."
-"net ).</p><h3>Bidra till projektet</h3><p>Du kan hjälpa VideoLAN-projektet "
-"genom att ge lite av din tid till att hjälpa gemenskapen att designa skal, "
-"översätta dokumentationen, testa och att programmera. Du kan även donera "
-"pengar och materiell för att hjälpa oss. Och så klart kan du hjälpa oss att "
-"<b>sprida</b> VLC media player.</p></body></html>"
+"grundläggande tangentbordsgenvägarna kan du läsa på sidan om <a "
+"href=\"http://wiki.videolan.org/Hotkeys\">genvägar</a> (engelska).</"
+"p><h3>Hjälp</h3><p>Innan du ställer några frågor kan du se vår sida för <a "
+"href=\"http://wiki.videolan.org/Frequently_Asked_Questions\">Frågor och "
+"svar</a>.</p><p>Du kanske då kan få (och ge) hjälp på vårt <a href=\"http://"
+"forum.videolan.org\">forum</a>, våra <a href=\"http://www.videolan.org/vlc/"
+"lists.html\">sändlistor</a> eller på vår irc-kanal (<em>#videolan</em> på "
+"irc.freenode.net ).</p><h3>Bidra till projektet</h3><p>Du kan hjälpa "
+"VideoLAN-projektet genom att ge lite av din tid till att hjälpa gemenskapen "
+"att designa skal, översätta dokumentationen, testa och att programmera. Du "
+"kan även donera pengar och materiell för att hjälpa oss. Och så klart kan du "
+"hjälpa oss att <b>sprida</b> VLC media player.</p></body></html>"
 
 #: src/audio_output/filters.c:267
 msgid "Audio filtering failed"
@@ -1599,8 +1600,8 @@ msgstr "Extra gränssnittsmoduler"
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
-"list of interface modules. (common values are \"rc\" (remote control), \"http"
-"\", \"gestures\" ...)"
+"list of interface modules. (common values are \"rc\" (remote control), "
+"\"http\", \"gestures\" ...)"
 msgstr ""
 "Du kan välja \"ytterligare gränssnitt\" för VLC. De kommer att startas i "
 "bakgrunden i tillägg till standardgränssnittet. Använd en kolonseparerad "
@@ -2963,15 +2964,15 @@ msgstr "Ändra titel enligt aktuell media"
 
 #: src/libvlc-module.c:694
 msgid ""
-"This option allows you to set the title according to what's being played<br>"
-"$a: Artist<br>$b: Album<br>$c: Copyright<br>$t: Title<br>$g: Genre<br>$n: "
-"Track num<br>$p: Now playing<br>$A: Date<br>$D: Duration<br>$Z: \"Now playing"
-"\" (Fall back on Title - Artist)"
+"This option allows you to set the title according to what's being "
+"played<br>$a: Artist<br>$b: Album<br>$c: Copyright<br>$t: Title<br>$g: "
+"Genre<br>$n: Track num<br>$p: Now playing<br>$A: Date<br>$D: Duration<br>$Z: "
+"\"Now playing\" (Fall back on Title - Artist)"
 msgstr ""
 "Detta alternativ låter dig ställa in titeln enligt vad som spelas<br>$a: "
 "Artist<br>$b: Album<br>$c: Upphovsrätt<br>$t: Titel<br>$g: Genre<br>$n: "
-"Spårnummer<br>$p: Nu spelas<br>$A: Datum<br>$D: Längd<br>$Z: \"Nu spelas"
-"\" (faller tillbaka på Titel - Artist)"
+"Spårnummer<br>$p: Nu spelas<br>$A: Datum<br>$D: Längd<br>$Z: \"Nu spelas\" "
+"(faller tillbaka på Titel - Artist)"
 
 #: src/libvlc-module.c:699
 msgid "Disable all lua plugins"
@@ -9403,9 +9404,9 @@ msgstr "Fil där vlc läser nyckel-uri och plats för nyckelfil"
 #: modules/access_output/livehttp.c:98
 #, fuzzy
 msgid ""
-"File is read when segment starts and is assumed to be in format: key-uri"
-"\\nkey-file. File is read on the segment opening and values are used on that "
-"segment."
+"File is read when segment starts and is assumed to be in format: key-"
+"uri\\nkey-file. File is read on the segment opening and values are used on "
+"that segment."
 msgstr ""
 "Filen läses in när segmentet startar och förväntas att vara i formatet: key-"
 "uri\\nkey-file. Filen läses in när segmentet öppnas och värden används i "
@@ -10861,7 +10862,6 @@ msgstr "Avkodning"
 
 #: modules/codec/avcodec/avcodec.c:147 modules/codec/jpeg.c:119
 #: modules/codec/omxil/omxil.c:171 modules/codec/png.c:99
-#: modules/codec/schroedinger.c:370
 msgid "Encoding"
 msgstr "Kodning"
 
@@ -10919,8 +10919,8 @@ msgstr ""
 "16 no padding\n"
 "32 ac vlc\n"
 "64 Qpel chroma.\n"
-"Detta måste vara summan av värdena. Till exempel, för att rätta till \"ac vlc"
-"\" och \"ump4\", ange 40."
+"Detta måste vara summan av värdena. Till exempel, för att rätta till \"ac "
+"vlc\" och \"ump4\", ange 40."
 
 #: modules/codec/avcodec/avcodec.h:82 modules/codec/avcodec/avcodec.h:177
 #: modules/demux/rawdv.c:42
@@ -11370,11 +11370,11 @@ msgstr "Theora-videopaketerare"
 msgid "Daala video encoder"
 msgstr "PNG-videokodare"
 
-#: modules/codec/daala.c:143 modules/codec/schroedinger.c:54
+#: modules/codec/daala.c:143
 msgid "Chroma format"
 msgstr "Chroma-format"
 
-#: modules/codec/daala.c:144 modules/codec/schroedinger.c:55
+#: modules/codec/daala.c:144
 msgid ""
 "Picking chroma format will force a conversion of the video into that format"
 msgstr ""
@@ -12208,377 +12208,6 @@ msgstr ""
 #, fuzzy
 msgid "Raw video encoder for RTP"
 msgstr "PNG-videokodare"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:2:0"
-msgstr "4:2:0"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:2:2"
-msgstr "4:2:2"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:4:4"
-msgstr "4:4:4"
-
-#: modules/codec/schroedinger.c:63
-msgid "Rate control method"
-msgstr ""
-
-#: modules/codec/schroedinger.c:64
-msgid "Method used to encode the video sequence"
-msgstr "Metod som används för att koda videosekvensen"
-
-#: modules/codec/schroedinger.c:77
-msgid "Constant noise threshold mode"
-msgstr "Tröskelvärde för konstant brus"
-
-#: modules/codec/schroedinger.c:78
-msgid "Constant bitrate mode (CBR)"
-msgstr "Läge med konstant bitfrekvens (CBR)"
-
-#: modules/codec/schroedinger.c:79
-msgid "Low Delay mode"
-msgstr "Lågt fördröjningsläge"
-
-#: modules/codec/schroedinger.c:80
-msgid "Lossless mode"
-msgstr "Förlustfritt läge"
-
-#: modules/codec/schroedinger.c:81
-msgid "Constant lambda mode"
-msgstr "Konstant lambdaläge"
-
-#: modules/codec/schroedinger.c:82
-msgid "Constant error mode"
-msgstr "Konstant felläge"
-
-#: modules/codec/schroedinger.c:83
-msgid "Constant quality mode"
-msgstr "Konstant kvalitetsläge"
-
-#: modules/codec/schroedinger.c:87
-msgid "GOP structure"
-msgstr "GOP-struktur"
-
-#: modules/codec/schroedinger.c:88
-msgid "GOP structure used to encode the video sequence"
-msgstr "GOP-struktur som används för att koda videosekvensen"
-
-#: modules/codec/schroedinger.c:100
-msgid ""
-"No fixed gop structure. A picture can be intra or inter and refer to "
-"previous or future pictures."
-msgstr ""
-
-#: modules/codec/schroedinger.c:101
-msgid "I-frame only sequence"
-msgstr ""
-
-#: modules/codec/schroedinger.c:102 modules/codec/schroedinger.c:103
-msgid "Inter pictures refere to previous pictures only"
-msgstr ""
-
-#: modules/codec/schroedinger.c:104 modules/codec/schroedinger.c:105
-msgid "Inter pictures can refer to previous or future pictures"
-msgstr ""
-
-#: modules/codec/schroedinger.c:109
-msgid "Constant quality factor"
-msgstr "Konstant kvalitetsfaktor"
-
-#: modules/codec/schroedinger.c:110
-msgid "Quality factor to use in constant quality mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:113
-msgid "Noise Threshold"
-msgstr "Bruströskel"
-
-#: modules/codec/schroedinger.c:114
-msgid "Noise threshold to use in constant noise threshold mode"
-msgstr "Bruströskel att använda i konstant bruströskelläge"
-
-#: modules/codec/schroedinger.c:117
-msgid "CBR bitrate (kbps)"
-msgstr "CBR-bitfrekvens (kbps)"
-
-#: modules/codec/schroedinger.c:118
-msgid "Target bitrate in kbps when encoding in constant bitrate mode"
-msgstr "Målbitfrekvens i kbps när kodning görs i konstant bitfrekvensläge"
-
-#: modules/codec/schroedinger.c:121
-msgid "Maximum bitrate (kbps)"
-msgstr "Maximal bitfrekvens (kbps)"
-
-#: modules/codec/schroedinger.c:122
-msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
-msgstr "Maximal bitfrekvens i kbps vid avkodning i konstant bitfrekvensläge"
-
-#: modules/codec/schroedinger.c:125
-msgid "Minimum bitrate (kbps)"
-msgstr "Minimal bitfrekvens (kbps)"
-
-#: modules/codec/schroedinger.c:126
-msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
-msgstr "Minimal bitfrekvens i kbps vid avkodning i konstant bitfrekvensläge"
-
-#: modules/codec/schroedinger.c:129
-msgid "GOP length"
-msgstr "GOP-längd"
-
-#: modules/codec/schroedinger.c:130
-msgid ""
-"Number of pictures between successive sequence headers i.e. length of the "
-"group of pictures"
-msgstr ""
-
-#: modules/codec/schroedinger.c:134
-msgid "Prefilter"
-msgstr "Förfilter"
-
-#: modules/codec/schroedinger.c:135
-msgid "Enable adaptive prefiltering"
-msgstr "Aktivera adaptiv förfiltrering"
-
-#: modules/codec/schroedinger.c:147
-msgid "No pre-filtering"
-msgstr "Ingen förfiltrering"
-
-#: modules/codec/schroedinger.c:148
-msgid "Centre Weighted Median"
-msgstr ""
-
-#: modules/codec/schroedinger.c:149
-msgid "Gaussian Low Pass Filter"
-msgstr "Gausslågpassfilter"
-
-#: modules/codec/schroedinger.c:150
-msgid "Add Noise"
-msgstr "Lägg till brus"
-
-#: modules/codec/schroedinger.c:151
-msgid "Gaussian Adaptive Low Pass Filter"
-msgstr "Gaussanpassningsbart lågpassfilter"
-
-#: modules/codec/schroedinger.c:152
-msgid "Low Pass Filter"
-msgstr "Lågpassfilter"
-
-#: modules/codec/schroedinger.c:156
-msgid "Amount of prefiltering"
-msgstr "Förfiltreringsmängd"
-
-#: modules/codec/schroedinger.c:157
-msgid "Higher value implies more prefiltering"
-msgstr "Högre värde innebär mer förfiltrering"
-
-#: modules/codec/schroedinger.c:160
-msgid "Picture coding mode"
-msgstr "Bildkodningsläge"
-
-#: modules/codec/schroedinger.c:161
-msgid ""
-"Field coding is where interlaced fields are coded separately as opposed to a "
-"pseudo-progressive frame"
-msgstr ""
-
-#: modules/codec/schroedinger.c:166
-msgid "auto - let encoder decide based upon input (Best)"
-msgstr "auto - låt kodare avgöra baserad på inmatning (Bäst)"
-
-#: modules/codec/schroedinger.c:167
-msgid "force coding frame as single picture"
-msgstr ""
-
-#: modules/codec/schroedinger.c:168
-msgid "force coding frame as separate interlaced fields"
-msgstr ""
-
-#: modules/codec/schroedinger.c:173
-msgid "Size of motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:182 modules/codec/schroedinger.c:199
-#: modules/codec/schroedinger.c:297 modules/codec/schroedinger.c:338
-msgid "automatic - let encoder decide based upon input (Best)"
-msgstr "auto - låt kodare avgöra baserad på inmatning (Bäst)"
-
-#: modules/codec/schroedinger.c:183
-msgid "small - use small motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:184
-msgid "medium - use medium motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:185
-msgid "large - use large motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:190
-msgid "Overlap of motion compensation blocks"
-msgstr ""
-
-#: modules/codec/schroedinger.c:200
-msgid "none - Motion compensation blocks do not overlap"
-msgstr ""
-
-#: modules/codec/schroedinger.c:201
-msgid "partial - Motion compensation blocks only partially overlap"
-msgstr ""
-
-#: modules/codec/schroedinger.c:202
-msgid "full - Motion compensation blocks fully overlap"
-msgstr ""
-
-#: modules/codec/schroedinger.c:207
-msgid "Motion Vector precision"
-msgstr ""
-
-#: modules/codec/schroedinger.c:208
-msgid "Motion Vector precision in pels"
-msgstr ""
-
-#: modules/codec/schroedinger.c:214
-msgid "Three component motion estimation"
-msgstr ""
-
-#: modules/codec/schroedinger.c:215
-msgid "Use chroma as part of the motion estimation process"
-msgstr ""
-
-#: modules/codec/schroedinger.c:218
-msgid "Intra picture DWT filter"
-msgstr ""
-
-#: modules/codec/schroedinger.c:221
-msgid "Inter picture DWT filter"
-msgstr ""
-
-#: modules/codec/schroedinger.c:244
-msgid "Number of DWT iterations"
-msgstr "Antal DWT-iterationer"
-
-#: modules/codec/schroedinger.c:245
-msgid "Also known as DWT levels"
-msgstr "Även kända som DWT-nivåer"
-
-#: modules/codec/schroedinger.c:250
-msgid "Enable multiple quantizers"
-msgstr ""
-
-#: modules/codec/schroedinger.c:251
-msgid "Enable multiple quantizers per subband (one per codeblock)"
-msgstr ""
-
-#: modules/codec/schroedinger.c:255
-msgid "Disable arithmetic coding"
-msgstr "Inaktivera aritmetisk kodning"
-
-#: modules/codec/schroedinger.c:256
-msgid "Use variable length codes instead, useful for very high bitrates"
-msgstr ""
-
-#: modules/codec/schroedinger.c:261
-msgid "perceptual weighting method"
-msgstr ""
-
-#: modules/codec/schroedinger.c:272
-msgid "perceptual distance"
-msgstr ""
-
-#: modules/codec/schroedinger.c:273
-msgid "perceptual distance to calculate perceptual weight"
-msgstr ""
-
-#: modules/codec/schroedinger.c:277
-msgid "Horizontal slices per frame"
-msgstr ""
-
-#: modules/codec/schroedinger.c:278
-msgid "Number of horizontal slices per frame in low delay mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:282
-msgid "Vertical slices per frame"
-msgstr ""
-
-#: modules/codec/schroedinger.c:283
-msgid "Number of vertical slices per frame in low delay mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:287
-msgid "Size of code blocks in each subband"
-msgstr "Antal kodblock i varje underband"
-
-#: modules/codec/schroedinger.c:298
-msgid "small - use small code blocks"
-msgstr "liten - använd små kodblock"
-
-#: modules/codec/schroedinger.c:299
-msgid "medium - use medium sized code blocks"
-msgstr "medel - använd medelstora kodblock"
-
-#: modules/codec/schroedinger.c:300
-msgid "large - use large code blocks"
-msgstr "stor - använd stora kodblock"
-
-#: modules/codec/schroedinger.c:301
-msgid "full - One code block per subband"
-msgstr "full - ett kodblock per underband"
-
-#: modules/codec/schroedinger.c:306
-msgid "Enable hierarchical Motion Estimation"
-msgstr ""
-
-#: modules/codec/schroedinger.c:310
-msgid "Number of levels of downsampling"
-msgstr "Antal nedsamplingsnivåer"
-
-#: modules/codec/schroedinger.c:311
-msgid "Number of levels of downsampling in hierarchical motion estimation mode"
-msgstr ""
-
-#: modules/codec/schroedinger.c:315
-msgid "Enable Global Motion Estimation"
-msgstr ""
-
-#: modules/codec/schroedinger.c:319
-msgid "Enable Phase Correlation Estimation"
-msgstr ""
-
-#: modules/codec/schroedinger.c:323
-msgid "Enable Scene Change Detection"
-msgstr ""
-
-#: modules/codec/schroedinger.c:327
-msgid "Force Profile"
-msgstr "Tvinga profil"
-
-#: modules/codec/schroedinger.c:339
-msgid "VC2 Low Delay Profile"
-msgstr "VC2 Låg fördröjningsprofil"
-
-#: modules/codec/schroedinger.c:340
-msgid "VC2 Simple Profile"
-msgstr "VC2 Enkel profil"
-
-#: modules/codec/schroedinger.c:341
-msgid "VC2 Main Profile"
-msgstr "VC2 Huvudprofil"
-
-#: modules/codec/schroedinger.c:342
-msgid "Main Profile"
-msgstr "Huvudprofil"
-
-#: modules/codec/schroedinger.c:363
-msgid "Dirac video decoder using libschroedinger"
-msgstr ""
-
-#: modules/codec/schroedinger.c:371
-msgid "Dirac video encoder using libschroedinger"
-msgstr ""
 
 #: modules/codec/scte18.c:41
 #, fuzzy
@@ -15141,14 +14770,6 @@ msgstr "Om filen redan finns kommer den inte att skrivas över."
 msgid "File dumper"
 msgstr "Fildumpare"
 
-#: modules/demux/dirac.c:41
-msgid "Value to adjust dts by"
-msgstr "Värde att justera dts med"
-
-#: modules/demux/dirac.c:54
-msgid "Dirac video demuxer"
-msgstr ""
-
 #: modules/demux/directory.c:94
 #, fuzzy
 msgid "Directory import"
@@ -16195,8 +15816,8 @@ msgid ""
 "\"><span style=\" text-decoration: underline; color:#0057ae;\">VideoLAN</"
 "span></a> community.</p><p>VLC uses its internal codecs, works on "
 "essentially every popular platform, and can read almost all files, CDs, "
-"DVDs, network streams, capture cards and other media formats!</p><p><a href="
-"\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
+"DVDs, network streams, capture cards and other media formats!</p><p><a "
+"href=\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
 "underline; color:#0057ae;\">Help and join us!</span></a>"
 msgstr ""
 "<p>VLC media player är en mediaspelare, kodare och strömmare med fri och "
@@ -16204,8 +15825,8 @@ msgstr ""
 "\"><span style=\" text-decoration: underline; color:#0057ae;\">VideoLANs</"
 "span></a> gemenskap.</p><p>VLC använder sina interna kodekar, fungerar i "
 "stort sett på alla populära plattformar och kan läsa nästan alla filer; CD, "
-"DVD, nätverksströmmar, videofångstkort och andra mediaformat.</p><p><a href="
-"\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
+"DVD, nätverksströmmar, videofångstkort och andra mediaformat.</p><p><a "
+"href=\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
 "underline; color:#0057ae;\">Hjälp till och gå med oss!</span></a>"
 
 #: modules/gui/macosx/VLCAddonsWindowController.m:104
@@ -16500,8 +16121,8 @@ msgstr "Inmatning har ändrats"
 
 #: modules/gui/macosx/VLCBookmarksWindowController.m:215
 msgid ""
-"Input has changed, unable to save bookmark. Suspending playback with \"Pause"
-"\" while editing bookmarks to ensure to keep the same input."
+"Input has changed, unable to save bookmark. Suspending playback with "
+"\"Pause\" while editing bookmarks to ensure to keep the same input."
 msgstr ""
 "Inmatningen har ändrats; det gick inte att spara bokmärket. Pausa "
 "uppspelningen för att se till att samma inmatning behålls när du redigerar "
@@ -22221,8 +21842,8 @@ msgstr "Konfiguration av Lua-gränssnitt"
 
 #: modules/lua/vlc.c:53
 msgid ""
-"Lua interface configuration string. Format is: '[\"<interface module name>"
-"\"] = { <option> = <value>, ...}, ...'."
+"Lua interface configuration string. Format is: '[\"<interface module "
+"name>\"] = { <option> = <value>, ...}, ...'."
 msgstr ""
 "Konfigurationssträng för gränssnittet Lua. Formatet är: '[\"<namn för "
 "gränssnittsmodulen>\"] = { <alternativ> = <värde>, ...}, ...'."
@@ -23624,10 +23245,6 @@ msgstr "Kopiera paketerare"
 msgid "Copy packetizer"
 msgstr "Kopiera paketerare"
 
-#: modules/packetizer/dirac.c:87
-msgid "Dirac packetizer"
-msgstr ""
-
 #: modules/packetizer/dts.c:47
 msgid "DTS audio packetizer"
 msgstr "DTS-ljudpaketerare"
@@ -23774,8 +23391,8 @@ msgstr "Webbadresslista för poddsändningar"
 #: modules/services_discovery/podcast.c:57
 msgid "Enter the list of podcasts to retrieve, separated by '|' (pipe)."
 msgstr ""
-"Ange listan över poddsändningar att hämta, avskiljda med "
-"'|' (vertikalstreck)."
+"Ange listan över poddsändningar att hämta, avskiljda med '|' "
+"(vertikalstreck)."
 
 #: modules/services_discovery/pulse.c:39 modules/services_discovery/pulse.c:42
 #: modules/services_discovery/pulse.c:82 modules/services_discovery/udev.c:65
@@ -29517,6 +29134,156 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Mediahanteringslista"
 
+#~ msgid "4:2:0"
+#~ msgstr "4:2:0"
+
+#~ msgid "4:2:2"
+#~ msgstr "4:2:2"
+
+#~ msgid "4:4:4"
+#~ msgstr "4:4:4"
+
+#~ msgid "Method used to encode the video sequence"
+#~ msgstr "Metod som används för att koda videosekvensen"
+
+#~ msgid "Constant noise threshold mode"
+#~ msgstr "Tröskelvärde för konstant brus"
+
+#~ msgid "Constant bitrate mode (CBR)"
+#~ msgstr "Läge med konstant bitfrekvens (CBR)"
+
+#~ msgid "Low Delay mode"
+#~ msgstr "Lågt fördröjningsläge"
+
+#~ msgid "Lossless mode"
+#~ msgstr "Förlustfritt läge"
+
+#~ msgid "Constant lambda mode"
+#~ msgstr "Konstant lambdaläge"
+
+#~ msgid "Constant error mode"
+#~ msgstr "Konstant felläge"
+
+#~ msgid "Constant quality mode"
+#~ msgstr "Konstant kvalitetsläge"
+
+#~ msgid "GOP structure"
+#~ msgstr "GOP-struktur"
+
+#~ msgid "GOP structure used to encode the video sequence"
+#~ msgstr "GOP-struktur som används för att koda videosekvensen"
+
+#~ msgid "Constant quality factor"
+#~ msgstr "Konstant kvalitetsfaktor"
+
+#~ msgid "Noise Threshold"
+#~ msgstr "Bruströskel"
+
+#~ msgid "Noise threshold to use in constant noise threshold mode"
+#~ msgstr "Bruströskel att använda i konstant bruströskelläge"
+
+#~ msgid "CBR bitrate (kbps)"
+#~ msgstr "CBR-bitfrekvens (kbps)"
+
+#~ msgid "Target bitrate in kbps when encoding in constant bitrate mode"
+#~ msgstr "Målbitfrekvens i kbps när kodning görs i konstant bitfrekvensläge"
+
+#~ msgid "Maximum bitrate (kbps)"
+#~ msgstr "Maximal bitfrekvens (kbps)"
+
+#~ msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
+#~ msgstr "Maximal bitfrekvens i kbps vid avkodning i konstant bitfrekvensläge"
+
+#~ msgid "Minimum bitrate (kbps)"
+#~ msgstr "Minimal bitfrekvens (kbps)"
+
+#~ msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
+#~ msgstr "Minimal bitfrekvens i kbps vid avkodning i konstant bitfrekvensläge"
+
+#~ msgid "GOP length"
+#~ msgstr "GOP-längd"
+
+#~ msgid "Prefilter"
+#~ msgstr "Förfilter"
+
+#~ msgid "Enable adaptive prefiltering"
+#~ msgstr "Aktivera adaptiv förfiltrering"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Ingen förfiltrering"
+
+#~ msgid "Gaussian Low Pass Filter"
+#~ msgstr "Gausslågpassfilter"
+
+#~ msgid "Add Noise"
+#~ msgstr "Lägg till brus"
+
+#~ msgid "Gaussian Adaptive Low Pass Filter"
+#~ msgstr "Gaussanpassningsbart lågpassfilter"
+
+#~ msgid "Low Pass Filter"
+#~ msgstr "Lågpassfilter"
+
+#~ msgid "Amount of prefiltering"
+#~ msgstr "Förfiltreringsmängd"
+
+#~ msgid "Higher value implies more prefiltering"
+#~ msgstr "Högre värde innebär mer förfiltrering"
+
+#~ msgid "Picture coding mode"
+#~ msgstr "Bildkodningsläge"
+
+#~ msgid "auto - let encoder decide based upon input (Best)"
+#~ msgstr "auto - låt kodare avgöra baserad på inmatning (Bäst)"
+
+#~ msgid "automatic - let encoder decide based upon input (Best)"
+#~ msgstr "auto - låt kodare avgöra baserad på inmatning (Bäst)"
+
+#~ msgid "Number of DWT iterations"
+#~ msgstr "Antal DWT-iterationer"
+
+#~ msgid "Also known as DWT levels"
+#~ msgstr "Även kända som DWT-nivåer"
+
+#~ msgid "Disable arithmetic coding"
+#~ msgstr "Inaktivera aritmetisk kodning"
+
+#~ msgid "Size of code blocks in each subband"
+#~ msgstr "Antal kodblock i varje underband"
+
+#~ msgid "small - use small code blocks"
+#~ msgstr "liten - använd små kodblock"
+
+#~ msgid "medium - use medium sized code blocks"
+#~ msgstr "medel - använd medelstora kodblock"
+
+#~ msgid "large - use large code blocks"
+#~ msgstr "stor - använd stora kodblock"
+
+#~ msgid "full - One code block per subband"
+#~ msgstr "full - ett kodblock per underband"
+
+#~ msgid "Number of levels of downsampling"
+#~ msgstr "Antal nedsamplingsnivåer"
+
+#~ msgid "Force Profile"
+#~ msgstr "Tvinga profil"
+
+#~ msgid "VC2 Low Delay Profile"
+#~ msgstr "VC2 Låg fördröjningsprofil"
+
+#~ msgid "VC2 Simple Profile"
+#~ msgstr "VC2 Enkel profil"
+
+#~ msgid "VC2 Main Profile"
+#~ msgstr "VC2 Huvudprofil"
+
+#~ msgid "Main Profile"
+#~ msgstr "Huvudprofil"
+
+#~ msgid "Value to adjust dts by"
+#~ msgstr "Värde att justera dts med"
+
 #, fuzzy
 #~ msgid "The Sound Font file (SF2/DLS) to use for synthesis."
 #~ msgstr "En SoundFonts-fil krävs för programvaru-synthesizer."
@@ -31470,14 +31237,14 @@ msgstr "Mediahanteringslista"
 #~ msgid ""
 #~ "Force the subtiles format. Valid values are : \"microdvd\", \"subrip\", "
 #~ "\"subviewer\", \"ssa1\", \"ssa2-4\", \"ass\", \"vplayer\", \"sami\", "
-#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", \"psb"
-#~ "\", \"realtext\", \"dks\", \"subviewer1\",  and \"auto\" (meaning "
+#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", "
+#~ "\"psb\", \"realtext\", \"dks\", \"subviewer1\",  and \"auto\" (meaning "
 #~ "autodetection, this should always work)."
 #~ msgstr ""
 #~ "Tvinga undertextformat. Giltiga värden är : \"microdvd\", \"subrip\", "
 #~ "\"subviewer\", \"ssa1\", \"ssa2-4\", \"ass\", \"vplayer\", \"sami\", "
-#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", \"psb"
-#~ "\", \"realtext\", \"dks\", \"subviewer1\" och \"auto\" (betyder "
+#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", "
+#~ "\"psb\", \"realtext\", \"dks\", \"subviewer1\" och \"auto\" (betyder "
 #~ "automatisk detektering, detta bör alltid fungera)."
 
 #~ msgid "Do not complain on encrypted PES."
@@ -31563,9 +31330,9 @@ msgstr "Mediahanteringslista"
 
 #, fuzzy
 #~ msgid ""
-#~ "Specify the log format. Available choices are \"text\" (default), \"html"
-#~ "\", \"syslog\" (special mode to send to syslog instead of file), and "
-#~ "\"android\" (special mode to send to android logging facility)."
+#~ "Specify the log format. Available choices are \"text\" (default), "
+#~ "\"html\", \"syslog\" (special mode to send to syslog instead of file), "
+#~ "and \"android\" (special mode to send to android logging facility)."
 #~ msgstr ""
 #~ "Ange loggformatet. Tillgängliga val är \"text\" (standard), \"html\" och "
 #~ "\"syslog\" (speciellt läge för att skicka till syslog istället för till "
@@ -31694,8 +31461,8 @@ msgstr "Mediahanteringslista"
 #~ msgstr "Dumpning"
 
 #~ msgid ""
-#~ "Specify the log format. Available choices are \"text\" (default), \"html"
-#~ "\", and \"syslog\" (special mode to send to syslog instead of file."
+#~ "Specify the log format. Available choices are \"text\" (default), "
+#~ "\"html\", and \"syslog\" (special mode to send to syslog instead of file."
 #~ msgstr ""
 #~ "Ange loggformatet. Tillgängliga val är \"text\" (standard), \"html\" och "
 #~ "\"syslog\" (speciellt läge för att skicka till syslog istället för till "
@@ -31737,11 +31504,11 @@ msgstr "Mediahanteringslista"
 #~ msgstr "dbus"
 
 #~ msgid ""
-#~ "One of \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be"
-#~ "\", \"s16_be\", \"fixed32\", \"float32\" or \"spdif\""
+#~ "One of \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", "
+#~ "\"u16_be\", \"s16_be\", \"fixed32\", \"float32\" or \"spdif\""
 #~ msgstr ""
-#~ "En av \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be"
-#~ "\", \"s16_be\", \"fixed32\", \"float32\" eller \"spdif\""
+#~ "En av \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", "
+#~ "\"u16_be\", \"s16_be\", \"fixed32\", \"float32\" eller \"spdif\""
 
 #~ msgid "Left front"
 #~ msgstr "Vänster fram"
@@ -32269,10 +32036,10 @@ msgstr "Mediahanteringslista"
 #~ msgstr "Growls UDP-port på Growl-servern."
 
 #~ msgid ""
-#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title"
-#~ "\" ($a - $t). You can use the following substitutions: $a Artist, $b "
-#~ "Album, $c Copyright, $d Description, $e Encoder, $g Genre, $l Language, "
-#~ "$n number, $p Now Playing, $r Rating, $s Subtitles language, $t Title, $u "
+#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title\" "
+#~ "($a - $t). You can use the following substitutions: $a Artist, $b Album, "
+#~ "$c Copyright, $d Description, $e Encoder, $g Genre, $l Language, $n "
+#~ "number, $p Now Playing, $r Rating, $s Subtitles language, $t Title, $u "
 #~ "URL, $A Date, $B Bitrate, $C Chapter, $D Duration, $F URI, $I Video "
 #~ "Title, $L Time Remaining, $N Name, $O Audio language, $P Position, $R "
 #~ "Rate, $S Sample rate, $T Time elapsed, $U Publisher, $V Volume"
@@ -36802,16 +36569,16 @@ msgstr "Mediahanteringslista"
 
 #, fuzzy
 #~ msgid ""
-#~ "Name of the audio device to use. If you don't specify anything, \"/dev/dsp"
-#~ "\" will be used for OSS."
+#~ "Name of the audio device to use. If you don't specify anything, \"/dev/"
+#~ "dsp\" will be used for OSS."
 #~ msgstr ""
 #~ "Namnet på ljudenheten som ska användas av DirectShow-insticksmodulen. Om "
 #~ "du inte anger någon så kommer standardenheten att användas. "
 
 #, fuzzy
 #~ msgid ""
-#~ "Name of the audio device to use. If you don't specify anything, \"/dev/dsp"
-#~ "\" will be used for OSS, \"hw\" for Alsa."
+#~ "Name of the audio device to use. If you don't specify anything, \"/dev/"
+#~ "dsp\" will be used for OSS, \"hw\" for Alsa."
 #~ msgstr ""
 #~ "Namnet på ljudenheten som ska användas av DirectShow-insticksmodulen. Om "
 #~ "du inte anger någon så kommer standardenheten att användas. "

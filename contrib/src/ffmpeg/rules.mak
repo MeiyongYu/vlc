@@ -90,6 +90,11 @@ FFMPEGCONF += --cross-prefix=$(HOST)-
 endif
 endif
 
+ifdef MSYS_BUILD
+# native windres cannot popen the preprocessor under MSYS2 make
+FFMPEGCONF += --windres="windres --use-temp-file"
+endif
+
 # ARM stuff
 ifeq ($(ARCH),arm)
 FFMPEGCONF += --arch=arm

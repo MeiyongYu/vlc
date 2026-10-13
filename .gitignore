@@ -63,3 +63,33 @@ static-lib/
 !buildsystem/
 !build.rs
 !extras/package/apple/build.sh
+
+# ==== 本地构建与测试临时产物（2026-10-17 添加；只忽略、不删除，文件保留供下次构建复用）====
+# autotools 临时目录
+/.buildtmp/
+# contrib 构建戳文件（.dep-<包>/.sum-<包> 为按包生成的依赖/校验戳）
+contrib/.dep-*
+contrib/.fxc2
+contrib/.sum-*
+# contrib 包构建树（fxc2 / qtshadertools 解包+编译产物）
+contrib/fxc2/
+contrib/qtshadertools/
+# contrib rust 构建生成的工具链固定文件
+contrib/rust-toolchain.toml
+# fxc2 可执行输出目录（x86_64-w64-mingw32/bin/fxc2.exe 等）
+/x86_64-w64-mingw32/
+# extras/tools 构建残留（ctprobe 编译产物带 PID 后缀、m4 sed 临时文件、写权限测试）
+extras/tools/_writetest
+extras/tools/ctprobe_*
+extras/tools/sed*
+# make -k 收尾构建日志
+/fail_list.txt
+/fail_list2.txt
+/modlist.txt
+# 打包产物（绿色版 dist 目录与 zip 校验和）
+/dist/
+/zip.sha256
+# 100 项功能测试媒体（Python 生成 + VLC 转码派生）
+/testmedia/
+# 构建生成源码（qmake Qt6 QML 插件导入生成物）
+modules/gui/qt/qt6_qml_plugin_import.cpp

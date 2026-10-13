@@ -140,15 +140,20 @@ fi
 }
 
 check_tar_autocompress() {
-tmp="check_tar"
+# Use a unique temp name + extract into a subdir. On this Windows/MSYS2 host a
+# stale "check_tar" file can get locked by the real-time scanner, which makes a
+# same-name in-place overwrite fail ("Cannot open: File exists"). A unique name
+# and out-of-place extraction avoid the collision entirely.
+tmp="check_tar.$$"
 ret=0
 echo "Hello Cone" > "$tmp"
-if ! ( tar -caf "$tmp.tar.gz" "$tmp" && tar xfo "$tmp.tar.gz" )
+mkdir -p "$tmp.out"
+if ! ( tar -caf "$tmp.tar.gz" "$tmp" && tar xfo "$tmp.tar.gz" -C "$tmp.out" )
 then
     echo "tar can't auto-detect compression"
     ret=1
 fi
-rm -f "$tmp" "$tmp.tar.gz" 2>/dev/null
+rm -rf "$tmp" "$tmp.tar.gz" "$tmp.out" 2>/dev/null
 return "$ret"
 }
 

@@ -100,13 +100,13 @@ endif
 .qtdeclarative-tools: qtdeclarative
 	$(CMAKECLEAN)
 	$(BUILDVARS) $(CMAKE_NATIVE) $(QT_DECLARATIVE_NATIVE_CONFIG)
-	+$(CMAKEBUILD)
+	$(CMAKEBUILD)
 	$(CMAKEINSTALL)
 	touch $@
 
 .qtdeclarative: qtdeclarative toolchain.cmake
 	$(CMAKECLEAN)
 	$(QT_DECLARATIVE_HOSTVARS) $(CMAKE) $(QT_DECLARATIVE_CONFIG)
-	+PATH="$(PATH):$(PREFIX)/bin" $(CMAKEBUILD)
+	PATH="$(PATH):$(PREFIX)/bin" $(CMAKEBUILD)
 	$(CMAKEINSTALL)
 	touch $@

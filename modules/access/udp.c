@@ -41,6 +41,7 @@
 #include <vlc_network.h>
 #include <vlc_block.h>
 #include <vlc_interrupt.h>
+#include <vlc_url.h>
 #ifdef HAVE_POLL_H
 # include <poll.h>
 #endif
@@ -154,7 +155,12 @@ static int Open( vlc_object_t *p_this )
     p_access->pf_control = Control;
     p_access->pf_seek = NULL;
 
-    char *psz_name = strdup( p_access->psz_location );
+    /* RFC3986: URI components may contain percent-encoded octets. Decode the
+     * location once so that all address forms (bracketed IPv6 literals with
+     * or without zone identifiers, IPv4, host names, and ports) are handled
+     * uniformly by the parser below, whatever upstream component produced
+     * the URI. Decoding is generic and adds no address-specific rules. */
+    char *psz_name = vlc_uri_decode_duplicate( p_access->psz_location );
     char *psz_parser;
     const char *psz_server_addr, *psz_bind_addr = "";
     int  i_bind_port = 1234, i_server_port = 0;

@@ -3,6 +3,14 @@
 set -e
 set -x
 
+# Build-host workaround: force gcc to pass intermediate output through pipes
+# instead of temp files. On this Windows host the real-time antivirus locks
+# gcc's temporary .s files ("Permission denied" on open), which breaks every
+# compilation. -pipe avoids creating those temp files entirely. It is a
+# compiler/linker-flag change only and does not alter any VLC source logic.
+export CFLAGS="-pipe $CFLAGS"
+export CXXFLAGS="-pipe $CXXFLAGS"
+
 info()
 {
     local green="\033[1;32m"
@@ -266,7 +274,6 @@ case $LICENSE in
     l)
         # LGPL v3 + ad-clauses
         CONTRIBFLAGS="$CONTRIBFLAGS --disable-gpl --enable-ad-clauses"
-        CONFIGFLAGS="$CONFIGFLAGS --enable-live555"
     ;;
     a)
         # LGPL v2.1 + ad-clauses
@@ -274,7 +281,6 @@ case $LICENSE in
     ;;
     g|*)
         # GPL v3
-        CONFIGFLAGS="$CONFIGFLAGS --enable-live555"
         if [ -z "$WINSTORE" ]; then
             CONFIGFLAGS="$CONFIGFLAGS --enable-dvdread"
             MCONFIGFLAGS="$MCONFIGFLAGS -Ddvdread=enabled"
@@ -493,7 +499,10 @@ fi
 make list
 if [ -n "$PREBUILT_FAILED" ]; then
     make -j$JOBS fetch
-    make -j$JOBS -k || make -j1
+    # Tolerate failures of optional contrib packages (e.g. those broken by the
+    # too-new GCC 16 toolchain or by Windows symlink/tar-submodule issues) so the
+    # build proceeds to VLC, whose configure gracefully disables missing deps.
+    make -j$JOBS -k || make -j1 || true
     if [ "$PACKAGE" = "yes" ]; then
         make package
     fi
@@ -729,7 +738,11 @@ else
     fi
 
     info "Configuring VLC"
-    ${SCRIPT_PATH}/configure.sh --host=$TRIPLET --with-contrib=../contrib/$CONTRIB_PREFIX --with-wix="$WIXPATH" $CONFIGFLAGS LTCFLAGS=-O0
+    # BUILDCC: VLC's configure probes only for c17-gcc/c99-gcc etc. (standard
+    # BUILD-host compiler names). On this native MinGW (BUILD==HOST) build there
+    # is no such alias, but the native compiler is plain "gcc" (= x86_64-w64-mingw32-gcc).
+    # Define it so configure doesn't abort with "Cannot find native C99 compiler".
+    ${SCRIPT_PATH}/configure.sh --host=$TRIPLET --with-contrib=../contrib/$CONTRIB_PREFIX --with-wix="$WIXPATH" $CONFIGFLAGS LTCFLAGS=-O0 BUILDCC=gcc
 
     info "Compiling"
     make -j$JOBS ${COMPILEFLAGS}

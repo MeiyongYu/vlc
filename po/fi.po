@@ -370,8 +370,8 @@ msgid ""
 "for each sout stream module here."
 msgstr ""
 "Sout-suoratoistomoduulit mahdollistavat suoratoistoprosessointiketjun "
-"rakentamisen. Lisätietoa aiheesta on saatavilla englanniksi \"Streaming Howto"
-"\"-dokumentissa. Voit myös määrätä jokaisen suoratoistomoduulin "
+"rakentamisen. Lisätietoa aiheesta on saatavilla englanniksi \"Streaming "
+"Howto\"-dokumentissa. Voit myös määrätä jokaisen suoratoistomoduulin "
 "oletusasetukset täällä."
 
 #: include/vlc_config_cat.h:168
@@ -607,19 +607,19 @@ msgid ""
 "</p><p>For all the saving, converting, transcoding, encoding, muxing and "
 "streaming tasks, you should find useful information in the <a href=\"http://"
 "wiki.videolan.org/Documentation:Streaming_HowTo\">Streaming Documentation</"
-"a>.</p><p>If you are unsure about terminology, please consult the <a href="
-"\"http://wiki.videolan.org/Knowledge_Base\">knowledge base</a>.</p><p>To "
-"understand the main keyboard shortcuts, read the <a href=\"http://wiki."
-"videolan.org/Hotkeys\">shortcuts</a> page.</p><h3>Help</h3><p>Before asking "
-"any question, please refer yourself to the <a href=\"http://www.videolan.org/"
-"support/faq.html\">FAQ</a>.</p><p>You might then get (and give) help on the "
-"<a href=\"http://forum.videolan.org\">Forums</a>, the <a href=\"http://www."
-"videolan.org/vlc/lists.html\">mailing-lists</a> or our IRC channel "
-"(<em>#videolan</em> on irc.freenode.net).</p><h3>Contribute to the project</"
-"h3><p>You can help the VideoLAN project giving some of your time to help the "
-"community, to design skins, to translate the documentation, to test and to "
-"code. You can also give funds and material to help us. And of course, you "
-"can <b>promote</b> VLC media player.</p></body></html>"
+"a>.</p><p>If you are unsure about terminology, please consult the <a "
+"href=\"http://wiki.videolan.org/Knowledge_Base\">knowledge base</a>.</"
+"p><p>To understand the main keyboard shortcuts, read the <a href=\"http://"
+"wiki.videolan.org/Hotkeys\">shortcuts</a> page.</p><h3>Help</h3><p>Before "
+"asking any question, please refer yourself to the <a href=\"http://www."
+"videolan.org/support/faq.html\">FAQ</a>.</p><p>You might then get (and give) "
+"help on the <a href=\"http://forum.videolan.org\">Forums</a>, the <a "
+"href=\"http://www.videolan.org/vlc/lists.html\">mailing-lists</a> or our IRC "
+"channel (<em>#videolan</em> on irc.freenode.net).</p><h3>Contribute to the "
+"project</h3><p>You can help the VideoLAN project giving some of your time to "
+"help the community, to design skins, to translate the documentation, to test "
+"and to code. You can also give funds and material to help us. And of course, "
+"you can <b>promote</b> VLC media player.</p></body></html>"
 msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
 "charset=utf-8\" /></head><body><h2>Tervetuloa VLC-mediasoittimen ohjeeseen</"
@@ -645,17 +645,17 @@ msgstr ""
 "videolan.org/Knowledge_Base\">knowledge base</a>-tietokantaamme.</p><p> "
 "Pääasialliset pikanäppäimet löytyvät wikin <a href=\"http://wiki.videolan."
 "org/Hotkeys\">shortcuts</a>-sivulta. </p><h3>Apu (englanniksi)</h3><p>Ennen "
-"kuin kysyt meiltä, katso ensin löytyykö kysymykseesi vastaus <a href="
-"\"http://www.videolan.org/support/faq.html\">FAQ</a>:sta.</p><p>Voit kysyä "
-"apua sekä auttaa muita <a href=\"http://forum.videolan.org\">Forumeilla</a>, "
-"<a href=\"http://www.videolan.org/vlc/lists.html\">sähköpostilistoilla</a> "
-"sekä IRC-kanavallamme (<em>#videolan</em> on irc.freenode.net).</p><h3>Auta "
-"projektia</h3><p>Voit auttaa VideoLAN-projektia, jos sinulta liikenee aikaa "
-"yhteisön auttamiseen, ulkoasujen suunnitteluun, dokumentaation kääntämiseen "
-"(esim. suomentamiseen), testaamiseen tai ohjelmointiin. Voit myös "
-"halutessasi avustaa lahjoittamalla rahaa tai materiaalia. Ja tietysti, voit "
-"auttaa <b>tiedottamaan</b> VLC-mediasoittimesta esimerkiksi kertomalla siitä "
-"ystävillesi.</p></body></html>"
+"kuin kysyt meiltä, katso ensin löytyykö kysymykseesi vastaus <a "
+"href=\"http://www.videolan.org/support/faq.html\">FAQ</a>:sta.</p><p>Voit "
+"kysyä apua sekä auttaa muita <a href=\"http://forum.videolan."
+"org\">Forumeilla</a>, <a href=\"http://www.videolan.org/vlc/lists."
+"html\">sähköpostilistoilla</a> sekä IRC-kanavallamme (<em>#videolan</em> on "
+"irc.freenode.net).</p><h3>Auta projektia</h3><p>Voit auttaa VideoLAN-"
+"projektia, jos sinulta liikenee aikaa yhteisön auttamiseen, ulkoasujen "
+"suunnitteluun, dokumentaation kääntämiseen (esim. suomentamiseen), "
+"testaamiseen tai ohjelmointiin. Voit myös halutessasi avustaa lahjoittamalla "
+"rahaa tai materiaalia. Ja tietysti, voit auttaa <b>tiedottamaan</b> VLC-"
+"mediasoittimesta esimerkiksi kertomalla siitä ystävillesi.</p></body></html>"
 
 #: src/audio_output/filters.c:267
 msgid "Audio filtering failed"
@@ -1604,13 +1604,13 @@ msgstr "Käyttöliittymän lisämoduulit"
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
-"list of interface modules. (common values are \"rc\" (remote control), \"http"
-"\", \"gestures\" ...)"
+"list of interface modules. (common values are \"rc\" (remote control), "
+"\"http\", \"gestures\" ...)"
 msgstr ""
 "Voit valita VLC:lle lisäkäyttöliittymiä. Ne käynnistetään tausta-ajoon "
 "pääkäyttöliittymän lisäksi. Käytä kaksoispisteillä erotettua listaa "
-"käyttöliittymämoduuleista. Suosittuja vaihtoehtoja ovat esimerkiksi \"rc"
-"\" (etäohjaus), \"http\" (web-käyttöliittymä), ja \"gestures\" (hiirieleet)."
+"käyttöliittymämoduuleista. Suosittuja vaihtoehtoja ovat esimerkiksi \"rc\" "
+"(etäohjaus), \"http\" (web-käyttöliittymä), ja \"gestures\" (hiirieleet)."
 
 #: src/libvlc-module.c:83
 msgid "You can select control interfaces for VLC."
@@ -3002,13 +3002,13 @@ msgstr "Vaihda otsikkoa toistettavan median mukaan"
 
 #: src/libvlc-module.c:694
 msgid ""
-"This option allows you to set the title according to what's being played<br>"
-"$a: Artist<br>$b: Album<br>$c: Copyright<br>$t: Title<br>$g: Genre<br>$n: "
-"Track num<br>$p: Now playing<br>$A: Date<br>$D: Duration<br>$Z: \"Now playing"
-"\" (Fall back on Title - Artist)"
+"This option allows you to set the title according to what's being "
+"played<br>$a: Artist<br>$b: Album<br>$c: Copyright<br>$t: Title<br>$g: "
+"Genre<br>$n: Track num<br>$p: Now playing<br>$A: Date<br>$D: Duration<br>$Z: "
+"\"Now playing\" (Fall back on Title - Artist)"
 msgstr ""
-"Tämä antaa asettaa VLC:n ikkunan otsikon soitettavan median mukaiseksi.<br>"
-"$a: Esittäjä (artisti)<br>$b: Albumi<br>$c: Copyright "
+"Tämä antaa asettaa VLC:n ikkunan otsikon soitettavan median mukaiseksi."
+"<br>$a: Esittäjä (artisti)<br>$b: Albumi<br>$c: Copyright "
 "(tekijänoikeustiedot)<br>$t: Kappaleen nimi (title)<br>$g: Tyylilaji "
 "(genre)<br>$n: Raidan numero<br>$p: Nyt soimassa (now playing)<br>$A: "
 "Julkaisupäiväys<br>$D: Kesto<br>$Z: \"Nyt soimassa\" (jos ei saatavilla, "
@@ -6542,8 +6542,8 @@ msgid ""
 "aesebu, analog. Leave blank for card default."
 msgstr ""
 "Ääniliitäntä, jota käytetään DeckLink-tallennukselle. Mahdolliset valinnat: "
-"\"embedded\" (sulautettu), \"aesebu\" (AES/EBU digitaalinen), \"analog"
-"\" (analoginen). Jätä tämä asetus tyhjäksi käyttääksesi kortin määräämää "
+"\"embedded\" (sulautettu), \"aesebu\" (AES/EBU digitaalinen), \"analog\" "
+"(analoginen). Jätä tämä asetus tyhjäksi käyttääksesi kortin määräämää "
 "oletusarvoa."
 
 #: modules/access/decklink.cpp:61 modules/demux/rawaud.c:43
@@ -9567,9 +9567,9 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:98
 msgid ""
-"File is read when segment starts and is assumed to be in format: key-uri"
-"\\nkey-file. File is read on the segment opening and values are used on that "
-"segment."
+"File is read when segment starts and is assumed to be in format: key-"
+"uri\\nkey-file. File is read on the segment opening and values are used on "
+"that segment."
 msgstr ""
 
 #: modules/access_output/livehttp.c:102
@@ -9692,9 +9692,9 @@ msgid ""
 "of streams) on the icecast/shoutcast website. Requires the bitrate "
 "information specified for shoutcast. Requires Ogg streaming for icecast."
 msgstr ""
-"Julkaise palvelin icecast/shoutcast -sivuston 'Keltaisilla "
-"Sivuilla' (listaus saatavilla olevista suoratoistoista). Vaatii "
-"bittinopeustiedon shoutcastille. Vaatii Ogg-suoratoiston käytön icecastille."
+"Julkaise palvelin icecast/shoutcast -sivuston 'Keltaisilla Sivuilla' "
+"(listaus saatavilla olevista suoratoistoista). Vaatii bittinopeustiedon "
+"shoutcastille. Vaatii Ogg-suoratoiston käytön icecastille."
 
 #: modules/access_output/shout.c:111
 msgid "IceCAST output"
@@ -11061,7 +11061,6 @@ msgstr "Purku"
 
 #: modules/codec/avcodec/avcodec.c:147 modules/codec/jpeg.c:119
 #: modules/codec/omxil/omxil.c:171 modules/codec/png.c:99
-#: modules/codec/schroedinger.c:370
 msgid "Encoding"
 msgstr "Pakkaus"
 
@@ -11119,8 +11118,8 @@ msgstr ""
 "16 ei täytettä (padding)\n"
 "32 ac vlc\n"
 "64 Qpel-värit (chroma).\n"
-"Asetuksen arvo on summa näistä. Esimerkiksi, käyttääksesi korjauksia \"ac vlc"
-"\" ja \"ump4\", syötä tähän 40."
+"Asetuksen arvo on summa näistä. Esimerkiksi, käyttääksesi korjauksia \"ac "
+"vlc\" ja \"ump4\", syötä tähän 40."
 
 #: modules/codec/avcodec/avcodec.h:82 modules/codec/avcodec/avcodec.h:177
 #: modules/demux/rawdv.c:42
@@ -11595,11 +11594,11 @@ msgstr "Theora-videopaketoija"
 msgid "Daala video encoder"
 msgstr "Theora-videopakkaaja"
 
-#: modules/codec/daala.c:143 modules/codec/schroedinger.c:54
+#: modules/codec/daala.c:143
 msgid "Chroma format"
 msgstr "Väriformaatti"
 
-#: modules/codec/daala.c:144 modules/codec/schroedinger.c:55
+#: modules/codec/daala.c:144
 msgid ""
 "Picking chroma format will force a conversion of the video into that format"
 msgstr ""
@@ -12447,391 +12446,6 @@ msgstr "Pseudoraa'an videon paketoija"
 #, fuzzy
 msgid "Raw video encoder for RTP"
 msgstr "Theora-videopakkaaja"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:2:0"
-msgstr "4:2:0"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:2:2"
-msgstr "4:2:2"
-
-#: modules/codec/schroedinger.c:60
-msgid "4:4:4"
-msgstr "4:4:4"
-
-#: modules/codec/schroedinger.c:63
-msgid "Rate control method"
-msgstr "Nopeuskontrollimetodi"
-
-#: modules/codec/schroedinger.c:64
-msgid "Method used to encode the video sequence"
-msgstr "Videon pakkaamiseen käytettävä metodi"
-
-#: modules/codec/schroedinger.c:77
-msgid "Constant noise threshold mode"
-msgstr "Vakiokohinakynnysmoodi"
-
-#: modules/codec/schroedinger.c:78
-msgid "Constant bitrate mode (CBR)"
-msgstr "Vakiobittinopeusmoodi (CBR)"
-
-#: modules/codec/schroedinger.c:79
-msgid "Low Delay mode"
-msgstr "Lyhyen viiveen moodi"
-
-#: modules/codec/schroedinger.c:80
-msgid "Lossless mode"
-msgstr "Häviötön moodi"
-
-#: modules/codec/schroedinger.c:81
-msgid "Constant lambda mode"
-msgstr "Vakiolambdamoodi"
-
-#: modules/codec/schroedinger.c:82
-msgid "Constant error mode"
-msgstr "Vakiovirhemoodi"
-
-#: modules/codec/schroedinger.c:83
-msgid "Constant quality mode"
-msgstr "Vakiolaatumoodi"
-
-#: modules/codec/schroedinger.c:87
-msgid "GOP structure"
-msgstr "GOP-rakenne"
-
-#: modules/codec/schroedinger.c:88
-msgid "GOP structure used to encode the video sequence"
-msgstr ""
-"Videon pakkaamiseen käytettävä GOP-rakenne (Group Of Pictures; kuvaryhmä)"
-
-#: modules/codec/schroedinger.c:100
-msgid ""
-"No fixed gop structure. A picture can be intra or inter and refer to "
-"previous or future pictures."
-msgstr ""
-"Ei kiinnitettyä gop-rakennetta (Group Of Pictures; kuvaryhmä). Mikä hyvänsä "
-"kuva voi olla intra tai inter -tyyppiä, ja viitata sekä edellisiin että "
-"tuleviin kuviin."
-
-#: modules/codec/schroedinger.c:101
-msgid "I-frame only sequence"
-msgstr "Pelkästään I-kuvia"
-
-#: modules/codec/schroedinger.c:102 modules/codec/schroedinger.c:103
-msgid "Inter pictures refere to previous pictures only"
-msgstr "Inter-tyypin kuvat saavat viitata vain edellisiin kuviin"
-
-#: modules/codec/schroedinger.c:104 modules/codec/schroedinger.c:105
-msgid "Inter pictures can refer to previous or future pictures"
-msgstr "Inter-tyypin kuvat saavat viitata sekä edellisiin että tuleviin kuviin"
-
-#: modules/codec/schroedinger.c:109
-msgid "Constant quality factor"
-msgstr "Vakiolaatutekijä"
-
-#: modules/codec/schroedinger.c:110
-msgid "Quality factor to use in constant quality mode"
-msgstr "Laatutekijä, jota käytetään vakiolaatumoodissa"
-
-#: modules/codec/schroedinger.c:113
-msgid "Noise Threshold"
-msgstr "Kohinakynnys"
-
-#: modules/codec/schroedinger.c:114
-msgid "Noise threshold to use in constant noise threshold mode"
-msgstr "Kohinan kynnysarvo, jota käytetään vakiokohinakynnysmoodissa"
-
-#: modules/codec/schroedinger.c:117
-msgid "CBR bitrate (kbps)"
-msgstr "CBR-bittinopeus (kbps)"
-
-#: modules/codec/schroedinger.c:118
-msgid "Target bitrate in kbps when encoding in constant bitrate mode"
-msgstr "Kohdebittinopeus (kbps), jota käytetään vakiobittinopeusmoodissa"
-
-#: modules/codec/schroedinger.c:121
-msgid "Maximum bitrate (kbps)"
-msgstr "Enimmäisbittinopeus (kbps)"
-
-#: modules/codec/schroedinger.c:122
-msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
-msgstr "Enimmäisbittinopeus (kbps), jota käytetään vakiobittinopeusmoodissa"
-
-#: modules/codec/schroedinger.c:125
-msgid "Minimum bitrate (kbps)"
-msgstr "Vähimmäisbittinopeus (kbps)"
-
-#: modules/codec/schroedinger.c:126
-msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
-msgstr "Vähimmäisbittinopeus (kbps), jota käytetään vakiobittinopeusmoodissa"
-
-#: modules/codec/schroedinger.c:129
-msgid "GOP length"
-msgstr "GOP:n pituus"
-
-#: modules/codec/schroedinger.c:130
-msgid ""
-"Number of pictures between successive sequence headers i.e. length of the "
-"group of pictures"
-msgstr ""
-
-#: modules/codec/schroedinger.c:134
-msgid "Prefilter"
-msgstr "Esisuodin"
-
-#: modules/codec/schroedinger.c:135
-msgid "Enable adaptive prefiltering"
-msgstr "Kytke päälle/pois adaptiivinen esisuodin"
-
-#: modules/codec/schroedinger.c:147
-msgid "No pre-filtering"
-msgstr "Ei esisuodatusta"
-
-#: modules/codec/schroedinger.c:148
-msgid "Centre Weighted Median"
-msgstr "Keskipainotettu mediaani"
-
-#: modules/codec/schroedinger.c:149
-msgid "Gaussian Low Pass Filter"
-msgstr "Gauss-alipäästösuodin"
-
-#: modules/codec/schroedinger.c:150
-msgid "Add Noise"
-msgstr "Lisää kohinaa"
-
-#: modules/codec/schroedinger.c:151
-msgid "Gaussian Adaptive Low Pass Filter"
-msgstr "Adaptiivinen Gauss-alipäästösuodin"
-
-#: modules/codec/schroedinger.c:152
-msgid "Low Pass Filter"
-msgstr "Alipäästösuodin"
-
-#: modules/codec/schroedinger.c:156
-msgid "Amount of prefiltering"
-msgstr "Esisuodatuksen määrä"
-
-#: modules/codec/schroedinger.c:157
-msgid "Higher value implies more prefiltering"
-msgstr "Suuremmat arvot suodattavat enemmän"
-
-#: modules/codec/schroedinger.c:160
-msgid "Picture coding mode"
-msgstr "Kuvankoodauksen tila"
-
-#: modules/codec/schroedinger.c:161
-msgid ""
-"Field coding is where interlaced fields are coded separately as opposed to a "
-"pseudo-progressive frame"
-msgstr ""
-"Kenttäkoodauksessa lomitetun kuvan kentät pakataan erikseen, sen sijaan että "
-"ne tallennettaisiin yhtenä \"pseudo-progressiivisena\" kuvana."
-
-#: modules/codec/schroedinger.c:166
-msgid "auto - let encoder decide based upon input (Best)"
-msgstr "Automaattinen - pakkaaja päättää itse (paras laatu)"
-
-#: modules/codec/schroedinger.c:167
-msgid "force coding frame as single picture"
-msgstr "Pakota ruudun koodaus yhtenä kuvana"
-
-#: modules/codec/schroedinger.c:168
-msgid "force coding frame as separate interlaced fields"
-msgstr "Pakota kenttäkoodaus"
-
-#: modules/codec/schroedinger.c:173
-msgid "Size of motion compensation blocks"
-msgstr "Liikekompensaatioblokkien koko"
-
-#: modules/codec/schroedinger.c:182 modules/codec/schroedinger.c:199
-#: modules/codec/schroedinger.c:297 modules/codec/schroedinger.c:338
-msgid "automatic - let encoder decide based upon input (Best)"
-msgstr "Automaattinen - pakkaaja päättää itse (paras laatu)"
-
-#: modules/codec/schroedinger.c:183
-msgid "small - use small motion compensation blocks"
-msgstr "Pieni - käytä pieniä liikekompensaatioblokkeja"
-
-#: modules/codec/schroedinger.c:184
-msgid "medium - use medium motion compensation blocks"
-msgstr "Keski - käytä keskikokoisia liikekompensaatioblokkeja"
-
-#: modules/codec/schroedinger.c:185
-msgid "large - use large motion compensation blocks"
-msgstr "Suuri - käytä suuria liikekompensaatioblokkeja"
-
-#: modules/codec/schroedinger.c:190
-msgid "Overlap of motion compensation blocks"
-msgstr "Liikekompensaatioblokkien päällekkäisyys"
-
-#: modules/codec/schroedinger.c:200
-msgid "none - Motion compensation blocks do not overlap"
-msgstr "Pois - Liikekompensaatioblokit eivät mene päällekkäin"
-
-#: modules/codec/schroedinger.c:201
-msgid "partial - Motion compensation blocks only partially overlap"
-msgstr "Osin - Liikekompensaatioblokit peittävät toisensa osittain"
-
-#: modules/codec/schroedinger.c:202
-msgid "full - Motion compensation blocks fully overlap"
-msgstr "Täysi - Liikekompensaatioblokit peittävät toisensa täysin"
-
-#: modules/codec/schroedinger.c:207
-msgid "Motion Vector precision"
-msgstr "Liikevektorien tarkkuus"
-
-#: modules/codec/schroedinger.c:208
-msgid "Motion Vector precision in pels"
-msgstr "Liikevektorien tarkkuus (precision) pel-yksiköissä."
-
-#: modules/codec/schroedinger.c:214
-msgid "Three component motion estimation"
-msgstr "Kolmekomponenttiliikearviointi"
-
-#: modules/codec/schroedinger.c:215
-msgid "Use chroma as part of the motion estimation process"
-msgstr "Käytä väritietoa osana liikkeenarviointiprosessia"
-
-#: modules/codec/schroedinger.c:218
-msgid "Intra picture DWT filter"
-msgstr "Kuvansisäinen DWT-suodin"
-
-#: modules/codec/schroedinger.c:221
-msgid "Inter picture DWT filter"
-msgstr "Kuvien välinen DWT-suodin"
-
-#: modules/codec/schroedinger.c:244
-msgid "Number of DWT iterations"
-msgstr "DWT-iteraatioiden määrä"
-
-#: modules/codec/schroedinger.c:245
-msgid "Also known as DWT levels"
-msgstr "Tunnetaan myös DWT-tasojen määränä"
-
-#: modules/codec/schroedinger.c:250
-msgid "Enable multiple quantizers"
-msgstr "Käytä useita kvantisoijia"
-
-#: modules/codec/schroedinger.c:251
-msgid "Enable multiple quantizers per subband (one per codeblock)"
-msgstr ""
-"Kytkee päälle usean kvantisoijan käyttämisen kullekin alikaistalle (yksi "
-"koodiblokkia kohti)"
-
-#: modules/codec/schroedinger.c:255
-msgid "Disable arithmetic coding"
-msgstr "Aritmeettinen koodaus pois"
-
-#: modules/codec/schroedinger.c:256
-msgid "Use variable length codes instead, useful for very high bitrates"
-msgstr ""
-"Käytä sen sijaan vaihtelevanmittaisia koodeja; hyödyllinen hyvin korkeille "
-"bittinopeuksille"
-
-#: modules/codec/schroedinger.c:261
-msgid "perceptual weighting method"
-msgstr "Havaintopainotusmetodi"
-
-#: modules/codec/schroedinger.c:272
-msgid "perceptual distance"
-msgstr "Havaintoetäisyys"
-
-#: modules/codec/schroedinger.c:273
-msgid "perceptual distance to calculate perceptual weight"
-msgstr ""
-"Havaintoetäisyys (perceptual distance), josta lasketaan havaintopainotus "
-"(perceptual weight)"
-
-#: modules/codec/schroedinger.c:277
-msgid "Horizontal slices per frame"
-msgstr "Vaakaviipaleiden määrä ruudussa"
-
-#: modules/codec/schroedinger.c:278
-msgid "Number of horizontal slices per frame in low delay mode"
-msgstr "Montako vaakaviipaletta ruudussa matalaviivemoodissa"
-
-#: modules/codec/schroedinger.c:282
-msgid "Vertical slices per frame"
-msgstr "Pystyviipaleiden määrä ruudussa"
-
-#: modules/codec/schroedinger.c:283
-msgid "Number of vertical slices per frame in low delay mode"
-msgstr "Montako pystyviipaletta ruudussa matalaviivemoodissa"
-
-#: modules/codec/schroedinger.c:287
-msgid "Size of code blocks in each subband"
-msgstr "Kunkin alikaistan (subband) koodiblokkien koko"
-
-#: modules/codec/schroedinger.c:298
-msgid "small - use small code blocks"
-msgstr "Pieni - käytä pieniä koodiblokkeja"
-
-#: modules/codec/schroedinger.c:299
-msgid "medium - use medium sized code blocks"
-msgstr "Keski - käytä keskikokoisia koodiblokkeja"
-
-#: modules/codec/schroedinger.c:300
-msgid "large - use large code blocks"
-msgstr "Suuri - käytä suuria koodiblokkeja"
-
-#: modules/codec/schroedinger.c:301
-msgid "full - One code block per subband"
-msgstr "Täysi - yksi koodiblokki per alikaista"
-
-#: modules/codec/schroedinger.c:306
-msgid "Enable hierarchical Motion Estimation"
-msgstr "Hierarkinen liikkeenennustus"
-
-#: modules/codec/schroedinger.c:310
-msgid "Number of levels of downsampling"
-msgstr "Alasmuunnoksen tasojen määrä"
-
-#: modules/codec/schroedinger.c:311
-msgid "Number of levels of downsampling in hierarchical motion estimation mode"
-msgstr ""
-"Kuinka monta tasoa suoritetaan alasmuunnosta (downsampling) hierarkkisessa "
-"liikkeenennustuksessa"
-
-#: modules/codec/schroedinger.c:315
-msgid "Enable Global Motion Estimation"
-msgstr "Globaali liikkeenennustus"
-
-#: modules/codec/schroedinger.c:319
-msgid "Enable Phase Correlation Estimation"
-msgstr "Vaihekorrelaatioennustus"
-
-#: modules/codec/schroedinger.c:323
-msgid "Enable Scene Change Detection"
-msgstr "Kohtauksen vaihtumisen tunnistus"
-
-#: modules/codec/schroedinger.c:327
-msgid "Force Profile"
-msgstr "Pakota profiili"
-
-#: modules/codec/schroedinger.c:339
-msgid "VC2 Low Delay Profile"
-msgstr "VC2 Low Delay -profiili"
-
-#: modules/codec/schroedinger.c:340
-msgid "VC2 Simple Profile"
-msgstr "VC2 Simple -profiili"
-
-#: modules/codec/schroedinger.c:341
-msgid "VC2 Main Profile"
-msgstr "VC2 Main -profiili"
-
-#: modules/codec/schroedinger.c:342
-msgid "Main Profile"
-msgstr "Main-profiili"
-
-#: modules/codec/schroedinger.c:363
-msgid "Dirac video decoder using libschroedinger"
-msgstr "Dirac-videopurkaja käyttäen libschroedinger-kirjastoa"
-
-#: modules/codec/schroedinger.c:371
-msgid "Dirac video encoder using libschroedinger"
-msgstr "Dirac-videopakkaaja käyttäen libschroedinger-kirjastoa"
 
 #: modules/codec/scte18.c:41
 #, fuzzy
@@ -15573,14 +15187,6 @@ msgstr "Jo olemassa olevaa tiedostoa ei korvata."
 msgid "File dumper"
 msgstr "Tiedoston vedostus"
 
-#: modules/demux/dirac.c:41
-msgid "Value to adjust dts by"
-msgstr "DTS-aikaleiman säädön määrä"
-
-#: modules/demux/dirac.c:54
-msgid "Dirac video demuxer"
-msgstr "Dirac-videon kanavoinninpurkaja"
-
 #: modules/demux/directory.c:94
 #, fuzzy
 msgid "Directory import"
@@ -16654,8 +16260,8 @@ msgid ""
 "\"><span style=\" text-decoration: underline; color:#0057ae;\">VideoLAN</"
 "span></a> community.</p><p>VLC uses its internal codecs, works on "
 "essentially every popular platform, and can read almost all files, CDs, "
-"DVDs, network streams, capture cards and other media formats!</p><p><a href="
-"\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
+"DVDs, network streams, capture cards and other media formats!</p><p><a "
+"href=\"http://www.videolan.org/contribute/\"><span style=\" text-decoration: "
 "underline; color:#0057ae;\">Help and join us!</span></a>"
 msgstr ""
 
@@ -16950,8 +16556,8 @@ msgstr "Kohde on vaihtunut"
 
 #: modules/gui/macosx/VLCBookmarksWindowController.m:215
 msgid ""
-"Input has changed, unable to save bookmark. Suspending playback with \"Pause"
-"\" while editing bookmarks to ensure to keep the same input."
+"Input has changed, unable to save bookmark. Suspending playback with "
+"\"Pause\" while editing bookmarks to ensure to keep the same input."
 msgstr ""
 "Toistettava kohde on vaihtunut; kirjanmerkkiä ei voi tallentaa. Keskeytä "
 "toisto \" \"\"Tauko\"-toiminnolla kirjanmerkkien muokkaamisen ajaksi "
@@ -22614,8 +22220,8 @@ msgstr "Lua-käyttöliittymän asetukset"
 
 #: modules/lua/vlc.c:53
 msgid ""
-"Lua interface configuration string. Format is: '[\"<interface module name>"
-"\"] = { <option> = <value>, ...}, ...'."
+"Lua interface configuration string. Format is: '[\"<interface module "
+"name>\"] = { <option> = <value>, ...}, ...'."
 msgstr ""
 "Lua-käyttöliittymän asetusmerkkijono, muodossa: '[\"liittymämoduulin_nimi\"] "
 "= { asetus = arvo, ...}, ...'."
@@ -23668,8 +23274,8 @@ msgid ""
 "in bytes"
 msgstr ""
 "Älä yritä arvata ASF-bittinopeutta. Tämän asettamalla voit kontrolloida, "
-"kuinka Windows Media Player välimuistittaa suoratoistoa. Aseta tämä äänen"
-"+videon bittinopeuteen tavuina."
+"kuinka Windows Media Player välimuistittaa suoratoistoa. Aseta tämä "
+"äänen+videon bittinopeuteen tavuina."
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
@@ -23705,8 +23311,8 @@ msgid ""
 "downloads and allow the user to start previewing the file while it is "
 "downloading."
 msgstr ""
-"Luo tiedostot \"nopea käynnistys\" (Fast Start) -muodossa. \"Nopea käynnistys"
-"\" -tiedostot ovat Internetistä lataamista varten optimoituja, ja "
+"Luo tiedostot \"nopea käynnistys\" (Fast Start) -muodossa. \"Nopea "
+"käynnistys\" -tiedostot ovat Internetistä lataamista varten optimoituja, ja "
 "mahdollistavat tiedoston katselun aloittamisen, kun lataus on vielä kesken."
 
 #: modules/mux/mp4/mp4.c:64
@@ -24044,10 +23650,6 @@ msgstr ""
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
 msgstr "Kopioiva paketoija"
-
-#: modules/packetizer/dirac.c:87
-msgid "Dirac packetizer"
-msgstr "Dirac-paketoija"
 
 #: modules/packetizer/dts.c:47
 msgid "DTS audio packetizer"
@@ -27169,8 +26771,8 @@ msgstr "Käytä piirroselokuvatehostetta"
 #: modules/video_filter/gradient.c:70
 msgid "Apply cartoon effect. It is only used by \"gradient\" and \"edge\"."
 msgstr ""
-"Käytä piirroselokuvamaista tehostetta. Mahdollinen vain tiloissa \"Väriskaala"
-"\" ja \"Reuna\"."
+"Käytä piirroselokuvamaista tehostetta. Mahdollinen vain tiloissa "
+"\"Väriskaala\" ja \"Reuna\"."
 
 #: modules/video_filter/gradient.c:73
 msgid "Apply color gradient or edge detection effects"
@@ -30080,6 +29682,306 @@ msgstr "AAAA; "
 msgid "Media Manager List"
 msgstr "Mediahallinnan lista"
 
+#~ msgid "4:2:0"
+#~ msgstr "4:2:0"
+
+#~ msgid "4:2:2"
+#~ msgstr "4:2:2"
+
+#~ msgid "4:4:4"
+#~ msgstr "4:4:4"
+
+#~ msgid "Rate control method"
+#~ msgstr "Nopeuskontrollimetodi"
+
+#~ msgid "Method used to encode the video sequence"
+#~ msgstr "Videon pakkaamiseen käytettävä metodi"
+
+#~ msgid "Constant noise threshold mode"
+#~ msgstr "Vakiokohinakynnysmoodi"
+
+#~ msgid "Constant bitrate mode (CBR)"
+#~ msgstr "Vakiobittinopeusmoodi (CBR)"
+
+#~ msgid "Low Delay mode"
+#~ msgstr "Lyhyen viiveen moodi"
+
+#~ msgid "Lossless mode"
+#~ msgstr "Häviötön moodi"
+
+#~ msgid "Constant lambda mode"
+#~ msgstr "Vakiolambdamoodi"
+
+#~ msgid "Constant error mode"
+#~ msgstr "Vakiovirhemoodi"
+
+#~ msgid "Constant quality mode"
+#~ msgstr "Vakiolaatumoodi"
+
+#~ msgid "GOP structure"
+#~ msgstr "GOP-rakenne"
+
+#~ msgid "GOP structure used to encode the video sequence"
+#~ msgstr ""
+#~ "Videon pakkaamiseen käytettävä GOP-rakenne (Group Of Pictures; kuvaryhmä)"
+
+#~ msgid ""
+#~ "No fixed gop structure. A picture can be intra or inter and refer to "
+#~ "previous or future pictures."
+#~ msgstr ""
+#~ "Ei kiinnitettyä gop-rakennetta (Group Of Pictures; kuvaryhmä). Mikä "
+#~ "hyvänsä kuva voi olla intra tai inter -tyyppiä, ja viitata sekä "
+#~ "edellisiin että tuleviin kuviin."
+
+#~ msgid "I-frame only sequence"
+#~ msgstr "Pelkästään I-kuvia"
+
+#~ msgid "Inter pictures refere to previous pictures only"
+#~ msgstr "Inter-tyypin kuvat saavat viitata vain edellisiin kuviin"
+
+#~ msgid "Inter pictures can refer to previous or future pictures"
+#~ msgstr ""
+#~ "Inter-tyypin kuvat saavat viitata sekä edellisiin että tuleviin kuviin"
+
+#~ msgid "Constant quality factor"
+#~ msgstr "Vakiolaatutekijä"
+
+#~ msgid "Quality factor to use in constant quality mode"
+#~ msgstr "Laatutekijä, jota käytetään vakiolaatumoodissa"
+
+#~ msgid "Noise Threshold"
+#~ msgstr "Kohinakynnys"
+
+#~ msgid "Noise threshold to use in constant noise threshold mode"
+#~ msgstr "Kohinan kynnysarvo, jota käytetään vakiokohinakynnysmoodissa"
+
+#~ msgid "CBR bitrate (kbps)"
+#~ msgstr "CBR-bittinopeus (kbps)"
+
+#~ msgid "Target bitrate in kbps when encoding in constant bitrate mode"
+#~ msgstr "Kohdebittinopeus (kbps), jota käytetään vakiobittinopeusmoodissa"
+
+#~ msgid "Maximum bitrate (kbps)"
+#~ msgstr "Enimmäisbittinopeus (kbps)"
+
+#~ msgid "Maximum bitrate in kbps when encoding in constant bitrate mode"
+#~ msgstr "Enimmäisbittinopeus (kbps), jota käytetään vakiobittinopeusmoodissa"
+
+#~ msgid "Minimum bitrate (kbps)"
+#~ msgstr "Vähimmäisbittinopeus (kbps)"
+
+#~ msgid "Minimum bitrate in kbps when encoding in constant bitrate mode"
+#~ msgstr ""
+#~ "Vähimmäisbittinopeus (kbps), jota käytetään vakiobittinopeusmoodissa"
+
+#~ msgid "GOP length"
+#~ msgstr "GOP:n pituus"
+
+#~ msgid "Prefilter"
+#~ msgstr "Esisuodin"
+
+#~ msgid "Enable adaptive prefiltering"
+#~ msgstr "Kytke päälle/pois adaptiivinen esisuodin"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Ei esisuodatusta"
+
+#~ msgid "Centre Weighted Median"
+#~ msgstr "Keskipainotettu mediaani"
+
+#~ msgid "Gaussian Low Pass Filter"
+#~ msgstr "Gauss-alipäästösuodin"
+
+#~ msgid "Add Noise"
+#~ msgstr "Lisää kohinaa"
+
+#~ msgid "Gaussian Adaptive Low Pass Filter"
+#~ msgstr "Adaptiivinen Gauss-alipäästösuodin"
+
+#~ msgid "Low Pass Filter"
+#~ msgstr "Alipäästösuodin"
+
+#~ msgid "Amount of prefiltering"
+#~ msgstr "Esisuodatuksen määrä"
+
+#~ msgid "Higher value implies more prefiltering"
+#~ msgstr "Suuremmat arvot suodattavat enemmän"
+
+#~ msgid "Picture coding mode"
+#~ msgstr "Kuvankoodauksen tila"
+
+#~ msgid ""
+#~ "Field coding is where interlaced fields are coded separately as opposed "
+#~ "to a pseudo-progressive frame"
+#~ msgstr ""
+#~ "Kenttäkoodauksessa lomitetun kuvan kentät pakataan erikseen, sen sijaan "
+#~ "että ne tallennettaisiin yhtenä \"pseudo-progressiivisena\" kuvana."
+
+#~ msgid "auto - let encoder decide based upon input (Best)"
+#~ msgstr "Automaattinen - pakkaaja päättää itse (paras laatu)"
+
+#~ msgid "force coding frame as single picture"
+#~ msgstr "Pakota ruudun koodaus yhtenä kuvana"
+
+#~ msgid "force coding frame as separate interlaced fields"
+#~ msgstr "Pakota kenttäkoodaus"
+
+#~ msgid "Size of motion compensation blocks"
+#~ msgstr "Liikekompensaatioblokkien koko"
+
+#~ msgid "automatic - let encoder decide based upon input (Best)"
+#~ msgstr "Automaattinen - pakkaaja päättää itse (paras laatu)"
+
+#~ msgid "small - use small motion compensation blocks"
+#~ msgstr "Pieni - käytä pieniä liikekompensaatioblokkeja"
+
+#~ msgid "medium - use medium motion compensation blocks"
+#~ msgstr "Keski - käytä keskikokoisia liikekompensaatioblokkeja"
+
+#~ msgid "large - use large motion compensation blocks"
+#~ msgstr "Suuri - käytä suuria liikekompensaatioblokkeja"
+
+#~ msgid "Overlap of motion compensation blocks"
+#~ msgstr "Liikekompensaatioblokkien päällekkäisyys"
+
+#~ msgid "none - Motion compensation blocks do not overlap"
+#~ msgstr "Pois - Liikekompensaatioblokit eivät mene päällekkäin"
+
+#~ msgid "partial - Motion compensation blocks only partially overlap"
+#~ msgstr "Osin - Liikekompensaatioblokit peittävät toisensa osittain"
+
+#~ msgid "full - Motion compensation blocks fully overlap"
+#~ msgstr "Täysi - Liikekompensaatioblokit peittävät toisensa täysin"
+
+#~ msgid "Motion Vector precision"
+#~ msgstr "Liikevektorien tarkkuus"
+
+#~ msgid "Motion Vector precision in pels"
+#~ msgstr "Liikevektorien tarkkuus (precision) pel-yksiköissä."
+
+#~ msgid "Three component motion estimation"
+#~ msgstr "Kolmekomponenttiliikearviointi"
+
+#~ msgid "Use chroma as part of the motion estimation process"
+#~ msgstr "Käytä väritietoa osana liikkeenarviointiprosessia"
+
+#~ msgid "Intra picture DWT filter"
+#~ msgstr "Kuvansisäinen DWT-suodin"
+
+#~ msgid "Inter picture DWT filter"
+#~ msgstr "Kuvien välinen DWT-suodin"
+
+#~ msgid "Number of DWT iterations"
+#~ msgstr "DWT-iteraatioiden määrä"
+
+#~ msgid "Also known as DWT levels"
+#~ msgstr "Tunnetaan myös DWT-tasojen määränä"
+
+#~ msgid "Enable multiple quantizers"
+#~ msgstr "Käytä useita kvantisoijia"
+
+#~ msgid "Enable multiple quantizers per subband (one per codeblock)"
+#~ msgstr ""
+#~ "Kytkee päälle usean kvantisoijan käyttämisen kullekin alikaistalle (yksi "
+#~ "koodiblokkia kohti)"
+
+#~ msgid "Disable arithmetic coding"
+#~ msgstr "Aritmeettinen koodaus pois"
+
+#~ msgid "Use variable length codes instead, useful for very high bitrates"
+#~ msgstr ""
+#~ "Käytä sen sijaan vaihtelevanmittaisia koodeja; hyödyllinen hyvin "
+#~ "korkeille bittinopeuksille"
+
+#~ msgid "perceptual weighting method"
+#~ msgstr "Havaintopainotusmetodi"
+
+#~ msgid "perceptual distance"
+#~ msgstr "Havaintoetäisyys"
+
+#~ msgid "perceptual distance to calculate perceptual weight"
+#~ msgstr ""
+#~ "Havaintoetäisyys (perceptual distance), josta lasketaan havaintopainotus "
+#~ "(perceptual weight)"
+
+#~ msgid "Horizontal slices per frame"
+#~ msgstr "Vaakaviipaleiden määrä ruudussa"
+
+#~ msgid "Number of horizontal slices per frame in low delay mode"
+#~ msgstr "Montako vaakaviipaletta ruudussa matalaviivemoodissa"
+
+#~ msgid "Vertical slices per frame"
+#~ msgstr "Pystyviipaleiden määrä ruudussa"
+
+#~ msgid "Number of vertical slices per frame in low delay mode"
+#~ msgstr "Montako pystyviipaletta ruudussa matalaviivemoodissa"
+
+#~ msgid "Size of code blocks in each subband"
+#~ msgstr "Kunkin alikaistan (subband) koodiblokkien koko"
+
+#~ msgid "small - use small code blocks"
+#~ msgstr "Pieni - käytä pieniä koodiblokkeja"
+
+#~ msgid "medium - use medium sized code blocks"
+#~ msgstr "Keski - käytä keskikokoisia koodiblokkeja"
+
+#~ msgid "large - use large code blocks"
+#~ msgstr "Suuri - käytä suuria koodiblokkeja"
+
+#~ msgid "full - One code block per subband"
+#~ msgstr "Täysi - yksi koodiblokki per alikaista"
+
+#~ msgid "Enable hierarchical Motion Estimation"
+#~ msgstr "Hierarkinen liikkeenennustus"
+
+#~ msgid "Number of levels of downsampling"
+#~ msgstr "Alasmuunnoksen tasojen määrä"
+
+#~ msgid ""
+#~ "Number of levels of downsampling in hierarchical motion estimation mode"
+#~ msgstr ""
+#~ "Kuinka monta tasoa suoritetaan alasmuunnosta (downsampling) "
+#~ "hierarkkisessa liikkeenennustuksessa"
+
+#~ msgid "Enable Global Motion Estimation"
+#~ msgstr "Globaali liikkeenennustus"
+
+#~ msgid "Enable Phase Correlation Estimation"
+#~ msgstr "Vaihekorrelaatioennustus"
+
+#~ msgid "Enable Scene Change Detection"
+#~ msgstr "Kohtauksen vaihtumisen tunnistus"
+
+#~ msgid "Force Profile"
+#~ msgstr "Pakota profiili"
+
+#~ msgid "VC2 Low Delay Profile"
+#~ msgstr "VC2 Low Delay -profiili"
+
+#~ msgid "VC2 Simple Profile"
+#~ msgstr "VC2 Simple -profiili"
+
+#~ msgid "VC2 Main Profile"
+#~ msgstr "VC2 Main -profiili"
+
+#~ msgid "Main Profile"
+#~ msgstr "Main-profiili"
+
+#~ msgid "Dirac video decoder using libschroedinger"
+#~ msgstr "Dirac-videopurkaja käyttäen libschroedinger-kirjastoa"
+
+#~ msgid "Dirac video encoder using libschroedinger"
+#~ msgstr "Dirac-videopakkaaja käyttäen libschroedinger-kirjastoa"
+
+#~ msgid "Value to adjust dts by"
+#~ msgstr "DTS-aikaleiman säädön määrä"
+
+#~ msgid "Dirac video demuxer"
+#~ msgstr "Dirac-videon kanavoinninpurkaja"
+
+#~ msgid "Dirac packetizer"
+#~ msgstr "Dirac-paketoija"
+
 #, fuzzy
 #~ msgid "The Sound Font file (SF2/DLS) to use for synthesis."
 #~ msgstr ""
@@ -32363,15 +32265,15 @@ msgstr "Mediahallinnan lista"
 #~ msgid ""
 #~ "Force the subtiles format. Valid values are : \"microdvd\", \"subrip\", "
 #~ "\"subviewer\", \"ssa1\", \"ssa2-4\", \"ass\", \"vplayer\", \"sami\", "
-#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", \"psb"
-#~ "\", \"realtext\", \"dks\", \"subviewer1\",  and \"auto\" (meaning "
+#~ "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", "
+#~ "\"psb\", \"realtext\", \"dks\", \"subviewer1\",  and \"auto\" (meaning "
 #~ "autodetection, this should always work)."
 #~ msgstr ""
 #~ "Pakota tekstityksen tiedostomuoto. Mahdollisia arvoja ovat: \"microdvd\", "
 #~ "\"subrip\", \"subviewer\", \"ssa1\", \"ssa2-4\", \"ass\", \"vplayer\", "
 #~ "\"sami\", \"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", "
-#~ "\"jacosub\", \"psb\", \"realtext\", \"dks\", \"subviewer1\",  ja \"auto"
-#~ "\" (automaattinen, tämän pitäisi aina toimia)."
+#~ "\"jacosub\", \"psb\", \"realtext\", \"dks\", \"subviewer1\",  ja \"auto\" "
+#~ "(automaattinen, tämän pitäisi aina toimia)."
 
 #~ msgid "Do not complain on encrypted PES."
 #~ msgstr "Älä valita salatusta PES:stä."
@@ -32523,9 +32425,9 @@ msgstr "Mediahallinnan lista"
 
 #, fuzzy
 #~ msgid ""
-#~ "Specify the log format. Available choices are \"text\" (default), \"html"
-#~ "\", \"syslog\" (special mode to send to syslog instead of file), and "
-#~ "\"android\" (special mode to send to android logging facility)."
+#~ "Specify the log format. Available choices are \"text\" (default), "
+#~ "\"html\", \"syslog\" (special mode to send to syslog instead of file), "
+#~ "and \"android\" (special mode to send to android logging facility)."
 #~ msgstr ""
 #~ "Valitse lokin tiedostomuoto. Mahdollisia arvoja ovat \"text\" (oletus), "
 #~ "\"html\", ja\"syslog\" (erikoistila, joka lähettää lokin syslog-"
@@ -32717,8 +32619,8 @@ msgstr "Mediahallinnan lista"
 
 #~ msgid "One of '90', '180', '270', 'hflip' and 'vflip'"
 #~ msgstr ""
-#~ "Yksi seuraavista: '90', '180', '270', 'hflip' (vaakapeilaus), ja "
-#~ "'vflip' (pystypeilaus)."
+#~ "Yksi seuraavista: '90', '180', '270', 'hflip' (vaakapeilaus), ja 'vflip' "
+#~ "(pystypeilaus)."
 
 #~ msgid ""
 #~ "We would like to thank the whole VLC community, the testers, our users "
@@ -32793,8 +32695,8 @@ msgstr "Mediahallinnan lista"
 #~ "vain, jos tämä VLC-instanssi ei ole verkon isäntäkello."
 
 #~ msgid ""
-#~ "Specify the log format. Available choices are \"text\" (default), \"html"
-#~ "\", and \"syslog\" (special mode to send to syslog instead of file."
+#~ "Specify the log format. Available choices are \"text\" (default), "
+#~ "\"html\", and \"syslog\" (special mode to send to syslog instead of file."
 #~ msgstr ""
 #~ "Valitse lokin tiedostomuoto. Mahdollisia arvoja ovat \"text\" (oletus), "
 #~ "\"html\", ja\"syslog\" (erikoistila, joka lähettää lokin syslog-"
@@ -32870,8 +32772,8 @@ msgstr "Mediahallinnan lista"
 #~ "\"green\" (vihreä)."
 
 #~ msgid ""
-#~ "One of \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be"
-#~ "\", \"s16_be\", \"fixed32\", \"float32\" or \"spdif\""
+#~ "One of \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", "
+#~ "\"u16_be\", \"s16_be\", \"fixed32\", \"float32\" or \"spdif\""
 #~ msgstr ""
 #~ "Määrää ääninäytteiden formaatin. Jokin näistä: \"u8\", \"s8\", \"u16\", "
 #~ "\"s16\", \"u16_le\", \"s16_le\", \"u16_be\", \"s16_be\", \"fixed32\", "
@@ -33045,8 +32947,8 @@ msgstr "Mediahallinnan lista"
 #~ msgid ""
 #~ "This allows you to stream an entire transponder with a \"budget\" card."
 #~ msgstr ""
-#~ "Tämä mahdollistaa kokonaisen kanavanipun lähettämisen \"budjettikortilla"
-#~ "\"."
+#~ "Tämä mahdollistaa kokonaisen kanavanipun lähettämisen "
+#~ "\"budjettikortilla\"."
 
 #~ msgid "Satellite number in the Diseqc system"
 #~ msgstr "Satelliitin numero Diseqc-järjestelmässä"
@@ -34464,10 +34366,10 @@ msgstr "Mediahallinnan lista"
 
 #, fuzzy
 #~ msgid ""
-#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title"
-#~ "\" ($a - $t). You can use the following substitutions: $a Artist, $b "
-#~ "Album, $c Copyright, $d Description, $e Encoder, $g Genre, $l Language, "
-#~ "$n number, $p Now Playing, $r Rating, $s Subtitles language, $t Title, $u "
+#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title\" "
+#~ "($a - $t). You can use the following substitutions: $a Artist, $b Album, "
+#~ "$c Copyright, $d Description, $e Encoder, $g Genre, $l Language, $n "
+#~ "number, $p Now Playing, $r Rating, $s Subtitles language, $t Title, $u "
 #~ "URL, $A Date, $B Bitrate, $C Chapter, $D Duration, $F URI, $I Video "
 #~ "Title, $L Time Remaining, $N Name, $O Audio language, $P Position, $R "
 #~ "Rate, $S Sample rate, $T Time elapsed, $U Publisher, $V Volume"

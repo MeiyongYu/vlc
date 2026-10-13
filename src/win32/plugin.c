@@ -61,7 +61,15 @@ void *vlc_dlopen(const char *psz_file, bool lazy)
     DWORD mode;
     if (SetThreadErrorMode (SEM_FAILCRITICALERRORS, &mode) != 0)
     {
-        handle = LoadLibraryExW(wfile, NULL, LOAD_LIBRARY_SEARCH_SYSTEM32);
+        // Also search the application (exe) directory so a portable build can
+        // load its bundled dependency DLLs (libvlc/libvlccore and contrib libs
+        // such as gnutls/pcre2/lzma) that sit next to vlc.exe, not just the
+        // plugin's own folder and system32. LOAD_LIBRARY_SEARCH_SYSTEM32 alone
+        // excludes the application directory and made plugins fail with 126.
+        handle = LoadLibraryExW(wfile, NULL,
+                        LOAD_LIBRARY_SEARCH_DLL_LOAD_DIR |
+                        LOAD_LIBRARY_SEARCH_APPLICATION_DIR |
+                        LOAD_LIBRARY_SEARCH_SYSTEM32);
         SetThreadErrorMode (mode, NULL);
     }
 #elif WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP)
@@ -70,7 +78,10 @@ void *vlc_dlopen(const char *psz_file, bool lazy)
     // SEM_FAILCRITICALERRORS is not available on Xbox, error messages are not
     // possible. This is a sandboxed environment where the library dependencies
     // need to be managed manually per platform.
-    handle = LoadLibraryExW(wfile, NULL, LOAD_LIBRARY_SEARCH_SYSTEM32);
+    handle = LoadLibraryExW(wfile, NULL,
+                    LOAD_LIBRARY_SEARCH_DLL_LOAD_DIR |
+                    LOAD_LIBRARY_SEARCH_APPLICATION_DIR |
+                    LOAD_LIBRARY_SEARCH_SYSTEM32);
 #else
 #error Unknown Windows Platform!
 #endif

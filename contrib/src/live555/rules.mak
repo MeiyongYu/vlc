@@ -61,7 +61,12 @@ endif
 live555: UNPACK_DIR=live
 live555: $(LIVE555_FILE) .sum-live555
 	rm -rf $(UNPACK_DIR)
-	$(UNPACK)
+	# WORKAROUND: the upstream tarball ships testProgs/whiteroom.mp3 as a symlink
+	# pointing at an absolute path that does not exist on this Windows host, so a
+	# plain "tar xf" fails to create it and aborts the unpack.  testProgs is not
+	# built by VLC anyway (see the sed rules below), so exclude the dangling
+	# symlink from extraction.
+	tar xfo $(TARBALLS)/$(LIVE555_FILE) --exclude=live/testProgs/whiteroom.mp3
 
 	# Change permissions to patch and sed the source
 	chmod -R u+w $(UNPACK_DIR)

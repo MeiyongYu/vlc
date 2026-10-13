@@ -96,6 +96,7 @@ lua: lua-$(LUA_VERSION).tar.gz .sum-lua
 	$(APPLY) $(SRC)/lua/Do-not-use-log2f-with-too-old-Android-API-level.patch
 	$(APPLY) $(SRC)/lua/Do-not-use-large-file-offsets-with-too-old-Android-A.patch
 	$(APPLY) $(SRC)/lua/Enforce-always-using-64bit-integers-floats.patch
+	$(APPLY) $(SRC)/lua/luac-binary-stdout-windows.patch
 	$(MOVE)
 
 .lua: lua
