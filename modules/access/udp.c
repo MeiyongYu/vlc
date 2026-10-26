@@ -111,6 +111,22 @@ static ssize_t Read(stream_t *access, void *buf, size_t len)
             return -1;
     }
 
+    /* A single datagram can never exceed MRU bytes, so offering a larger
+     * first scatter-gather segment to recvmsg() cannot possibly receive
+     * more data - it is pure overhead. And on some systems it is very
+     * expensive overhead: the Windows recvmsg() emulation (compat/recvmsg.c)
+     * calls WSARecv(), which probes and locks the *whole* first buffer, so
+     * its cost is proportional to the segment size rather than to the
+     * amount of data actually received. With the prefetch stream filter's
+     * large read size (16 MiB by default), each call then costs several
+     * milliseconds, throttling the receive loop far below the multicast
+     * stream bitrate; the kernel receive buffer overflows and datagrams
+     * get dropped (TS continuity errors, corrupted video, playback
+     * restarts). Cap the first segment at MRU so that the cost of each
+     * recvmsg() call stays proportional to the datagram size. */
+    if (len > MRU)
+        len = MRU;
+
     struct iovec iov[] = {
         { .iov_base = buf,      .iov_len = len, },
         { .iov_base = sys->buf, .iov_len = MRU, },
