@@ -41,6 +41,7 @@
 #   include <iphlpapi.h>
 #else
 #   include <unistd.h>
+#   include <ifaddrs.h>
 #   ifdef HAVE_NET_IF_H
 #       include <net/if.h>
 #   endif
@@ -296,6 +297,194 @@ static unsigned var_GetIfIndex (vlc_object_t *obj)
 #endif
 
 
+/*****************************************************************************
+ * net_EnumerateIfIndices:
+ * Enumerate the indices of all *up*, non-loopback interfaces that have
+ * addresses of the requested address family. Used to join a multicast group
+ * on every usable interface instead of letting the OS pick a single one.
+ *****************************************************************************/
+#ifdef _WIN32
+static int net_EnumerateIfIndices (vlc_object_t *obj, int family, unsigned **ppidx)
+{
+    (void) obj;
+    IP_ADAPTER_ADDRESSES *addrs = NULL;
+    ULONG buflen = 16384;
+    DWORD r;
+
+    for (;;)
+    {
+        addrs = malloc (buflen);
+        if (addrs == NULL)
+            return -1;
+        r = GetAdaptersAddresses ((ULONG)family,
+                                  GAA_FLAG_SKIP_ANYCAST | GAA_FLAG_SKIP_MULTICAST
+                                  | GAA_FLAG_SKIP_DNS_SERVER, NULL, addrs, &buflen);
+        if (r == ERROR_SUCCESS)
+            break;
+        free (addrs);
+        addrs = NULL;
+        if (r != ERROR_BUFFER_OVERFLOW)
+            return -1;
+    }
+
+    unsigned *list = malloc (sizeof (*list) * 8);
+    int cap = 8, n = 0;
+    if (list == NULL)
+    {
+        free (addrs);
+        return -1;
+    }
+
+    for (IP_ADAPTER_ADDRESSES *a = addrs; a != NULL; a = a->Next)
+    {
+        if (a->IfType == IF_TYPE_SOFTWARE_LOOPBACK)
+            continue;
+        if (a->OperStatus != IfOperStatusUp)
+            continue;
+        unsigned idx = (family == AF_INET) ? a->IfIndex : a->Ipv6IfIndex;
+        if (idx == 0)
+            continue;
+        if (n == cap)
+        {
+            cap *= 2;
+            unsigned *tmp = realloc (list, sizeof (*list) * cap);
+            if (tmp == NULL)
+                break;
+            list = tmp;
+        }
+        list[n++] = idx;
+    }
+
+    free (addrs);
+    *ppidx = list;
+    return n;
+}
+#else
+static int net_EnumerateIfIndices (vlc_object_t *obj, int family, unsigned **ppidx)
+{
+    (void) obj;
+    struct ifaddrs *ifas = NULL;
+    if (getifaddrs (&ifas) != 0)
+        return -1;
+
+    unsigned *list = malloc (sizeof (*list) * 8);
+    int cap = 8, n = 0;
+    if (list == NULL)
+    {
+        freeifaddrs (ifas);
+        return -1;
+    }
+
+    for (struct ifaddrs *i = ifas; i != NULL; i = i->ifa_next)
+    {
+        if (i->ifa_addr == NULL || i->ifa_addr->sa_family != family)
+            continue;
+        if (i->ifa_flags & IFF_LOOPBACK)
+            continue;
+        if ((i->ifa_flags & IFF_UP) == 0)
+            continue;
+        unsigned idx = if_nametoindex (i->ifa_name);
+        if (idx == 0)
+            continue;
+        if (n == cap)
+        {
+            cap *= 2;
+            unsigned *tmp = realloc (list, sizeof (*list) * cap);
+            if (tmp == NULL)
+                break;
+            list = tmp;
+        }
+        list[n++] = idx;
+    }
+
+    freeifaddrs (ifas);
+    *ppidx = list;
+    return n;
+}
+#endif
+
+/*****************************************************************************
+ * net_SubscribeAll / net_SourceSubscribeAll:
+ * Join a (*,G) or (S,G) membership on every usable interface. This guarantees
+ * the stream is received on whichever physical interface actually carries it,
+ * instead of relying on the OS to pick one interface (which on some systems,
+ * notably Windows, can be the wrong one - e.g. loopback - and silently drop
+ * the traffic).
+ *****************************************************************************/
+#if defined (MCAST_JOIN_GROUP) && !defined (__APPLE__)
+static int net_SubscribeAll (vlc_object_t *obj, int fd,
+                             const struct sockaddr *grp, socklen_t grplen)
+{
+    int level = (grp->sa_family == AF_INET6) ? SOL_IPV6 : SOL_IP;
+    unsigned *idxs;
+    int n = net_EnumerateIfIndices (obj, grp->sa_family, &idxs);
+    if (n <= 0)
+    {
+        msg_Err (obj, "no usable interface to join %s multicast group",
+                 grp->sa_family == AF_INET6 ? "IPv6" : "IPv4");
+        return -1;
+    }
+
+    int joined = 0;
+    for (int k = 0; k < n; k++)
+    {
+        struct group_req gr;
+        memset (&gr, 0, sizeof (gr));
+        gr.gr_interface = idxs[k];
+        assert (grplen <= (socklen_t)sizeof (gr.gr_group));
+        memcpy (&gr.gr_group, grp, grplen);
+        if (setsockopt (fd, level, MCAST_JOIN_GROUP, &gr, sizeof (gr)) == 0)
+            joined++;
+        else
+            msg_Dbg (obj, "cannot join multicast on interface index %u: %s",
+                     idxs[k], vlc_strerror_c (net_errno));
+    }
+    free (idxs);
+
+    if (joined == 0)
+    {
+        msg_Err (obj, "cannot join multicast group on any interface: %s",
+                 vlc_strerror_c (net_errno));
+        return -1;
+    }
+    msg_Dbg (obj, "joined multicast group on %d interface(s)", joined);
+    return 0;
+}
+#endif
+
+#if defined (MCAST_JOIN_SOURCE_GROUP) && !defined (__APPLE__)
+static int net_SourceSubscribeAll (vlc_object_t *obj, int fd,
+                                   const struct sockaddr *src, socklen_t srclen,
+                                   const struct sockaddr *grp, socklen_t grplen)
+{
+    int level = (grp->sa_family == AF_INET6) ? SOL_IPV6 : SOL_IP;
+    unsigned *idxs;
+    int n = net_EnumerateIfIndices (obj, grp->sa_family, &idxs);
+    if (n <= 0)
+        return -1;
+
+    int joined = 0;
+    for (int k = 0; k < n; k++)
+    {
+        struct group_source_req gsr;
+        memset (&gsr, 0, sizeof (gsr));
+        gsr.gsr_interface = idxs[k];
+        assert (srclen <= (socklen_t)sizeof (gsr.gsr_source));
+        memcpy (&gsr.gsr_source, src, srclen);
+        assert (grplen <= (socklen_t)sizeof (gsr.gsr_group));
+        memcpy (&gsr.gsr_group, grp, grplen);
+        if (setsockopt (fd, level, MCAST_JOIN_SOURCE_GROUP, &gsr, sizeof (gsr)) == 0)
+            joined++;
+        else
+            msg_Dbg (obj, "cannot SSM-join on interface index %u: %s",
+                     idxs[k], vlc_strerror_c (net_errno));
+    }
+    free (idxs);
+    return joined > 0 ? 0 : -1;
+}
+#endif
+
+
 /**
  * IP-agnostic multicast join,
  * with fallback to old APIs, and fallback from SSM to ASM.
@@ -347,6 +536,11 @@ net_SourceSubscribe (vlc_object_t *obj, int fd,
             gsr.gsr_interface = scope_id;
     }
 #endif
+
+    /* Same rationale as net_Subscribe: join on every usable interface when
+     * no specific interface was requested. */
+    if (gsr.gsr_interface == 0)
+        return net_SourceSubscribeAll (obj, fd, src, srclen, grp, grplen);
 
     if (setsockopt (fd, level, MCAST_JOIN_SOURCE_GROUP,
                     &gsr, sizeof (gsr)) == 0)
@@ -433,6 +627,13 @@ static int net_Subscribe(vlc_object_t *obj, int fd,
             gr.gr_interface = scope_id;
     }
 #endif
+
+    /* When no specific interface was requested (and the group carries no
+     * link-local scope id), join on *every* usable interface instead of
+     * letting the OS pick one. Otherwise some systems (notably Windows) may
+     * select the wrong interface (e.g. loopback) and silently drop traffic. */
+    if (gr.gr_interface == 0)
+        return net_SubscribeAll (obj, fd, grp, grplen);
 
     if (setsockopt (fd, level, MCAST_JOIN_GROUP, &gr, sizeof (gr)) == 0)
         return 0;
