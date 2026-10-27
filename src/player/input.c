@@ -323,6 +323,14 @@ vlc_player_input_HandleState(struct vlc_player_input *input,
             vlc_player_UpdateTimerEvent(player, NULL,
                                         VLC_PLAYER_TIMER_EVENT_PLAYING,
                                         state_date);
+            /* Record the media in the medialibrary history as soon as it
+             * actually plays, so that it is persisted even if the playback
+             * is stopped very early. The record is deduplicated: the media
+             * is looked up by MRL first (resumed playbacks from PAUSED are
+             * not recorded again), and the medialibrary itself refuses to
+             * create a second entry for a known MRL. */
+            if (last_state != VLC_PLAYER_STATE_PAUSED)
+                vlc_player_input_MarkMlPlayed(input);
             /* fall through */
         case VLC_PLAYER_STATE_STARTED:
             if (player->started &&

@@ -168,6 +168,52 @@ vlc_player_CompareAssignState(char **target_ptr, char **input_ptr)
 }
 
 void
+vlc_player_input_MarkMlPlayed(struct vlc_player_input* input)
+{
+    vlc_player_t* player = input->player;
+    vlc_player_assert_locked(player);
+
+    /* Do not save states for any secondary player. If this player's parent is
+       the main vlc object, then it's the main player */
+    if (player->obj.priv->parent != (vlc_object_t*)vlc_object_instance(player))
+        return;
+
+    vlc_medialibrary_t* ml = vlc_ml_instance_get(player);
+    if (!ml)
+        return;
+
+    if (!var_GetBool(input->thread, "save-recentplay"))
+        return;
+
+    input_item_t* item = input_GetItem(input->thread);
+    if (!item)
+        return;
+
+    vlc_ml_media_t* media = vlc_ml_get_media_by_mrl(ml, item->psz_uri);
+    if (!media)
+    {
+        /* We don't know this media yet, let's add it as an external media so
+         * it can be recorded in the history */
+        media = vlc_ml_new_external_media(ml, item->psz_uri);
+        if (media == NULL)
+            return;
+    }
+
+    /* Resolve the media type as soon as possible (video or audio) so that the
+     * item shows up in the matching history (e.g. "Continue Watching") even
+     * if the playback is stopped very early or VLC is closed abruptly */
+    if (media->i_type == VLC_ML_MEDIA_TYPE_UNKNOWN)
+        vlc_player_UpdateMediaType(input, ml, media);
+
+    /* Bump the media in the history (last played date), regardless of the
+     * playback position, e.g. when stopped before the 5% progress threshold
+     * which would otherwise be interpreted as "not started" */
+    vlc_ml_media_set_played(ml, media->i_id, true);
+
+    vlc_ml_release(media);
+}
+
+void
 vlc_player_UpdateMLStates(vlc_player_t *player, struct vlc_player_input* input)
 {
     /* Do not save states for any secondary player. If this player's parent is

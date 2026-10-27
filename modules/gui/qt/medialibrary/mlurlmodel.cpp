@@ -69,7 +69,12 @@ void MLUrlModel::addAndPlay( const QString &url )
 
         ml_unique_ptr<vlc_ml_media_t> s{vlc_ml_get_media_by_mrl( ml, qtu( url ))};
         if (!s)
-            s.reset(vlc_ml_new_stream( ml, qtu( url ) ));
+            /* Create an external media rather than a stream media: the
+             * medialibrary history (and thus "Continue Watching") excludes
+             * import_type=Stream media, so a stream media would never show
+             * up there. External media are recorded in the history like any
+             * other manually opened item. */
+            s.reset(vlc_ml_new_external_media( ml, qtu( url ) ));
         if (!s)
             return;
         ctx.succeed = true;

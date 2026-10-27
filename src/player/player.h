@@ -598,6 +598,9 @@ void
 vlc_player_input_RestoreMlStates(struct vlc_player_input* input, bool force_pos);
 
 void
+vlc_player_input_MarkMlPlayed(struct vlc_player_input* input);
+
+void
 vlc_player_UpdateMLStates(vlc_player_t *player, struct vlc_player_input* input);
 
 #endif
